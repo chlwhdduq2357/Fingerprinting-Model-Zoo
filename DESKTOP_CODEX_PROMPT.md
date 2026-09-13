@@ -74,6 +74,32 @@ python test.py --models A002 B001 B2_001 --device cuda
 
 각 parent당 정확히 4개, 총 40개를 만든다. ID는 parent 순서대로 네 개씩 배정한다.
 
+이 네 변형은 model fingerprinting/ownership-verification 문헌에서 반복적으로 사용하는
+모델 수정 또는 piracy-model 생성 조건을 기준으로 선정했다.
+
+- Peng et al., CVPR 2022, *Fingerprinting Deep Neural Networks Globally via Universal
+  Adversarial Perturbations*는 fine-tuning, pruning, FP32→INT8 quantization과 adversarial
+  training을 modification robustness 조건으로 평가한다.
+  <https://openaccess.thecvf.com/content/CVPR2022/papers/Peng_Fingerprinting_Deep_Neural_Networks_Globally_via_Universal_Adversarial_Perturbations_CVPR_2022_paper.pdf>
+- Lukas et al., ICLR 2021, *Deep Neural Network Fingerprinting by Conferrable Adversarial
+  Examples*는 fine-tuning, weight pruning, retraining, transfer learning, adversarial training,
+  distillation 및 model-extraction attack을 평가한다.
+  <https://arxiv.org/abs/1912.00888>
+- Yang et al., IJCAI 2022, *MetaFinger*는 model modification 조건으로 fine-tuning,
+  weight pruning과 weight noising을 평가한다. Noise는 별도 checkpoint를 만들지 않고도
+  fingerprint 평가 시점에 주입할 수 있으므로 이번 C 저장 population에서는 제외한다.
+  <https://www.ijcai.org/proceedings/2022/0109.pdf>
+- ICLR 2026, *Fingerprinting Deep Neural Networks for Ownership Protection: An Analytical
+  Approach*는 pruning, fine-tuning, knowledge distillation(KD), adversarial training 및
+  결합 공격을 modification attack으로 평가한다.
+  <https://openreview.net/pdf?id=sg3UNWKVFt>
+
+따라서 이번 C는 **fine-tuning, pruning, INT8 post-training quantization, knowledge
+distillation**의 네 축으로 고정한다. 처음 세 변형은 parent parameter를 직접 상속하는
+weight-lineage descendant이고, KD는 teacher의 응답을 supervision으로 사용해 학습한
+behavioral-lineage descendant다. Adversarial training과 여러 변형을 연쇄 적용하는 결합
+공격은 이번 1차 C 이후 별도 robustness 단계로 남긴다.
+
 - `C001`–`C004`: A001
 - `C005`–`C008`: A002
 - `C009`–`C012`: A003
@@ -107,39 +133,60 @@ Test set은 optimizer/scheduler 결정에 사용하지 않는다. 별도 validat
 않는 단순 5-epoch lineage 변환이므로 epoch 중 test accuracy는 관찰용으로만 기록하고,
 best checkpoint 선택에는 사용하지 않는다.
 
-### b. PRUNE50
+### b. PRUNE50_FT5
 
-- gradient 학습과 recovery fine-tuning 없음
 - `Conv2d`와 `Linear`의 weight 전체를 대상으로 global unstructured L1 magnitude pruning
 - 전체 대상 weight element의 정확히 50%를 zero로 만든다.
 - bias, BatchNorm affine parameter, running statistics는 pruning하지 않는다.
-- PyTorch pruning reparameterization을 제거하여 일반 state_dict로 저장한다.
-- 실제 전체 sparsity, layer별 sparsity, zero count를 metadata에 기록한다.
+- MetaFinger 등 fingerprinting 평가에서 pruning 후 utility를 회복하도록 fine-tuning하는
+  조건에 맞춰, mask를 고정한 채 정확히 5 epochs recovery fine-tuning한다.
+- recovery recipe는 FT5와 같은 CIFAR-10 data/augmentation, SGD(momentum 0.9,
+  weight decay 5e-4), initial LR 1e-3과 5-epoch cosine decay를 사용한다.
+- seed는 `33000 + parent A 번호`로 고정한다.
+- recovery 중 masked weight가 다시 자라지 않도록 mask를 유지하고, 완료 후 PyTorch pruning
+  reparameterization을 제거하여 일반 state_dict로 저장한다.
+- pruning 직후와 recovery 이후 accuracy, 전체/layer별 sparsity와 zero count를 기록한다.
 - topology와 tensor shape는 parent와 동일하게 유지한다.
 
-### c. INT8_WEIGHT_QDQ
+### c. PTQ_INT8
 
-- 이번 C에서는 runtime-specific static quantized graph가 아니라, 모든 architecture에서
-  동일하게 재현 가능한 **symmetric per-output-channel INT8 weight quantize/dequantize**를
-  사용한다.
-- `Conv2d`와 `Linear` weight를 output channel별 scale로 int8 grid에 반올림·clamp한 뒤
-  float tensor로 dequantize하여 기존 state_dict shape에 저장한다.
-- activation은 float이고 native preprocessing을 유지한다.
-- 이는 INT8 양자화의 함수적 perturbation을 통제하기 위한 Q/DQ descendant이며,
-  실제 INT8 runtime/압축 모델이라고 잘못 표기하지 않는다.
-- scale 정의, zero-point=0, quantization range, 대상 layer 수와 최대/평균 weight error를
-  metadata에 기록한다.
-- calibration이나 gradient 학습은 수행하지 않는다.
+- fingerprinting 논문에서 사용하는 FP32→INT8 compression 조건을 재현하는
+  **post-training static quantization**이다. gradient 학습과 QAT는 수행하지 않는다.
+- weight와 activation을 모두 INT8 대상으로 하며 입력과 최종 logits interface는 float를
+  유지한다. 단순 weight rounding만 적용한 모델을 PTQ_INT8이라고 부르지 않는다.
+- CIFAR-10 train set에서 seed 32000을 사용해 고정한 1,024개 sample로 calibration한다.
+  test set은 calibration에 사용하지 않는다.
+- Conv/Linear weight는 가능한 경우 symmetric per-channel quantization을, activation은
+  calibrated affine per-tensor quantization을 사용한다. backend, observer, qscheme,
+  dtype, scale/zero-point와 calibration-index hash를 기록한다.
+- quantized operator는 AMD GPU가 아니라 지원되는 CPU quantization backend에서 검증해도
+  된다. native preprocessing과 `[N,10]` float logits 계약은 유지한다.
+- custom topology 때문에 표준 PyTorch PTQ graph conversion이 실패하면 quantize/dequantize
+  boundary를 명시적으로 삽입하는 adapter까지 시도한다. 그래도 실제 weight+activation
+  INT8 경로를 구성할 수 없으면 weight-only 결과로 조용히 대체하지 말고 해당 후보를
+  `failed`로 기록한다. 모델 수를 맞추기 위해 의미가 다른 변형을 같은 이름으로 넣지 않는다.
+- FP32 parent 대비 serialized size, quantized layer 수, latency, accuracy delta를 기록한다.
 
-### d. NOISE01
+### d. KD50
 
-- gradient 학습 없음
-- `Conv2d`와 `Linear` weight tensor 각각에 독립적인 Gaussian noise를 더한다.
-- noise standard deviation은 해당 tensor의 원래 weight standard deviation의 1%
-  (`sigma = 0.01 * tensor.std()`)로 고정한다.
-- bias, BatchNorm parameter/buffer에는 noise를 더하지 않는다.
+- parent A를 고정된 teacher로 사용하는 knowledge-distillation/model-extraction 조건이다.
+- student는 parent와 **동일한 topology**를 사용하지만 parent weight를 복사하지 않고 새로
+  random initialization한다. 이를 통해 architecture는 통제하면서 parameter inheritance가
+  없는 behavioral descendant를 만든다.
+- CIFAR-10 train 50,000장, parent native preprocessing과 동일 augmentation을 사용한다.
+- teacher는 항상 `.eval()` 및 inference mode이고 update하지 않는다.
+- loss는 `0.9 * KL(student/T, teacher/T) * T^2 + 0.1 * CE(student, label)`, temperature
+  `T=4.0`으로 고정한다.
+- optimizer: SGD, momentum 0.9, weight decay 5e-4, initial learning rate 0.1,
+  cosine decay over exactly 50 epochs
+- batch size: 기본 128. teacher+student로 VRAM이 부족할 때만 줄이고 실제 값을 기록
 - seed: `41000 + parent A 번호`
-- 실제 global L2 relative perturbation과 tensor별 sigma를 metadata에 기록한다.
+- AMP 사용 여부, teacher query 수, epoch별 KD/CE loss, accuracy, elapsed time을 기록한다.
+- 매 epoch atomic checkpoint를 저장하고 중단 후 재개할 수 있어야 한다.
+- 최종 descendant는 epoch 50 student다. Test set으로 checkpoint를 선택하거나
+  hyperparameter를 조정하지 않는다.
+- KD 모델은 parent state_dict와 parameter hash가 달라야 하며, 초기 student가 parent
+  parameter를 우연히 복사하지 않았음을 test로 확인한다.
 
 ## 5. lineage와 metadata 규칙
 
@@ -150,7 +197,9 @@ best checkpoint 선택에는 사용하지 않는다.
 - `lineage_id = parent A의 lineage_id` 그대로 상속
 - `architecture`, `architecture_family`, `topology_id`, input/native normalization과
   class order는 parent에서 상속
-- `transform_type`: `ft5`, `prune50`, `int8_weight_qdq`, `noise01` 중 하나
+- `transform_type`: `ft5`, `prune50_ft5`, `ptq_int8`, `kd50` 중 하나
+- `lineage_mechanism`: FT5/PRUNE50_FT5/PTQ_INT8은 `parameter_inheritance`, KD50은
+  `behavioral_inheritance`
 - 정확한 transform config, seed, device, software versions, 시작 parent SHA256
 - local checkpoint path, file SHA256, canonical state_dict SHA256, parameter SHA256
 - parameter 수, nonzero 수/sparsity, 생성 시각, 검증 상태
@@ -158,19 +207,22 @@ best checkpoint 선택에는 사용하지 않는다.
 - 알 수 없는 값은 추측하지 말고 null
 
 C는 새로운 original이 아니다. C끼리 parent가 같으면 `same_lineage=True`이며, parent A와
-그 C도 `same_lineage=True`다. 다른 parent의 C는 같은 architecture라도 `same_lineage=False`다.
-`pair_relation()`과 pair export가 이 규칙을 정확히 반영하도록 확장한다.
+그 C도 `same_lineage=True`다. KD는 직접적인 parameter ancestry가 없으므로
+`lineage_mechanism=behavioral_inheritance`를 함께 보고해야 한다. 다른 parent의 C는 같은
+architecture라도 `same_lineage=False`다. `pair_relation()`과 pair export가 이 규칙을
+정확히 반영하도록 확장한다.
 
 ## 6. checkpoint 및 loader
 
 - `checkpoints/C/` 아래에 저장한다.
 - A/B/B2 checkpoint를 overwrite하지 않는다.
-- C checkpoint는 가능하면 순수 tensor state_dict로 저장하고 pickle object 전체를
-  저장하지 않는다.
+- C checkpoint는 가능한 범위에서 순수 tensor state_dict로 저장하고 pickle object 전체를
+  저장하지 않는다. PTQ packed parameter처럼 별도 표현이 필요하면 포맷과 안전한 loading
+  방법을 문서화한다.
 - load 시 `weights_only=True`, strict state_dict loading과 SHA256 검사를 유지한다.
 - 기존 `load_model(model_id)` 인터페이스로 C001–C040도 동일하게 호출되어야 한다.
 - 모든 모델 입력은 float `[N,3,32,32]`이며 native wrapper가 해당 normalization을 적용한다.
-- FT 학습 시 wrapper 내부 normalization이 중복 적용되지 않도록 데이터 pipeline을 감사한다.
+- FT/KD 학습 시 wrapper 내부 normalization이 중복 적용되지 않도록 데이터 pipeline을 감사한다.
 
 ## 7. 검증
 
@@ -194,9 +246,9 @@ verified accuracy를 구분하고, parent 대비 accuracy delta를 기록한다.
 다음과 같은 자동화 테스트를 추가한다.
 
 - 변환의 결정성
-- PRUNE50 실제 sparsity 허용 오차
-- Q/DQ int8 grid reconstruction
-- NOISE01 seed와 perturbation norm
+- PRUNE50_FT5 실제 sparsity 허용 오차, mask 고정과 recovery 재현성
+- PTQ_INT8 calibration 결정성, quantized weight/activation 경로와 float I/O 계약
+- KD50 teacher 고정, student random initialization, loss와 seed 결정성
 - lineage 상속 및 hard-negative 관계
 - checkpoint round trip과 unified loader
 - A/B/B2 metadata가 변하지 않았다는 regression 검사
@@ -235,7 +287,7 @@ verified accuracy를 구분하고, parent 대비 accuracy delta를 기록한다.
 - 실제 GPU/driver/ROCm/PyTorch/Python 환경
 - 모델별 학습/변환 시간과 전체 wall time
 - parent/descendant accuracy 및 delta
-- pruning sparsity, Q/DQ error, noise perturbation norm
+- pruning sparsity, PTQ backend/size/latency, KD teacher-student accuracy와 query 수
 - 실패와 재시도, OOM 및 batch-size 변경
 - 총 checkpoint 용량
 - lineage/pair population 통계
@@ -250,4 +302,3 @@ metadata/report만 현재 GitHub repository에 push한다. 인증이나 OS 재�
 모든 검증 결과, 실패/제약, commit hash를 요약하라.
 
 ---
-
