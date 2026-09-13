@@ -11,11 +11,11 @@ from torchvision.datasets import CIFAR10
 from torchvision.transforms import ToTensor
 from torch.utils.data import DataLoader, Subset
 from model_zoo.core import ROOT, models, save_models, sha256, tensor_hash, write_json
-from model_zoo.loaders.unified import Classifier, build_network, read_state
+from model_zoo.loaders.unified import Classifier, build_network, load_model, read_state
 
 def main():
     p = argparse.ArgumentParser()
-    p.add_argument('--group', choices=['A', 'B', 'B2'])
+    p.add_argument('--group', choices=['A', 'B', 'B2', 'C'])
     p.add_argument('--model-id', nargs='+')
     p.add_argument('--full', action='store_true', help='Evaluate all 10,000 test images; otherwise deterministic smoke subset')
     p.add_argument('--samples', type=int, default=256)
@@ -46,22 +46,28 @@ def main():
             path = ROOT / row['local_checkpoint_path']
             if not path.is_file() or not row.get('sha256') or sha256(path) != row['sha256']:
                 raise ValueError('Missing checkpoint or SHA256 mismatch')
-            state = read_state(path, row)
-            if not all(torch.isfinite(t).all() for t in state.values()):
-                raise ValueError('Non-finite checkpoint tensor')
-            row['state_dict_sha256'] = tensor_hash(state)
-            network = build_network(row)
-            network.load_state_dict(state, strict=True)
-            model = Classifier(network, row).to(a.device).eval()
-            row['num_parameters'] = sum(t.numel() for t in model.network.parameters())
-            row['num_trainable_parameters'] = sum(t.numel() for t in model.network.parameters() if t.requires_grad)
-            row['num_nontrainable_parameters'] = row['num_parameters']-row['num_trainable_parameters']
-            row['parameter_sha256'] = tensor_hash(dict(model.network.named_parameters()))
+            actual_device = 'cpu' if row.get('checkpoint_format') == 'torchscript_int8' else a.device
+            if row.get('checkpoint_format') == 'torchscript_int8':
+                model = load_model(mid, device='cpu', check_hash=False)
+                network = model.network
+                state = None
+            else:
+                state = read_state(path, row)
+                if not all(torch.isfinite(t).all() for t in state.values()):
+                    raise ValueError('Non-finite checkpoint tensor')
+                row['state_dict_sha256'] = tensor_hash(state)
+                network = build_network(row)
+                network.load_state_dict(state, strict=True)
+                model = Classifier(network, row).to(actual_device).eval()
+                row['num_parameters'] = sum(t.numel() for t in model.network.parameters())
+                row['num_trainable_parameters'] = sum(t.numel() for t in model.network.parameters() if t.requires_grad)
+                row['num_nontrainable_parameters'] = row['num_parameters']-row['num_trainable_parameters']
+                row['parameter_sha256'] = tensor_hash(dict(model.network.named_parameters()))
             row['framework_version'] = torch.__version__
             correct = total = 0
             with torch.inference_mode():
                 for images, labels in data:
-                    out = model(images.to(a.device))
+                    out = model(images.to(actual_device))
                     if out.shape != (len(images), 10) or not torch.isfinite(out).all():
                         raise ValueError('Invalid output dimensions or nonfinite logits')
                     correct += (out.argmax(1).cpu() == labels).sum().item()
@@ -75,7 +81,7 @@ def main():
                           checkpoint_sha256=row['sha256'],
                           full_test_set=a.full,subset_seed=None if a.full else 20260907,
                           indices_sha256=hashlib.sha256(str(indices).encode()).hexdigest(),
-                          preprocessing='native',device=a.device,torch_version=torch.__version__,
+                          preprocessing='native',device=actual_device,torch_version=torch.__version__,
                           seconds=round(time.monotonic()-started,3),date=time.strftime('%Y-%m-%dT%H:%M:%SZ',time.gmtime()))
             if a.full:
                 row['full_verification'] = result

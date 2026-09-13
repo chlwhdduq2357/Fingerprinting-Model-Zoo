@@ -30,18 +30,21 @@ Linux/macOS에서는 virtualenv의 `bin/python`/`bin/activate` 경로를 사용�
 
 `requirements-lock.txt`는 CPU 재현 환경이며 PyTorch CPU index를 명시합니다. AMD ROCm이나 CUDA GPU를 사용할 때는 이 lock 파일로 PyTorch를 덮어쓰지 말고, GPU와 OS의 공식 지원표에 맞는 별도 Python/PyTorch 환경을 구성하세요. 데스크톱에서 C 단계를 수행할 전체 지시는 `DESKTOP_CODEX_PROMPT.md`에 있습니다.
 
-## Colab에서 C의 빠른 변형부터 생성
+## Colab에서 C의 실용 변형 생성
 
-[COLAB_C_FAST.ipynb](COLAB_C_FAST.ipynb)은 C 단계 중 계산이 빠른 두 변형을 먼저 생성한다.
+[COLAB_C_FAST.ipynb](COLAB_C_FAST.ipynb)은 고정된 A parent 10개에서 다음 네 변형을 생성한다.
 
 - `FT5`: parent checkpoint에서 CIFAR-10으로 5 epochs fine-tuning
 - `PRUNE50`: Conv2d/Linear weight의 global unstructured L1 pruning 50%, recovery 학습 없음
+- `PTQ_INT8`: CIFAR-10 train 1,024개 calibration sample을 사용한 weight+activation static INT8
+- `PRUNE20`: 동일한 global unstructured L1 방식의 20% weight pruning, recovery 학습 없음
 
-고정된 A parent 10개에서 각각 두 모델을 만들어 `C001/C002`, `C005/C006`, …,
-`C037/C038`의 총 20개를 생성한다. Adversarial fine-tuning과 quantization 슬롯은 건드리지
-않는다. 노트북은 전체 90개 checkpoint 대신 필요한 A parent 10개만 선택 다운로드하고,
-각 모델 완료 직후 checkpoint와 metadata를 Google Drive에 저장한다. 세션이 종료되면 같은
-셀을 다시 실행하며, hash와 config가 일치하는 완료 결과는 자동으로 건너뛴다.
+각 parent의 슬롯 순서는 `FT5`, `PRUNE50`, `PTQ_INT8`, `PRUNE20`이며 총 40개를 생성한다.
+Adversarial fine-tuning은 포함하지 않는다. 노트북은 전체 90개 checkpoint 대신 필요한 A
+parent 10개만 선택 다운로드하고, 각 모델 완료 직후 checkpoint와 metadata를 Google Drive에
+저장한다. 세션이 종료되면 같은 셀을 다시 실행하며, hash와 config가 일치하는 완료 결과는
+자동으로 건너뛴다. 기존 FT5/PRUNE50 20개가 있으면 이를 다시 생성하지 않고 나머지
+PTQ_INT8/PRUNE20만 진행한다.
 
 [Google Colab에서 바로 열기](https://colab.research.google.com/github/chlwhdduq2357/Fingerprinting-Model-Zoo/blob/main/COLAB_C_FAST.ipynb)
 
@@ -51,11 +54,15 @@ Linux/macOS에서는 virtualenv의 `bin/python`/`bin/activate` 경로를 사용�
 python scripts/download_models.py --model-id A001 A002 A003 A006 A008 A010 A013 A015 A027 A029 --workers 2
 python scripts/generate_c_fast.py --model-id A002 --device cuda --amp
 python scripts/generate_c_fast.py --device cuda --amp
+
+# 이미 FT5/PRUNE50을 완료한 경우 남은 20개만 생성
+python scripts/generate_c_fast.py --transforms ptq_int8 prune20 --device cuda
 ```
 
 생성 결과는 `checkpoints/C/`, epoch log는 `runs/C/`, 실행 요약은
 `reports/c_fast_run.json`에 저장된다. `metadata/models.json`과 `models.csv`에도 C row를
-등록하므로 완료 후 기존 `load_model("C005")` 인터페이스로 바로 호출할 수 있다.
+등록하므로 완료 후 기존 `load_model("C005")` 인터페이스로 바로 호출할 수 있다. Static INT8
+모델은 CPU quantized operator를 사용하므로 `load_model("C007", device="cpu")`로 호출한다.
 
 외부 repository clone, torch.hub 실행, 외부 setup script 실행 없이 inference할 수 있습니다. A의 최소 정의는 `vendor/`에 있고, B/B2 adapter는 각 source의 CIFAR ResNet topology와 일치하도록 프로젝트 내부에 고정했습니다. 원본 정의 snapshot과 라이선스 고지를 보존했습니다.
 

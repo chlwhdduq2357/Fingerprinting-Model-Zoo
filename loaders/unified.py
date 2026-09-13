@@ -115,8 +115,15 @@ def load_model(model_id, *, device='cpu', preprocessing='native', common_mean=No
     path = ROOT / row['local_checkpoint_path']
     if check_hash and (not row.get('sha256') or sha256(path) != row['sha256']):
         raise ValueError('Checkpoint integrity check failed')
-    net = build_network(row)
-    net.load_state_dict(read_state(path, row), strict=True)
+    if row.get('checkpoint_format') == 'torchscript_int8':
+        if torch.device(device).type != 'cpu':
+            raise ValueError('Static INT8 descendants use CPU quantized operators; load with device="cpu"')
+        # Only locally generated, SHA256-verified PTQ artifacts use this path.
+        # No downloaded or unverified TorchScript program is executed here.
+        net = torch.jit.load(str(path), map_location='cpu').eval()
+    else:
+        net = build_network(row)
+        net.load_state_dict(read_state(path, row), strict=True)
     return Classifier(net, row, preprocessing, common_mean, common_std).to(device).eval()
 
 def pair_relation(first, second):

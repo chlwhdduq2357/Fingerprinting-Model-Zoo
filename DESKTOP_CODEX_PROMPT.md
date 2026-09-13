@@ -86,13 +86,13 @@ adversarial-training iteration을 명시한다.
 
 1. **Fine-tuning**
 2. **Weight pruning**
-3. **Adversarial fine-tuning**
-4. **Quantization**
+3. **Quantization**
+4. **Weight pruning at a different ratio**
 
 네 변형 모두 parent checkpoint 자체에서 출발하여 그 weight 또는 parameter 표현을 직접
 변경한다. 별도로 초기화한 student를 학습하는 knowledge distillation과 model extraction은
-포함하지 않는다. Weight noise도 별도 checkpoint 없이 fingerprint 평가 시점에 적용할 수
-있으므로 포함하지 않는다.
+포함하지 않는다. Weight noise는 fingerprint 평가 시점에 적용할 수 있고, adversarial
+fine-tuning은 계산비용이 크며 이번 직접 연구 범위의 우선순위가 아니므로 포함하지 않는다.
 
 - `C001`–`C004`: A001
 - `C005`–`C008`: A002
@@ -105,7 +105,7 @@ adversarial-training iteration을 명시한다.
 - `C033`–`C036`: A027
 - `C037`–`C040`: A029
 
-각 묶음 안의 순서는 `FT5`, `PRUNE50`, `ADV_FT270`, `PTQ_INT8`이다. 예를 들어
+각 묶음 안의 순서는 `FT5`, `PRUNE50`, `PTQ_INT8`, `PRUNE20`이다. 예를 들어
 `C001`–`C004`는 각각 A001의 네 변형이고, `C005`–`C008`은 각각 A002의 네 변형이다.
 
 ### a. FT5
@@ -142,29 +142,7 @@ best checkpoint 선택에는 사용하지 않는다.
 - pruning 직후 accuracy, 전체/layer별 sparsity와 zero count를 기록한다.
 - topology와 tensor shape는 parent와 동일하게 유지한다.
 
-### c. ADV_FT270
-
-- 논문에서 `Adversarial Training`이라고 부르는 조건을, pretrained parent에서 시작한다는
-  점을 명확히 하기 위해 이 프로젝트에서는 `Adversarial fine-tuning`으로 기록한다.
-- parent weights에서 시작하고 classifier를 포함한 모든 trainable parameter를 update한다.
-- 최대 **270 adversarial fine-tuning iterations**를 수행한다.
-- 각 iteration마다 CIFAR-10 train sample 128개에서 현재 descendant를 대상으로 DeepFool
-  adversarial example을 생성하고, 생성한 adversarial batch의 정답 label로 cross-entropy
-  update를 한 번 수행한다. 논문의 “128 adversarial examples as new datapoints per iteration”
-  조건을 따른다.
-- parent의 native preprocessing을 정확히 유지한다. attack budget, DeepFool overshoot,
-  최대 attack step 등 논문에 명시되지 않은 구현값은 사용한 library의 고정 default를
-  machine-readable config와 metadata에 기록하고 모든 parent에 동일하게 적용한다.
-- optimizer: SGD, momentum 0.9, weight decay 5e-4, initial learning rate 1e-3
-- scheduler: 270 optimizer steps에 대한 cosine decay
-- seed: `35000 + parent A 번호`
-- adversarial example 생성 성공률, perturbation L2/Linf 통계, clean accuracy,
-  adversarial-batch accuracy, loss, elapsed time을 주기적으로 JSONL에 기록한다.
-- 270회가 짧아 epoch checkpoint보다 iteration 30회마다 atomic checkpoint를 저장하고,
-  중단 시 마지막 완료 iteration에서 재개할 수 있게 한다.
-- 최종 descendant는 iteration 270 weights다.
-
-### d. PTQ_INT8
+### c. PTQ_INT8
 
 - fingerprinting 논문에서 사용하는 FP32→INT8 compression 조건을 재현하는
   **post-training static quantization**이다. gradient 학습과 QAT는 수행하지 않는다.
@@ -183,6 +161,19 @@ best checkpoint 선택에는 사용하지 않는다.
   `failed`로 기록한다. 모델 수를 맞추기 위해 의미가 다른 변형을 같은 이름으로 넣지 않는다.
 - FP32 parent 대비 serialized size, quantized layer 수, latency, accuracy delta를 기록한다.
 
+### d. PRUNE20
+
+- PRUNE50과 동일하게 `Conv2d`와 `Linear` weight 전체에 global unstructured L1 magnitude
+  pruning을 적용하되 amount를 정확히 20%로 고정한다.
+- bias, BatchNorm affine parameter, running statistics는 pruning하지 않는다.
+- pruning 후 recovery fine-tuning을 수행하지 않는다.
+- 완료 후 PyTorch pruning reparameterization을 제거하여 일반 state_dict로 저장한다.
+- seed가 개입하는 학습 변형은 아니지만 실행 재현성을 위해 seed를
+  `34000 + parent A 번호`로 기록한다.
+- 전체/layer별 sparsity와 zero count, full-test accuracy 및 parent 대비 delta를 기록한다.
+- PRUNE20은 mild modification, PRUNE50은 moderate modification으로 사용하여 같은
+  transformation family 안에서 fingerprint similarity의 강도 변화를 측정한다.
+
 ## 5. lineage와 metadata 규칙
 
 각 C row는 최소한 다음을 만족해야 한다.
@@ -192,7 +183,7 @@ best checkpoint 선택에는 사용하지 않는다.
 - `lineage_id = parent A의 lineage_id` 그대로 상속
 - `architecture`, `architecture_family`, `topology_id`, input/native normalization과
   class order는 parent에서 상속
-- `transform_type`: `ft5`, `prune50`, `adv_ft270`, `ptq_int8` 중 하나
+- `transform_type`: `ft5`, `prune50`, `ptq_int8`, `prune20` 중 하나
 - `lineage_mechanism`: 네 변형 모두 `parameter_inheritance`
 - 정확한 transform config, seed, device, software versions, 시작 parent SHA256
 - local checkpoint path, file SHA256, canonical state_dict SHA256, parameter SHA256
@@ -215,8 +206,8 @@ C는 새로운 original이 아니다. C끼리 parent가 같으면 `same_lineage=
 - load 시 `weights_only=True`, strict state_dict loading과 SHA256 검사를 유지한다.
 - 기존 `load_model(model_id)` 인터페이스로 C001–C040도 동일하게 호출되어야 한다.
 - 모든 모델 입력은 float `[N,3,32,32]`이며 native wrapper가 해당 normalization을 적용한다.
-- FT/ADV_FT 학습 및 adversarial example 생성 시 wrapper 내부 normalization이 중복 적용되지
-  않도록 data pipeline과 gradient 경로를 감사한다.
+- FT 학습과 PTQ calibration 시 wrapper 내부 normalization이 중복 적용되지 않도록 data
+  pipeline을 감사한다.
 
 ## 7. 검증
 
@@ -240,8 +231,7 @@ verified accuracy를 구분하고, parent 대비 accuracy delta를 기록한다.
 다음과 같은 자동화 테스트를 추가한다.
 
 - 변환의 결정성
-- PRUNE50 실제 sparsity 허용 오차와 pruning reparameterization 제거
-- ADV_FT270 parent-weight 상속, adversarial example 생성, iteration/seed 결정성
+- PRUNE20/PRUNE50 실제 sparsity 허용 오차와 pruning reparameterization 제거
 - PTQ_INT8 calibration 결정성, quantized weight/activation 경로와 float I/O 계약
 - lineage 상속 및 hard-negative 관계
 - checkpoint round trip과 unified loader
@@ -281,8 +271,7 @@ verified accuracy를 구분하고, parent 대비 accuracy delta를 기록한다.
 - 실제 GPU/driver/ROCm/PyTorch/Python 환경
 - 모델별 학습/변환 시간과 전체 wall time
 - parent/descendant accuracy 및 delta
-- pruning sparsity, adversarial fine-tuning 공격·perturbation 통계,
-  PTQ backend/size/latency
+- PRUNE20/PRUNE50 sparsity 및 accuracy 변화, PTQ backend/size/latency
 - 실패와 재시도, OOM 및 batch-size 변경
 - 총 checkpoint 용량
 - lineage/pair population 통계
