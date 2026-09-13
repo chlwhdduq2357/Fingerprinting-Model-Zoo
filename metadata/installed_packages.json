@@ -1,0 +1,23 @@
+{
+  "certifi": "2026.7.22",
+  "charset-normalizer": "3.5.1",
+  "filelock": "3.32.3",
+  "forensic-cifar10-model-zoo": "1.0.0",
+  "fsspec": "2026.7.0",
+  "idna": "3.19",
+  "Jinja2": "3.1.6",
+  "MarkupSafe": "3.0.3",
+  "mpmath": "1.3.0",
+  "networkx": "3.6.1",
+  "numpy": "2.5.2",
+  "pillow": "12.3.0",
+  "pip": "25.3",
+  "pytorchcv": "0.0.74",
+  "requests": "2.34.2",
+  "setuptools": "78.1.0",
+  "sympy": "1.14.0",
+  "torch": "2.14.0+cpu",
+  "torchvision": "0.29.0+cpu",
+  "typing_extensions": "4.16.0",
+  "urllib3": "2.7.0"
+}

@@ -1,0 +1,13 @@
+{
+  "python": "3.13.12 (tags/v3.13.12:1cbe481, Feb  3 2026, 18:22:25) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "packages": {
+    "torch": "2.14.0+cpu",
+    "torchvision": "0.29.0+cpu",
+    "numpy": "2.5.2",
+    "pillow": "12.3.0",
+    "pytorchcv": "0.0.74",
+    "requests": "2.34.2"
+  },
+  "verification_device": "cpu"
+}

@@ -1,0 +1,362 @@
+[
+  {
+    "id": "1gP2vxOzltZEuqp-7GcPowt_KsLFi-kcs",
+    "name": "2023-01-15 14:03:40.874 dataset=cifar10 model=resnet18 epochs=200 lr_max=0.0761962 model_width=64 l2_reg=0.0 sam_rho=0.0 batch_size=128 frac_train=1 p_label_noise=0.0 lr_schedule=cyclic augm=False randaug=False seed=0 epoch=200.pth",
+    "mime": "application/x-zip",
+    "large_ints": [
+      1673801615000,
+      179197297,
+      179197297,
+      1673801615000
+    ],
+    "model_id": "B2_001"
+  },
+  {
+    "id": "1eABJQh7gIJ4HsGWXULkzDKaCFrrLB7G8",
+    "name": "2023-01-15 16:34:05.843 dataset=cifar10 model=resnet18 epochs=200 lr_max=0.2067711 model_width=64 l2_reg=0.0 sam_rho=0.0 batch_size=128 frac_train=1 p_label_noise=0.0 lr_schedule=cyclic augm=False randaug=False seed=0 epoch=200.pth",
+    "mime": "application/x-zip",
+    "large_ints": [
+      1673815214000,
+      179197297,
+      179197297,
+      1673815214000
+    ],
+    "model_id": "B2_002"
+  },
+  {
+    "id": "1gCDp9xNqsddsyFsF-onFEfL6DrDsOyEc",
+    "name": "2023-01-15 14:03:04.108 dataset=cifar10 model=resnet18 epochs=200 lr_max=0.2728608 model_width=64 l2_reg=0.0 sam_rho=0.0 batch_size=128 frac_train=1 p_label_noise=0.0 lr_schedule=cyclic augm=False randaug=False seed=0 epoch=200.pth",
+    "mime": "application/x-zip",
+    "large_ints": [
+      1673801286000,
+      179197297,
+      179197297,
+      1673801286000
+    ],
+    "model_id": "B2_003"
+  },
+  {
+    "id": "1ehfs2_4ocuus2EGqzLqU9lJBBzfGnjE-",
+    "name": "2023-01-15 14:03:04.734 dataset=cifar10 model=resnet18 epochs=200 lr_max=0.5589934 model_width=64 l2_reg=0.0 sam_rho=0.0 batch_size=128 frac_train=1 p_label_noise=0.0 lr_schedule=cyclic augm=False randaug=False seed=0 epoch=200.pth",
+    "mime": "application/x-zip",
+    "large_ints": [
+      1673798750000,
+      179197297,
+      179197297,
+      1673798750000
+    ],
+    "model_id": "B2_004"
+  },
+  {
+    "id": "1gZ0AQpYAIB4hoeAB2lFis-XfS85eAHvx",
+    "name": "2023-01-15 15:02:58.608 dataset=cifar10 model=resnet18 epochs=200 lr_max=1.42443 model_width=64 l2_reg=0.0 sam_rho=0.0 batch_size=128 frac_train=1 p_label_noise=0.0 lr_schedule=cyclic augm=False randaug=False seed=0 epoch=200.pth",
+    "mime": "application/x-zip",
+    "large_ints": [
+      1673805697000,
+      179196437,
+      179196437,
+      1673805697000
+    ],
+    "model_id": "B2_005"
+  },
+  {
+    "id": "1eEh7kC18tKmu-CPSHMnVFAoSB9aEuZ8L",
+    "name": "2023-01-15 14:03:23.825 dataset=cifar10 model=resnet18 epochs=200 lr_max=0.1117987 model_width=64 l2_reg=0.0 sam_rho=0.0 batch_size=128 frac_train=1 p_label_noise=0.0 lr_schedule=cyclic augm=True randaug=True seed=0 epoch=200.pth",
+    "mime": "application/x-zip",
+    "large_ints": [
+      1673807466000,
+      179196437,
+      179196437,
+      1673807466000
+    ],
+    "model_id": "B2_006"
+  },
+  {
+    "id": "1esJvu4r24OZ-iTLYyejipq5fPlXkz22Q",
+    "name": "2023-01-15 14:03:32.278 dataset=cifar10 model=resnet18 epochs=200 lr_max=0.2714936 model_width=64 l2_reg=0.0 sam_rho=0.0 batch_size=128 frac_train=1 p_label_noise=0.0 lr_schedule=cyclic augm=True randaug=True seed=0 epoch=200.pth",
+    "mime": "application/x-zip",
+    "large_ints": [
+      1673804697000,
+      179196437,
+      179196437,
+      1673804697000
+    ],
+    "model_id": "B2_007"
+  },
+  {
+    "id": "1fLzc7_pEoxaTgU9XX_Mc4DG6G_NjB5_v",
+    "name": "2023-01-15 14:03:06.226 dataset=cifar10 model=resnet18 epochs=200 lr_max=0.3877345 model_width=64 l2_reg=0.0 sam_rho=0.0 batch_size=128 frac_train=1 p_label_noise=0.0 lr_schedule=cyclic augm=True randaug=True seed=0 epoch=200.pth",
+    "mime": "application/x-zip",
+    "large_ints": [
+      1673798717000,
+      179196437,
+      179196437,
+      1673798717000
+    ],
+    "model_id": "B2_008"
+  },
+  {
+    "id": "1gZugAyeAwk4ViyXcBaNxN_bFj8gw29iF",
+    "name": "2023-01-15 14:10:48.129 dataset=cifar10 model=resnet18 epochs=200 lr_max=0.5684879 model_width=64 l2_reg=0.0 sam_rho=0.0 batch_size=128 frac_train=1 p_label_noise=0.0 lr_schedule=cyclic augm=True randaug=True seed=0 epoch=200.pth",
+    "mime": "application/x-zip",
+    "large_ints": [
+      1673804727000,
+      179196437,
+      179196437,
+      1673804727000
+    ],
+    "model_id": "B2_009"
+  },
+  {
+    "id": "1fviQpfpcE4Gbw2XgDumj3HdOJf4xz7_Z",
+    "name": "2023-01-15 14:03:42.645 dataset=cifar10 model=resnet18 epochs=200 lr_max=0.9603212 model_width=64 l2_reg=0.0 sam_rho=0.0 batch_size=128 frac_train=1 p_label_noise=0.0 lr_schedule=cyclic augm=True randaug=True seed=0 epoch=200.pth",
+    "mime": "application/x-zip",
+    "large_ints": [
+      1673805210000,
+      179196437,
+      179196437,
+      1673805210000
+    ],
+    "model_id": "B2_010"
+  },
+  {
+    "id": "1hIcfq23wA35qMpo_SzbGSeAc07WFp_sy",
+    "name": "2023-01-15 17:22:34.404 dataset=cifar10 model=resnet18 epochs=200 lr_max=0.0551324 model_width=64 l2_reg=0.0 sam_rho=0.05 batch_size=128 frac_train=1 p_label_noise=0.0 lr_schedule=cyclic augm=False randaug=False seed=0 epoch=200.pth",
+    "mime": "application/x-zip",
+    "large_ints": [
+      1673812902000,
+      179197727,
+      179197727,
+      1673812902000
+    ],
+    "model_id": "B2_011"
+  },
+  {
+    "id": "1g8_bSVb1e7OSjFaMe9RGotlyzWk_aKoP",
+    "name": "2023-01-15 14:03:05.624 dataset=cifar10 model=resnet18 epochs=200 lr_max=0.2187415 model_width=64 l2_reg=0.0 sam_rho=0.05 batch_size=128 frac_train=1 p_label_noise=0.0 lr_schedule=cyclic augm=False randaug=False seed=0 epoch=200.pth",
+    "mime": "application/x-zip",
+    "large_ints": [
+      1673801046000,
+      179197727,
+      179197727,
+      1673801046000
+    ],
+    "model_id": "B2_012"
+  },
+  {
+    "id": "1hKBfYLNehWsaJqeu_rN9Q4AmRvIf4Pyf",
+    "name": "2023-01-15 16:08:49.235 dataset=cifar10 model=resnet18 epochs=200 lr_max=0.2923595 model_width=64 l2_reg=0.0 sam_rho=0.05 batch_size=128 frac_train=1 p_label_noise=0.0 lr_schedule=cyclic augm=False randaug=False seed=0 epoch=200.pth",
+    "mime": "application/x-zip",
+    "large_ints": [
+      1673815736000,
+      179197727,
+      179197727,
+      1673815736000
+    ],
+    "model_id": "B2_013"
+  },
+  {
+    "id": "1e2SC_VgZB4-Jgn8pre_mHD46HWuvDni2",
+    "name": "2023-01-15 16:09:27.445 dataset=cifar10 model=resnet18 epochs=200 lr_max=0.3577887 model_width=64 l2_reg=0.0 sam_rho=0.05 batch_size=128 frac_train=1 p_label_noise=0.0 lr_schedule=cyclic augm=False randaug=False seed=0 epoch=200.pth",
+    "mime": "application/x-zip",
+    "large_ints": [
+      1673814663000,
+      179197727,
+      179197727,
+      1673814663000
+    ],
+    "model_id": "B2_014"
+  },
+  {
+    "id": "1erDb13x_5v5CrJ-91ThsijD1Jphge9iP",
+    "name": "2023-01-15 16:10:35.215 dataset=cifar10 model=resnet18 epochs=200 lr_max=0.812511 model_width=64 l2_reg=0.0 sam_rho=0.05 batch_size=128 frac_train=1 p_label_noise=0.0 lr_schedule=cyclic augm=False randaug=False seed=0 epoch=200.pth",
+    "mime": "application/x-zip",
+    "large_ints": [
+      1673808878000,
+      179197297,
+      179197297,
+      1673808878000
+    ],
+    "model_id": "B2_015"
+  },
+  {
+    "id": "1er91dUL3bZxN1DsBdHe0kzLCAc080t1x",
+    "name": "2023-01-15 14:03:39.411 dataset=cifar10 model=resnet18 epochs=200 lr_max=0.0599879 model_width=64 l2_reg=0.0 sam_rho=0.05 batch_size=128 frac_train=1 p_label_noise=0.0 lr_schedule=cyclic augm=True randaug=True seed=0 epoch=200.pth",
+    "mime": "application/x-zip",
+    "large_ints": [
+      1673811915000,
+      179196867,
+      179196867,
+      1673811915000
+    ],
+    "model_id": "B2_016"
+  },
+  {
+    "id": "1eaBFezDnexC2m-D0wRq4ERu0GdF0w5eS",
+    "name": "2023-01-15 16:50:56.833 dataset=cifar10 model=resnet18 epochs=200 lr_max=0.0633788 model_width=64 l2_reg=0.0 sam_rho=0.05 batch_size=128 frac_train=1 p_label_noise=0.0 lr_schedule=cyclic augm=True randaug=True seed=0 epoch=200.pth",
+    "mime": "application/x-zip",
+    "large_ints": [
+      1673826239000,
+      179196867,
+      179196867,
+      1673826239000
+    ],
+    "model_id": "B2_017"
+  },
+  {
+    "id": "1guj93FzLndMyrZqv-sdIWu4YN5BE3QWH",
+    "name": "2023-01-15 14:10:48.585 dataset=cifar10 model=resnet18 epochs=200 lr_max=0.2994383 model_width=64 l2_reg=0.0 sam_rho=0.05 batch_size=128 frac_train=1 p_label_noise=0.0 lr_schedule=cyclic augm=True randaug=True seed=0 epoch=200.pth",
+    "mime": "application/x-zip",
+    "large_ints": [
+      1673807496000,
+      179196867,
+      179196867,
+      1673807496000
+    ],
+    "model_id": "B2_018"
+  },
+  {
+    "id": "1eKnIso5PPu06iFd8T_7yjfOi9cS1qSwp",
+    "name": "2023-01-15 14:02:36.368 dataset=cifar10 model=resnet18 epochs=200 lr_max=0.4633774 model_width=64 l2_reg=0.0 sam_rho=0.05 batch_size=128 frac_train=1 p_label_noise=0.0 lr_schedule=cyclic augm=True randaug=True seed=0 epoch=200.pth",
+    "mime": "application/x-zip",
+    "large_ints": [
+      1673804694000,
+      179196867,
+      179196867,
+      1673804694000
+    ],
+    "model_id": "B2_019"
+  },
+  {
+    "id": "1e3jOhu4LSj8XThezaDCFdJxmD7_B8A2R",
+    "name": "2023-01-15 16:10:34.615 dataset=cifar10 model=resnet18 epochs=200 lr_max=1.3470811 model_width=64 l2_reg=0.0 sam_rho=0.05 batch_size=128 frac_train=1 p_label_noise=0.0 lr_schedule=cyclic augm=True randaug=True seed=0 epoch=200.pth",
+    "mime": "application/x-zip",
+    "large_ints": [
+      1673811292000,
+      179196867,
+      179196867,
+      1673811292000
+    ],
+    "model_id": "B2_020"
+  },
+  {
+    "id": "1fkftDEdPALbDcQ4qinVKnQQim9t9xCi8",
+    "name": "2023-01-15 14:36:41.247 dataset=cifar10 model=resnet18 epochs=200 lr_max=0.0504226 model_width=64 l2_reg=0.0 sam_rho=0.1 batch_size=128 frac_train=1 p_label_noise=0.0 lr_schedule=cyclic augm=False randaug=False seed=0 epoch=200.pth",
+    "mime": "application/x-zip",
+    "large_ints": [
+      1673804756000,
+      179197297,
+      179197297,
+      1673804756000
+    ],
+    "model_id": "B2_021"
+  },
+  {
+    "id": "1h8n2-PP8ogoKjYkzO2mfkJLu_n1aukGT",
+    "name": "2023-01-15 14:03:02.241 dataset=cifar10 model=resnet18 epochs=200 lr_max=0.114267 model_width=64 l2_reg=0.0 sam_rho=0.1 batch_size=128 frac_train=1 p_label_noise=0.0 lr_schedule=cyclic augm=False randaug=False seed=0 epoch=200.pth",
+    "mime": "application/x-zip",
+    "large_ints": [
+      1673805290000,
+      179196867,
+      179196867,
+      1673805290000
+    ],
+    "model_id": "B2_022"
+  },
+  {
+    "id": "1gRZ-_IoWgncoTyL84Eomft4TiJtWmGa1",
+    "name": "2023-01-15 14:36:41.623 dataset=cifar10 model=resnet18 epochs=200 lr_max=0.1674753 model_width=64 l2_reg=0.0 sam_rho=0.1 batch_size=128 frac_train=1 p_label_noise=0.0 lr_schedule=cyclic augm=False randaug=False seed=0 epoch=200.pth",
+    "mime": "application/x-zip",
+    "large_ints": [
+      1673804723000,
+      179197297,
+      179197297,
+      1673804723000
+    ],
+    "model_id": "B2_023"
+  },
+  {
+    "id": "1eYjRuqnh3y3tYYadBXLvnlmzCnGSahJk",
+    "name": "2023-01-15 14:03:06.535 dataset=cifar10 model=resnet18 epochs=200 lr_max=0.3615123 model_width=64 l2_reg=0.0 sam_rho=0.1 batch_size=128 frac_train=1 p_label_noise=0.0 lr_schedule=cyclic augm=False randaug=False seed=0 epoch=200.pth",
+    "mime": "application/x-zip",
+    "large_ints": [
+      1673799609000,
+      179197297,
+      179197297,
+      1673799609000
+    ],
+    "model_id": "B2_024"
+  },
+  {
+    "id": "1g4rxn4Xadp-iu3fZYEnHDlTYd0QPaGna",
+    "name": "2023-01-15 15:02:57.115 dataset=cifar10 model=resnet18 epochs=200 lr_max=0.7863613 model_width=64 l2_reg=0.0 sam_rho=0.1 batch_size=128 frac_train=1 p_label_noise=0.0 lr_schedule=cyclic augm=False randaug=False seed=0 epoch=200.pth",
+    "mime": "application/x-zip",
+    "large_ints": [
+      1673810365000,
+      179197297,
+      179197297,
+      1673810365000
+    ],
+    "model_id": "B2_025"
+  },
+  {
+    "id": "1h65Uc3Z246XAen1E02SP5Jbvc7sgSG59",
+    "name": "2023-01-15 14:03:44.169 dataset=cifar10 model=resnet18 epochs=200 lr_max=0.082242 model_width=64 l2_reg=0.0 sam_rho=0.1 batch_size=128 frac_train=1 p_label_noise=0.0 lr_schedule=cyclic augm=True randaug=True seed=0 epoch=200.pth",
+    "mime": "application/x-zip",
+    "large_ints": [
+      1673809442000,
+      179196007,
+      179196007,
+      1673809442000
+    ],
+    "model_id": "B2_026"
+  },
+  {
+    "id": "1hPBBmcTZnW8uUXKYiPAUx3Hy_Wdiuyp1",
+    "name": "2023-01-15 16:08:49.381 dataset=cifar10 model=resnet18 epochs=200 lr_max=0.2890736 model_width=64 l2_reg=0.0 sam_rho=0.1 batch_size=128 frac_train=1 p_label_noise=0.0 lr_schedule=cyclic augm=True randaug=True seed=0 epoch=200.pth",
+    "mime": "application/x-zip",
+    "large_ints": [
+      1673819535000,
+      179196437,
+      179196437,
+      1673819535000
+    ],
+    "model_id": "B2_027"
+  },
+  {
+    "id": "1h8AIgrt9i6WxCBB5efBzMjfAWgZ9my7s",
+    "name": "2023-01-15 14:03:23.164 dataset=cifar10 model=resnet18 epochs=200 lr_max=0.3603587 model_width=64 l2_reg=0.0 sam_rho=0.1 batch_size=128 frac_train=1 p_label_noise=0.0 lr_schedule=cyclic augm=True randaug=True seed=0 epoch=200.pth",
+    "mime": "application/x-zip",
+    "large_ints": [
+      1673815209000,
+      179196437,
+      179196437,
+      1673815209000
+    ],
+    "model_id": "B2_028"
+  },
+  {
+    "id": "1gOo-6me2uKJTdusZ672hyGPlr7hpL87L",
+    "name": "2023-01-15 14:03:42.555 dataset=cifar10 model=resnet18 epochs=200 lr_max=0.3667644 model_width=64 l2_reg=0.0 sam_rho=0.1 batch_size=128 frac_train=1 p_label_noise=0.0 lr_schedule=cyclic augm=True randaug=True seed=0 epoch=200.pth",
+    "mime": "application/x-zip",
+    "large_ints": [
+      1673811652000,
+      179196437,
+      179196437,
+      1673811652000
+    ],
+    "model_id": "B2_029"
+  },
+  {
+    "id": "1gMEvwGI_SHcl67fMDupLasCK_seBedW9",
+    "name": "2023-01-15 14:03:05.527 dataset=cifar10 model=resnet18 epochs=200 lr_max=0.9708619 model_width=64 l2_reg=0.0 sam_rho=0.1 batch_size=128 frac_train=1 p_label_noise=0.0 lr_schedule=cyclic augm=True randaug=True seed=0 epoch=200.pth",
+    "mime": "application/x-zip",
+    "large_ints": [
+      1673805941000,
+      179196437,
+      179196437,
+      1673805941000
+    ],
+    "model_id": "B2_030"
+  }
+]

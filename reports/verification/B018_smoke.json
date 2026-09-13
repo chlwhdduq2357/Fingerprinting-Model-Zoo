@@ -1,0 +1,16 @@
+{
+  "model_id": "B018",
+  "passed": true,
+  "samples": 256,
+  "correct": 212,
+  "accuracy_percent": 82.8125,
+  "checkpoint_sha256": "ee760772d4f7bac0335c66ae71d66e90add77dc2251783a94bad6bce31210c55",
+  "full_test_set": false,
+  "subset_seed": 20260907,
+  "indices_sha256": "072da18cce220a907a9a5eca3c800500e2f6d972c4903c62f6903308ebdecf30",
+  "preprocessing": "native",
+  "device": "cpu",
+  "torch_version": "2.14.0+cpu",
+  "seconds": 4.021,
+  "date": "2026-09-07T05:18:09Z"
+}

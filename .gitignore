@@ -1,0 +1,27 @@
+# Public checkpoints are reproducibly restored with scripts/download_models.py.
+# They total about 6.72 GiB and several files exceed GitHub's regular 100 MiB limit.
+checkpoints/
+
+# Local datasets, environments, caches, and generated runtime state
+data/
+work/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Training output is kept local unless its manifest/report is explicitly curated.
+runs/
+tensorboard/
+wandb/
+*.part
+
+# IDE / OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+

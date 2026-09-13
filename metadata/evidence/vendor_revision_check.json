@@ -1,0 +1,176 @@
+[
+  {
+    "path": "pytorchcv/models/densenet.py",
+    "upstream_blob_sha1": "b778754d51ad0c2853ffb5fa02db69c790cc4ec3",
+    "vendored_blob_sha1": "b778754d51ad0c2853ffb5fa02db69c790cc4ec3",
+    "match": true
+  },
+  {
+    "path": "pytorchcv/models/densenet_cifar.py",
+    "upstream_blob_sha1": "33aaf41da244e12b2a9c402f06165e358897e2d5",
+    "vendored_blob_sha1": "33aaf41da244e12b2a9c402f06165e358897e2d5",
+    "match": true
+  },
+  {
+    "path": "pytorchcv/models/diapreresnet.py",
+    "upstream_blob_sha1": "33f1736a0e53345c00e7b716c52cd48be89a09e8",
+    "vendored_blob_sha1": "33f1736a0e53345c00e7b716c52cd48be89a09e8",
+    "match": true
+  },
+  {
+    "path": "pytorchcv/models/diapreresnet_cifar.py",
+    "upstream_blob_sha1": "39fc2d5de457fe07faf225918f32b2840291fd66",
+    "vendored_blob_sha1": "39fc2d5de457fe07faf225918f32b2840291fd66",
+    "match": true
+  },
+  {
+    "path": "pytorchcv/models/diaresnet.py",
+    "upstream_blob_sha1": "044107430fbf0d061c42117de8f6880a057272d7",
+    "vendored_blob_sha1": "044107430fbf0d061c42117de8f6880a057272d7",
+    "match": true
+  },
+  {
+    "path": "pytorchcv/models/diaresnet_cifar.py",
+    "upstream_blob_sha1": "0a739ef2abbea7078aac6a5a6ee851b7dc51cbf4",
+    "vendored_blob_sha1": "0a739ef2abbea7078aac6a5a6ee851b7dc51cbf4",
+    "match": true
+  },
+  {
+    "path": "pytorchcv/models/nin_cifar.py",
+    "upstream_blob_sha1": "22a6043b2c0d3c42072de3d4392927edc825ccb6",
+    "vendored_blob_sha1": "22a6043b2c0d3c42072de3d4392927edc825ccb6",
+    "match": true
+  },
+  {
+    "path": "pytorchcv/models/preresnet.py",
+    "upstream_blob_sha1": "f937a8d4fb9c81773b38f65ec86fb0b56f7478a5",
+    "vendored_blob_sha1": "f937a8d4fb9c81773b38f65ec86fb0b56f7478a5",
+    "match": true
+  },
+  {
+    "path": "pytorchcv/models/preresnet_cifar.py",
+    "upstream_blob_sha1": "d231779875a20deb75a31d206af93242a53eeccb",
+    "vendored_blob_sha1": "d231779875a20deb75a31d206af93242a53eeccb",
+    "match": true
+  },
+  {
+    "path": "pytorchcv/models/pyramidnet.py",
+    "upstream_blob_sha1": "16b579f4fe6767d5bd0c4fe97bd8bc48f867e084",
+    "vendored_blob_sha1": "16b579f4fe6767d5bd0c4fe97bd8bc48f867e084",
+    "match": true
+  },
+  {
+    "path": "pytorchcv/models/pyramidnet_cifar.py",
+    "upstream_blob_sha1": "0c02be23991377ee7f2a2c586c0af77bd1df1fb0",
+    "vendored_blob_sha1": "0c02be23991377ee7f2a2c586c0af77bd1df1fb0",
+    "match": true
+  },
+  {
+    "path": "pytorchcv/models/resnet.py",
+    "upstream_blob_sha1": "18f8af2ba047aee224260c8eb328c65bf51a08b7",
+    "vendored_blob_sha1": "18f8af2ba047aee224260c8eb328c65bf51a08b7",
+    "match": true
+  },
+  {
+    "path": "pytorchcv/models/resnet_cifar.py",
+    "upstream_blob_sha1": "9cdc1c4bac6ed71885c4fd5508bba8a9760b7f1c",
+    "vendored_blob_sha1": "9cdc1c4bac6ed71885c4fd5508bba8a9760b7f1c",
+    "match": true
+  },
+  {
+    "path": "pytorchcv/models/rir_cifar.py",
+    "upstream_blob_sha1": "b63706df539fd48e8bf55e716b8a03cdabaf6fa0",
+    "vendored_blob_sha1": "b63706df539fd48e8bf55e716b8a03cdabaf6fa0",
+    "match": true
+  },
+  {
+    "path": "pytorchcv/models/ror_cifar.py",
+    "upstream_blob_sha1": "8b514ae94079390a52f4612d67be2df126d001c7",
+    "vendored_blob_sha1": "8b514ae94079390a52f4612d67be2df126d001c7",
+    "match": true
+  },
+  {
+    "path": "pytorchcv/models/sepreresnet.py",
+    "upstream_blob_sha1": "e056fd733fd026b9fe55e76f02048c106ae857bb",
+    "vendored_blob_sha1": "e056fd733fd026b9fe55e76f02048c106ae857bb",
+    "match": true
+  },
+  {
+    "path": "pytorchcv/models/sepreresnet_cifar.py",
+    "upstream_blob_sha1": "d856fbc698512a994e6f0ebbaf637c096b4c818c",
+    "vendored_blob_sha1": "d856fbc698512a994e6f0ebbaf637c096b4c818c",
+    "match": true
+  },
+  {
+    "path": "pytorchcv/models/seresnet.py",
+    "upstream_blob_sha1": "fe52654ab7ff0c179a381b225fe30e7c6a78e0d0",
+    "vendored_blob_sha1": "fe52654ab7ff0c179a381b225fe30e7c6a78e0d0",
+    "match": true
+  },
+  {
+    "path": "pytorchcv/models/seresnet_cifar.py",
+    "upstream_blob_sha1": "f7c123cb2fb4c1204aa95010d6106623330221e3",
+    "vendored_blob_sha1": "f7c123cb2fb4c1204aa95010d6106623330221e3",
+    "match": true
+  },
+  {
+    "path": "pytorchcv/models/shakeshakeresnet_cifar.py",
+    "upstream_blob_sha1": "1f60a5cdc8f05b49df3ae5da952d88b29596f306",
+    "vendored_blob_sha1": "1f60a5cdc8f05b49df3ae5da952d88b29596f306",
+    "match": true
+  },
+  {
+    "path": "pytorchcv/models/wrn_cifar.py",
+    "upstream_blob_sha1": "ba61273dd9286bf8ab6783faa4bb617a6c6cbf0b",
+    "vendored_blob_sha1": "ba61273dd9286bf8ab6783faa4bb617a6c6cbf0b",
+    "match": true
+  },
+  {
+    "path": "pytorchcv/models/xdensenet.py",
+    "upstream_blob_sha1": "ea456b7fc82315659d4bff91cb81c229c0861f67",
+    "vendored_blob_sha1": "ea456b7fc82315659d4bff91cb81c229c0861f67",
+    "match": true
+  },
+  {
+    "path": "pytorchcv/models/xdensenet_cifar.py",
+    "upstream_blob_sha1": "a3f0ef13511e7555461d856a0051989456b7b8c7",
+    "vendored_blob_sha1": "a3f0ef13511e7555461d856a0051989456b7b8c7",
+    "match": true
+  },
+  {
+    "path": "pytorchcv/models/common/activ.py",
+    "upstream_blob_sha1": "7443d539cf1bb1aa0eb7b054f18a522a5ad12ae5",
+    "vendored_blob_sha1": "7443d539cf1bb1aa0eb7b054f18a522a5ad12ae5",
+    "match": true
+  },
+  {
+    "path": "pytorchcv/models/common/arch.py",
+    "upstream_blob_sha1": "87cba3948e7930fbe265c2510f698d7745d48b7c",
+    "vendored_blob_sha1": "87cba3948e7930fbe265c2510f698d7745d48b7c",
+    "match": true
+  },
+  {
+    "path": "pytorchcv/models/common/att.py",
+    "upstream_blob_sha1": "b891eb405046968b27a1701bc65a70d3a7cf8947",
+    "vendored_blob_sha1": "b891eb405046968b27a1701bc65a70d3a7cf8947",
+    "match": true
+  },
+  {
+    "path": "pytorchcv/models/common/conv.py",
+    "upstream_blob_sha1": "c7d427a4fecea407a2608bb44b2d4d59115b66f9",
+    "vendored_blob_sha1": "c7d427a4fecea407a2608bb44b2d4d59115b66f9",
+    "match": true
+  },
+  {
+    "path": "pytorchcv/models/common/model_store.py",
+    "upstream_blob_sha1": "295e9cff4478ec7fd7fa652baf29fed3d884993b",
+    "vendored_blob_sha1": "295e9cff4478ec7fd7fa652baf29fed3d884993b",
+    "match": true
+  },
+  {
+    "path": "pytorchcv/models/common/norm.py",
+    "upstream_blob_sha1": "049eecf70cc4adf3ed25deb298e97f97c3020429",
+    "vendored_blob_sha1": "049eecf70cc4adf3ed25deb298e97f97c3020429",
+    "match": true
+  }
+]

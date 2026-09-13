@@ -1,0 +1,8 @@
+{
+  "url": "https://ai.unisg.ch/files/tar_files/tune_zoo_cifar10_resnet18_kaiming_uniform.tar",
+  "request_range": "bytes=0-4095",
+  "response_status": 206,
+  "content_range": "bytes 0-4095/2328714690560",
+  "body_bytes_read": 4096,
+  "etag": "\"68cf57e4-21e32364000\""
+}

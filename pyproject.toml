@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "forensic-cifar10-model-zoo"
+version = "1.0.0"
+description = "Controlled independent CIFAR-10 originals with lineage-aware metadata"
+requires-python = ">=3.10"
+dependencies = ["torch>=2.6", "torchvision>=0.21", "numpy>=1.24"]
+
+[tool.setuptools]
+packages = ["model_zoo", "model_zoo.loaders", "model_zoo.vendor", "model_zoo.vendor.cv", "model_zoo.vendor.cv.models", "model_zoo.vendor.cv.models.common", "model_zoo.vendor.chen"]
+package-dir = {model_zoo = "."}
+

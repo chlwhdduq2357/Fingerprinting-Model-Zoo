@@ -1,0 +1,40 @@
+{
+  "known_source_research_failures": [
+    {
+      "candidate": "osmr/imgclsmob/pytorch/README.md",
+      "stage": "documentation",
+      "error": "HTTP 404; authoritative model README moved to osmr/pytorchcv/README.md",
+      "resolved": true
+    },
+    {
+      "candidate": "ModelZoos ZIP metadata",
+      "stage": "range metadata requests",
+      "error": "HTTP 429 under many fine-grained parallel API requests",
+      "resolution": "Cached evidence; one indexed member range per request; bounded workers and backoff",
+      "resolved": true
+    }
+  ],
+  "not_downloaded": [
+    {
+      "source": "PhaseTransitionModelZoo",
+      "reason": "Only Proton Drive sample ZIPs documented; width varies across grid; preferred fixed-topology ModelZoo source succeeded."
+    }
+  ],
+  "research_transfer": {
+    "tar_header_requests": 292,
+    "tar_header_bytes": 4784128,
+    "full_tar_bytes_downloaded": 0,
+    "full_zip_bytes_downloaded": 0
+  },
+  "selection": {
+    "A": "23 osmr checkpoints and 7 chenyaofo checkpoints; 18 architecture families",
+    "B": "25 public sample ZIP runs, 5 distinct additional full-TAR runs, one iteration-25 checkpoint each; no filtering on test performance"
+  },
+  "security": {
+    "remote_setup_scripts_executed": false,
+    "torch_hub_remote_code_executed": false,
+    "checkpoint_weights_only": true,
+    "derivatives_created": false,
+    "training_performed": false
+  }
+}

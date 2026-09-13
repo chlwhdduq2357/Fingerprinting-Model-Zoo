@@ -1,0 +1,3518 @@
+[
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform",
+    "size": 0,
+    "offset": 512,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00440_440_seed=441_2022-08-06_06-07-23/",
+    "size": 0,
+    "offset": 2048,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00440_440_seed=441_2022-08-06_06-07-23/checkpoint_000006/",
+    "size": 0,
+    "offset": 3584,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00440_440_seed=441_2022-08-06_06-07-23/checkpoint_000006/checkpoints",
+    "size": 44773837,
+    "offset": 5120,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00440_440_seed=441_2022-08-06_06-07-23/checkpoint_000043/",
+    "size": 0,
+    "offset": 44780544,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00440_440_seed=441_2022-08-06_06-07-23/checkpoint_000043/checkpoints",
+    "size": 44773837,
+    "offset": 44782080,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00440_440_seed=441_2022-08-06_06-07-23/checkpoint_000034/",
+    "size": 0,
+    "offset": 89557504,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00440_440_seed=441_2022-08-06_06-07-23/checkpoint_000034/checkpoints",
+    "size": 44773837,
+    "offset": 89559040,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00440_440_seed=441_2022-08-06_06-07-23/checkpoint_000049/",
+    "size": 0,
+    "offset": 134334464,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00440_440_seed=441_2022-08-06_06-07-23/checkpoint_000049/checkpoints",
+    "size": 44773837,
+    "offset": 134336000,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00440_440_seed=441_2022-08-06_06-07-23/params.pkl",
+    "size": 910,
+    "offset": 179111424,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00440_440_seed=441_2022-08-06_06-07-23/checkpoint_000015/",
+    "size": 0,
+    "offset": 179113984,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00440_440_seed=441_2022-08-06_06-07-23/checkpoint_000015/checkpoints",
+    "size": 44773837,
+    "offset": 179115520,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00440_440_seed=441_2022-08-06_06-07-23/checkpoint_000050/",
+    "size": 0,
+    "offset": 223890944,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00440_440_seed=441_2022-08-06_06-07-23/checkpoint_000050/optimizer",
+    "size": 44713643,
+    "offset": 223892480,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00440_440_seed=441_2022-08-06_06-07-23/checkpoint_000050/checkpoints",
+    "size": 44773837,
+    "offset": 268608000,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00440_440_seed=441_2022-08-06_06-07-23/checkpoint_000027/",
+    "size": 0,
+    "offset": 313383424,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00440_440_seed=441_2022-08-06_06-07-23/checkpoint_000027/checkpoints",
+    "size": 44773837,
+    "offset": 313384960,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00440_440_seed=441_2022-08-06_06-07-23/checkpoint_000020/",
+    "size": 0,
+    "offset": 358160384,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00440_440_seed=441_2022-08-06_06-07-23/checkpoint_000020/checkpoints",
+    "size": 44773837,
+    "offset": 358161920,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00440_440_seed=441_2022-08-06_06-07-23/checkpoint_000018/",
+    "size": 0,
+    "offset": 402937344,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00440_440_seed=441_2022-08-06_06-07-23/checkpoint_000018/checkpoints",
+    "size": 44773837,
+    "offset": 402938880,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00440_440_seed=441_2022-08-06_06-07-23/checkpoint_000012/",
+    "size": 0,
+    "offset": 447714304,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00440_440_seed=441_2022-08-06_06-07-23/checkpoint_000012/checkpoints",
+    "size": 44773837,
+    "offset": 447715840,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00440_440_seed=441_2022-08-06_06-07-23/checkpoint_000033/",
+    "size": 0,
+    "offset": 492491264,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00440_440_seed=441_2022-08-06_06-07-23/checkpoint_000033/checkpoints",
+    "size": 44773837,
+    "offset": 492492800,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00440_440_seed=441_2022-08-06_06-07-23/result.json",
+    "size": 83475,
+    "offset": 537268224,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00440_440_seed=441_2022-08-06_06-07-23/checkpoint_000044/",
+    "size": 0,
+    "offset": 537353728,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00440_440_seed=441_2022-08-06_06-07-23/checkpoint_000044/checkpoints",
+    "size": 44773837,
+    "offset": 537355264,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00440_440_seed=441_2022-08-06_06-07-23/checkpoint_000039/",
+    "size": 0,
+    "offset": 582130688,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00440_440_seed=441_2022-08-06_06-07-23/checkpoint_000039/checkpoints",
+    "size": 44773837,
+    "offset": 582132224,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00440_440_seed=441_2022-08-06_06-07-23/checkpoint_000001/",
+    "size": 0,
+    "offset": 626907648,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00440_440_seed=441_2022-08-06_06-07-23/checkpoint_000001/checkpoints",
+    "size": 44773837,
+    "offset": 626909184,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00440_440_seed=441_2022-08-06_06-07-23/checkpoint_000005/",
+    "size": 0,
+    "offset": 671684608,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00440_440_seed=441_2022-08-06_06-07-23/checkpoint_000005/checkpoints",
+    "size": 44773837,
+    "offset": 671686144,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00440_440_seed=441_2022-08-06_06-07-23/checkpoint_000037/",
+    "size": 0,
+    "offset": 716461568,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00440_440_seed=441_2022-08-06_06-07-23/checkpoint_000037/checkpoints",
+    "size": 44773837,
+    "offset": 716463104,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00440_440_seed=441_2022-08-06_06-07-23/checkpoint_000040/",
+    "size": 0,
+    "offset": 761238528,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00440_440_seed=441_2022-08-06_06-07-23/checkpoint_000040/checkpoints",
+    "size": 44773837,
+    "offset": 761240064,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00440_440_seed=441_2022-08-06_06-07-23/checkpoint_000016/",
+    "size": 0,
+    "offset": 806015488,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00440_440_seed=441_2022-08-06_06-07-23/checkpoint_000016/checkpoints",
+    "size": 44773837,
+    "offset": 806017024,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00440_440_seed=441_2022-08-06_06-07-23/checkpoint_000024/",
+    "size": 0,
+    "offset": 850792448,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00440_440_seed=441_2022-08-06_06-07-23/checkpoint_000024/checkpoints",
+    "size": 44773837,
+    "offset": 850793984,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00440_440_seed=441_2022-08-06_06-07-23/checkpoint_000023/",
+    "size": 0,
+    "offset": 895569408,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00440_440_seed=441_2022-08-06_06-07-23/checkpoint_000023/checkpoints",
+    "size": 44773837,
+    "offset": 895570944,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00440_440_seed=441_2022-08-06_06-07-23/checkpoint_000029/",
+    "size": 0,
+    "offset": 940346368,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00440_440_seed=441_2022-08-06_06-07-23/checkpoint_000029/checkpoints",
+    "size": 44773837,
+    "offset": 940347904,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00440_440_seed=441_2022-08-06_06-07-23/checkpoint_000011/",
+    "size": 0,
+    "offset": 985123328,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00440_440_seed=441_2022-08-06_06-07-23/checkpoint_000011/checkpoints",
+    "size": 44773837,
+    "offset": 985124864,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00440_440_seed=441_2022-08-06_06-07-23/checkpoint_000047/",
+    "size": 0,
+    "offset": 1029900288,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00440_440_seed=441_2022-08-06_06-07-23/checkpoint_000047/checkpoints",
+    "size": 44773837,
+    "offset": 1029901824,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00440_440_seed=441_2022-08-06_06-07-23/checkpoint_000030/",
+    "size": 0,
+    "offset": 1074677248,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00440_440_seed=441_2022-08-06_06-07-23/checkpoint_000030/checkpoints",
+    "size": 44773837,
+    "offset": 1074678784,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00440_440_seed=441_2022-08-06_06-07-23/checkpoint_000008/",
+    "size": 0,
+    "offset": 1119454208,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00440_440_seed=441_2022-08-06_06-07-23/checkpoint_000008/checkpoints",
+    "size": 44773837,
+    "offset": 1119455744,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00440_440_seed=441_2022-08-06_06-07-23/checkpoint_000002/",
+    "size": 0,
+    "offset": 1164231168,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00440_440_seed=441_2022-08-06_06-07-23/checkpoint_000002/checkpoints",
+    "size": 44773837,
+    "offset": 1164232704,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00440_440_seed=441_2022-08-06_06-07-23/checkpoint_000038/",
+    "size": 0,
+    "offset": 1209008128,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00440_440_seed=441_2022-08-06_06-07-23/checkpoint_000038/checkpoints",
+    "size": 44773837,
+    "offset": 1209009664,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00440_440_seed=441_2022-08-06_06-07-23/checkpoint_000045/",
+    "size": 0,
+    "offset": 1253785088,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00440_440_seed=441_2022-08-06_06-07-23/checkpoint_000045/checkpoints",
+    "size": 44773837,
+    "offset": 1253786624,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00440_440_seed=441_2022-08-06_06-07-23/checkpoint_000032/",
+    "size": 0,
+    "offset": 1298562048,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00440_440_seed=441_2022-08-06_06-07-23/checkpoint_000032/checkpoints",
+    "size": 44773837,
+    "offset": 1298563584,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00440_440_seed=441_2022-08-06_06-07-23/checkpoint_000000/",
+    "size": 0,
+    "offset": 1343339008,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00440_440_seed=441_2022-08-06_06-07-23/checkpoint_000000/checkpoints",
+    "size": 44773837,
+    "offset": 1343340544,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00440_440_seed=441_2022-08-06_06-07-23/progress.csv",
+    "size": 14499,
+    "offset": 1388115968,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00440_440_seed=441_2022-08-06_06-07-23/checkpoint_000021/",
+    "size": 0,
+    "offset": 1388132352,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00440_440_seed=441_2022-08-06_06-07-23/checkpoint_000021/checkpoints",
+    "size": 44773837,
+    "offset": 1388133888,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00440_440_seed=441_2022-08-06_06-07-23/checkpoint_000013/",
+    "size": 0,
+    "offset": 1432909312,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00440_440_seed=441_2022-08-06_06-07-23/checkpoint_000013/checkpoints",
+    "size": 44773837,
+    "offset": 1432910848,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00440_440_seed=441_2022-08-06_06-07-23/checkpoint_000019/",
+    "size": 0,
+    "offset": 1477686272,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00440_440_seed=441_2022-08-06_06-07-23/checkpoint_000019/checkpoints",
+    "size": 44773837,
+    "offset": 1477687808,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00440_440_seed=441_2022-08-06_06-07-23/checkpoint_000014/",
+    "size": 0,
+    "offset": 1522463232,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00440_440_seed=441_2022-08-06_06-07-23/checkpoint_000014/checkpoints",
+    "size": 44773837,
+    "offset": 1522464768,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00440_440_seed=441_2022-08-06_06-07-23/checkpoint_000026/",
+    "size": 0,
+    "offset": 1567240192,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00440_440_seed=441_2022-08-06_06-07-23/checkpoint_000026/checkpoints",
+    "size": 44773837,
+    "offset": 1567241728,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00440_440_seed=441_2022-08-06_06-07-23/checkpoint_000007/",
+    "size": 0,
+    "offset": 1612017152,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00440_440_seed=441_2022-08-06_06-07-23/checkpoint_000007/checkpoints",
+    "size": 44773837,
+    "offset": 1612018688,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00440_440_seed=441_2022-08-06_06-07-23/checkpoint_000048/",
+    "size": 0,
+    "offset": 1656794112,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00440_440_seed=441_2022-08-06_06-07-23/checkpoint_000048/checkpoints",
+    "size": 44773837,
+    "offset": 1656795648,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00440_440_seed=441_2022-08-06_06-07-23/checkpoint_000035/",
+    "size": 0,
+    "offset": 1701571072,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00440_440_seed=441_2022-08-06_06-07-23/checkpoint_000035/checkpoints",
+    "size": 44773837,
+    "offset": 1701572608,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00440_440_seed=441_2022-08-06_06-07-23/checkpoint_000042/",
+    "size": 0,
+    "offset": 1746348032,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00440_440_seed=441_2022-08-06_06-07-23/checkpoint_000042/checkpoints",
+    "size": 44773837,
+    "offset": 1746349568,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00440_440_seed=441_2022-08-06_06-07-23/checkpoint_000031/",
+    "size": 0,
+    "offset": 1791124992,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00440_440_seed=441_2022-08-06_06-07-23/checkpoint_000031/checkpoints",
+    "size": 44773837,
+    "offset": 1791126528,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00440_440_seed=441_2022-08-06_06-07-23/checkpoint_000046/",
+    "size": 0,
+    "offset": 1835901952,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00440_440_seed=441_2022-08-06_06-07-23/checkpoint_000046/checkpoints",
+    "size": 44773837,
+    "offset": 1835903488,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00440_440_seed=441_2022-08-06_06-07-23/checkpoint_000003/",
+    "size": 0,
+    "offset": 1880678912,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00440_440_seed=441_2022-08-06_06-07-23/checkpoint_000003/checkpoints",
+    "size": 44773837,
+    "offset": 1880680448,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00440_440_seed=441_2022-08-06_06-07-23/checkpoint_000009/",
+    "size": 0,
+    "offset": 1925455872,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00440_440_seed=441_2022-08-06_06-07-23/checkpoint_000009/checkpoints",
+    "size": 44773837,
+    "offset": 1925457408,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00440_440_seed=441_2022-08-06_06-07-23/checkpoint_000028/",
+    "size": 0,
+    "offset": 1970232832,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00440_440_seed=441_2022-08-06_06-07-23/checkpoint_000028/checkpoints",
+    "size": 44773837,
+    "offset": 1970234368,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00440_440_seed=441_2022-08-06_06-07-23/checkpoint_000022/",
+    "size": 0,
+    "offset": 2015009792,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00440_440_seed=441_2022-08-06_06-07-23/checkpoint_000022/checkpoints",
+    "size": 44773837,
+    "offset": 2015011328,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00440_440_seed=441_2022-08-06_06-07-23/checkpoint_000010/",
+    "size": 0,
+    "offset": 2059786752,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00440_440_seed=441_2022-08-06_06-07-23/checkpoint_000010/checkpoints",
+    "size": 44773837,
+    "offset": 2059788288,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00440_440_seed=441_2022-08-06_06-07-23/checkpoint_000017/",
+    "size": 0,
+    "offset": 2104563712,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00440_440_seed=441_2022-08-06_06-07-23/checkpoint_000017/checkpoints",
+    "size": 44773837,
+    "offset": 2104565248,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00440_440_seed=441_2022-08-06_06-07-23/params.json",
+    "size": 990,
+    "offset": 2149340672,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00440_440_seed=441_2022-08-06_06-07-23/checkpoint_000025/",
+    "size": 0,
+    "offset": 2149343232,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00440_440_seed=441_2022-08-06_06-07-23/checkpoint_000025/checkpoints",
+    "size": 44773837,
+    "offset": 2149344768,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00440_440_seed=441_2022-08-06_06-07-23/checkpoint_000004/",
+    "size": 0,
+    "offset": 2194120192,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00440_440_seed=441_2022-08-06_06-07-23/checkpoint_000004/checkpoints",
+    "size": 44773837,
+    "offset": 2194121728,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00440_440_seed=441_2022-08-06_06-07-23/checkpoint_000041/",
+    "size": 0,
+    "offset": 2238897152,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00440_440_seed=441_2022-08-06_06-07-23/checkpoint_000041/checkpoints",
+    "size": 44773837,
+    "offset": 2238898688,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00440_440_seed=441_2022-08-06_06-07-23/checkpoint_000036/",
+    "size": 0,
+    "offset": 2283674112,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00440_440_seed=441_2022-08-06_06-07-23/checkpoint_000036/checkpoints",
+    "size": 44773837,
+    "offset": 2283675648,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00646_646_seed=647_2022-08-06_23-15-56/",
+    "size": 0,
+    "offset": 2328451072,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00646_646_seed=647_2022-08-06_23-15-56/checkpoint_000002/",
+    "size": 0,
+    "offset": 2328452608,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00646_646_seed=647_2022-08-06_23-15-56/checkpoint_000002/checkpoints",
+    "size": 44773837,
+    "offset": 2328454144,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00646_646_seed=647_2022-08-06_23-15-56/checkpoint_000008/",
+    "size": 0,
+    "offset": 2373229568,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00646_646_seed=647_2022-08-06_23-15-56/checkpoint_000008/checkpoints",
+    "size": 44773837,
+    "offset": 2373231104,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00646_646_seed=647_2022-08-06_23-15-56/progress.csv",
+    "size": 14491,
+    "offset": 2418006528,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00646_646_seed=647_2022-08-06_23-15-56/checkpoint_000030/",
+    "size": 0,
+    "offset": 2418022912,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00646_646_seed=647_2022-08-06_23-15-56/checkpoint_000030/checkpoints",
+    "size": 44773837,
+    "offset": 2418024448,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00646_646_seed=647_2022-08-06_23-15-56/checkpoint_000047/",
+    "size": 0,
+    "offset": 2462799872,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00646_646_seed=647_2022-08-06_23-15-56/checkpoint_000047/checkpoints",
+    "size": 44773837,
+    "offset": 2462801408,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00646_646_seed=647_2022-08-06_23-15-56/checkpoint_000011/",
+    "size": 0,
+    "offset": 2507576832,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00646_646_seed=647_2022-08-06_23-15-56/checkpoint_000011/checkpoints",
+    "size": 44773837,
+    "offset": 2507578368,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00646_646_seed=647_2022-08-06_23-15-56/checkpoint_000029/",
+    "size": 0,
+    "offset": 2552353792,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00646_646_seed=647_2022-08-06_23-15-56/checkpoint_000029/checkpoints",
+    "size": 44773837,
+    "offset": 2552355328,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00646_646_seed=647_2022-08-06_23-15-56/checkpoint_000023/",
+    "size": 0,
+    "offset": 2597130752,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00646_646_seed=647_2022-08-06_23-15-56/checkpoint_000023/checkpoints",
+    "size": 44773837,
+    "offset": 2597132288,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00646_646_seed=647_2022-08-06_23-15-56/checkpoint_000024/",
+    "size": 0,
+    "offset": 2641907712,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00646_646_seed=647_2022-08-06_23-15-56/checkpoint_000024/checkpoints",
+    "size": 44773837,
+    "offset": 2641909248,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00646_646_seed=647_2022-08-06_23-15-56/checkpoint_000016/",
+    "size": 0,
+    "offset": 2686684672,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00646_646_seed=647_2022-08-06_23-15-56/checkpoint_000016/checkpoints",
+    "size": 44773837,
+    "offset": 2686686208,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00646_646_seed=647_2022-08-06_23-15-56/checkpoint_000040/",
+    "size": 0,
+    "offset": 2731461632,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00646_646_seed=647_2022-08-06_23-15-56/checkpoint_000040/checkpoints",
+    "size": 44773837,
+    "offset": 2731463168,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00646_646_seed=647_2022-08-06_23-15-56/checkpoint_000037/",
+    "size": 0,
+    "offset": 2776238592,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00646_646_seed=647_2022-08-06_23-15-56/checkpoint_000037/checkpoints",
+    "size": 44773837,
+    "offset": 2776240128,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00646_646_seed=647_2022-08-06_23-15-56/checkpoint_000005/",
+    "size": 0,
+    "offset": 2821015552,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00646_646_seed=647_2022-08-06_23-15-56/checkpoint_000005/checkpoints",
+    "size": 44773837,
+    "offset": 2821017088,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00646_646_seed=647_2022-08-06_23-15-56/params.json",
+    "size": 990,
+    "offset": 2865792512,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00646_646_seed=647_2022-08-06_23-15-56/checkpoint_000001/",
+    "size": 0,
+    "offset": 2865795072,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00646_646_seed=647_2022-08-06_23-15-56/checkpoint_000001/checkpoints",
+    "size": 44773837,
+    "offset": 2865796608,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00646_646_seed=647_2022-08-06_23-15-56/params.pkl",
+    "size": 910,
+    "offset": 2910572032,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00646_646_seed=647_2022-08-06_23-15-56/checkpoint_000039/",
+    "size": 0,
+    "offset": 2910574592,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00646_646_seed=647_2022-08-06_23-15-56/checkpoint_000039/checkpoints",
+    "size": 44773837,
+    "offset": 2910576128,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00646_646_seed=647_2022-08-06_23-15-56/checkpoint_000044/",
+    "size": 0,
+    "offset": 2955351552,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00646_646_seed=647_2022-08-06_23-15-56/checkpoint_000044/checkpoints",
+    "size": 44773837,
+    "offset": 2955353088,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00646_646_seed=647_2022-08-06_23-15-56/checkpoint_000033/",
+    "size": 0,
+    "offset": 3000128512,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00646_646_seed=647_2022-08-06_23-15-56/checkpoint_000033/checkpoints",
+    "size": 44773837,
+    "offset": 3000130048,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00646_646_seed=647_2022-08-06_23-15-56/checkpoint_000012/",
+    "size": 0,
+    "offset": 3044905472,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00646_646_seed=647_2022-08-06_23-15-56/checkpoint_000012/checkpoints",
+    "size": 44773837,
+    "offset": 3044907008,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00646_646_seed=647_2022-08-06_23-15-56/checkpoint_000018/",
+    "size": 0,
+    "offset": 3089682432,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00646_646_seed=647_2022-08-06_23-15-56/checkpoint_000018/checkpoints",
+    "size": 44773837,
+    "offset": 3089683968,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00646_646_seed=647_2022-08-06_23-15-56/checkpoint_000020/",
+    "size": 0,
+    "offset": 3134459392,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00646_646_seed=647_2022-08-06_23-15-56/checkpoint_000020/checkpoints",
+    "size": 44773837,
+    "offset": 3134460928,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00646_646_seed=647_2022-08-06_23-15-56/checkpoint_000027/",
+    "size": 0,
+    "offset": 3179236352,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00646_646_seed=647_2022-08-06_23-15-56/checkpoint_000027/checkpoints",
+    "size": 44773837,
+    "offset": 3179237888,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00646_646_seed=647_2022-08-06_23-15-56/checkpoint_000050/",
+    "size": 0,
+    "offset": 3224013312,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00646_646_seed=647_2022-08-06_23-15-56/checkpoint_000050/optimizer",
+    "size": 44713643,
+    "offset": 3224014848,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00646_646_seed=647_2022-08-06_23-15-56/checkpoint_000050/checkpoints",
+    "size": 44773837,
+    "offset": 3268730368,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00646_646_seed=647_2022-08-06_23-15-56/checkpoint_000015/",
+    "size": 0,
+    "offset": 3313505792,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00646_646_seed=647_2022-08-06_23-15-56/checkpoint_000015/checkpoints",
+    "size": 44773837,
+    "offset": 3313507328,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00646_646_seed=647_2022-08-06_23-15-56/checkpoint_000049/",
+    "size": 0,
+    "offset": 3358282752,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00646_646_seed=647_2022-08-06_23-15-56/checkpoint_000049/checkpoints",
+    "size": 44773837,
+    "offset": 3358284288,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00646_646_seed=647_2022-08-06_23-15-56/checkpoint_000034/",
+    "size": 0,
+    "offset": 3403059712,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00646_646_seed=647_2022-08-06_23-15-56/checkpoint_000034/checkpoints",
+    "size": 44773837,
+    "offset": 3403061248,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00646_646_seed=647_2022-08-06_23-15-56/checkpoint_000043/",
+    "size": 0,
+    "offset": 3447836672,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00646_646_seed=647_2022-08-06_23-15-56/checkpoint_000043/checkpoints",
+    "size": 44773837,
+    "offset": 3447838208,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00646_646_seed=647_2022-08-06_23-15-56/checkpoint_000006/",
+    "size": 0,
+    "offset": 3492613632,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00646_646_seed=647_2022-08-06_23-15-56/checkpoint_000006/checkpoints",
+    "size": 44773837,
+    "offset": 3492615168,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00646_646_seed=647_2022-08-06_23-15-56/checkpoint_000036/",
+    "size": 0,
+    "offset": 3537390592,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00646_646_seed=647_2022-08-06_23-15-56/checkpoint_000036/checkpoints",
+    "size": 44773837,
+    "offset": 3537392128,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00646_646_seed=647_2022-08-06_23-15-56/checkpoint_000041/",
+    "size": 0,
+    "offset": 3582167552,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00646_646_seed=647_2022-08-06_23-15-56/checkpoint_000041/checkpoints",
+    "size": 44773837,
+    "offset": 3582169088,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00646_646_seed=647_2022-08-06_23-15-56/checkpoint_000004/",
+    "size": 0,
+    "offset": 3626944512,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00646_646_seed=647_2022-08-06_23-15-56/checkpoint_000004/checkpoints",
+    "size": 44773837,
+    "offset": 3626946048,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00646_646_seed=647_2022-08-06_23-15-56/checkpoint_000025/",
+    "size": 0,
+    "offset": 3671721472,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00646_646_seed=647_2022-08-06_23-15-56/checkpoint_000025/checkpoints",
+    "size": 44773837,
+    "offset": 3671723008,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00646_646_seed=647_2022-08-06_23-15-56/checkpoint_000017/",
+    "size": 0,
+    "offset": 3716498432,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00646_646_seed=647_2022-08-06_23-15-56/checkpoint_000017/checkpoints",
+    "size": 44773837,
+    "offset": 3716499968,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00646_646_seed=647_2022-08-06_23-15-56/result.json",
+    "size": 83467,
+    "offset": 3761275392,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00646_646_seed=647_2022-08-06_23-15-56/checkpoint_000010/",
+    "size": 0,
+    "offset": 3761360896,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00646_646_seed=647_2022-08-06_23-15-56/checkpoint_000010/checkpoints",
+    "size": 44773837,
+    "offset": 3761362432,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00646_646_seed=647_2022-08-06_23-15-56/checkpoint_000022/",
+    "size": 0,
+    "offset": 3806137856,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00646_646_seed=647_2022-08-06_23-15-56/checkpoint_000022/checkpoints",
+    "size": 44773837,
+    "offset": 3806139392,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00646_646_seed=647_2022-08-06_23-15-56/checkpoint_000028/",
+    "size": 0,
+    "offset": 3850914816,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00646_646_seed=647_2022-08-06_23-15-56/checkpoint_000028/checkpoints",
+    "size": 44773837,
+    "offset": 3850916352,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00646_646_seed=647_2022-08-06_23-15-56/checkpoint_000009/",
+    "size": 0,
+    "offset": 3895691776,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00646_646_seed=647_2022-08-06_23-15-56/checkpoint_000009/checkpoints",
+    "size": 44773837,
+    "offset": 3895693312,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00646_646_seed=647_2022-08-06_23-15-56/checkpoint_000003/",
+    "size": 0,
+    "offset": 3940468736,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00646_646_seed=647_2022-08-06_23-15-56/checkpoint_000003/checkpoints",
+    "size": 44773837,
+    "offset": 3940470272,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00646_646_seed=647_2022-08-06_23-15-56/checkpoint_000046/",
+    "size": 0,
+    "offset": 3985245696,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00646_646_seed=647_2022-08-06_23-15-56/checkpoint_000046/checkpoints",
+    "size": 44773837,
+    "offset": 3985247232,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00646_646_seed=647_2022-08-06_23-15-56/checkpoint_000031/",
+    "size": 0,
+    "offset": 4030022656,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00646_646_seed=647_2022-08-06_23-15-56/checkpoint_000031/checkpoints",
+    "size": 44773837,
+    "offset": 4030024192,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00646_646_seed=647_2022-08-06_23-15-56/checkpoint_000042/",
+    "size": 0,
+    "offset": 4074799616,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00646_646_seed=647_2022-08-06_23-15-56/checkpoint_000042/checkpoints",
+    "size": 44773837,
+    "offset": 4074801152,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00646_646_seed=647_2022-08-06_23-15-56/checkpoint_000035/",
+    "size": 0,
+    "offset": 4119576576,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00646_646_seed=647_2022-08-06_23-15-56/checkpoint_000035/checkpoints",
+    "size": 44773837,
+    "offset": 4119578112,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00646_646_seed=647_2022-08-06_23-15-56/checkpoint_000048/",
+    "size": 0,
+    "offset": 4164353536,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00646_646_seed=647_2022-08-06_23-15-56/checkpoint_000048/checkpoints",
+    "size": 44773837,
+    "offset": 4164355072,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00646_646_seed=647_2022-08-06_23-15-56/checkpoint_000007/",
+    "size": 0,
+    "offset": 4209130496,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00646_646_seed=647_2022-08-06_23-15-56/checkpoint_000007/checkpoints",
+    "size": 44773837,
+    "offset": 4209132032,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00646_646_seed=647_2022-08-06_23-15-56/checkpoint_000026/",
+    "size": 0,
+    "offset": 4253907456,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00646_646_seed=647_2022-08-06_23-15-56/checkpoint_000026/checkpoints",
+    "size": 44773837,
+    "offset": 4253908992,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00646_646_seed=647_2022-08-06_23-15-56/checkpoint_000014/",
+    "size": 0,
+    "offset": 4298684416,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00646_646_seed=647_2022-08-06_23-15-56/checkpoint_000014/checkpoints",
+    "size": 44773837,
+    "offset": 4298685952,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00646_646_seed=647_2022-08-06_23-15-56/checkpoint_000019/",
+    "size": 0,
+    "offset": 4343461376,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00646_646_seed=647_2022-08-06_23-15-56/checkpoint_000019/checkpoints",
+    "size": 44773837,
+    "offset": 4343462912,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00646_646_seed=647_2022-08-06_23-15-56/checkpoint_000013/",
+    "size": 0,
+    "offset": 4388238336,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00646_646_seed=647_2022-08-06_23-15-56/checkpoint_000013/checkpoints",
+    "size": 44773837,
+    "offset": 4388239872,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00646_646_seed=647_2022-08-06_23-15-56/checkpoint_000021/",
+    "size": 0,
+    "offset": 4433015296,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00646_646_seed=647_2022-08-06_23-15-56/checkpoint_000021/checkpoints",
+    "size": 44773837,
+    "offset": 4433016832,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00646_646_seed=647_2022-08-06_23-15-56/checkpoint_000000/",
+    "size": 0,
+    "offset": 4477792256,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00646_646_seed=647_2022-08-06_23-15-56/checkpoint_000000/checkpoints",
+    "size": 44773837,
+    "offset": 4477793792,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00646_646_seed=647_2022-08-06_23-15-56/checkpoint_000032/",
+    "size": 0,
+    "offset": 4522569216,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00646_646_seed=647_2022-08-06_23-15-56/checkpoint_000032/checkpoints",
+    "size": 44773837,
+    "offset": 4522570752,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00646_646_seed=647_2022-08-06_23-15-56/checkpoint_000045/",
+    "size": 0,
+    "offset": 4567346176,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00646_646_seed=647_2022-08-06_23-15-56/checkpoint_000045/checkpoints",
+    "size": 44773837,
+    "offset": 4567347712,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00646_646_seed=647_2022-08-06_23-15-56/checkpoint_000038/",
+    "size": 0,
+    "offset": 4612123136,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00646_646_seed=647_2022-08-06_23-15-56/checkpoint_000038/checkpoints",
+    "size": 44773837,
+    "offset": 4612124672,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00212_212_seed=213_2022-08-05_10-08-34/",
+    "size": 0,
+    "offset": 4656900096,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00212_212_seed=213_2022-08-05_10-08-34/checkpoint_000006/",
+    "size": 0,
+    "offset": 4656901632,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00212_212_seed=213_2022-08-05_10-08-34/checkpoint_000006/checkpoints",
+    "size": 44773837,
+    "offset": 4656903168,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00212_212_seed=213_2022-08-05_10-08-34/checkpoint_000049/",
+    "size": 0,
+    "offset": 4701678592,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00212_212_seed=213_2022-08-05_10-08-34/checkpoint_000049/checkpoints",
+    "size": 44773837,
+    "offset": 4701680128,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00212_212_seed=213_2022-08-05_10-08-34/checkpoint_000034/",
+    "size": 0,
+    "offset": 4746455552,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00212_212_seed=213_2022-08-05_10-08-34/checkpoint_000034/checkpoints",
+    "size": 44773837,
+    "offset": 4746457088,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00212_212_seed=213_2022-08-05_10-08-34/checkpoint_000043/",
+    "size": 0,
+    "offset": 4791232512,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00212_212_seed=213_2022-08-05_10-08-34/checkpoint_000043/checkpoints",
+    "size": 44773837,
+    "offset": 4791234048,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00212_212_seed=213_2022-08-05_10-08-34/checkpoint_000015/",
+    "size": 0,
+    "offset": 4836009472,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00212_212_seed=213_2022-08-05_10-08-34/checkpoint_000015/checkpoints",
+    "size": 44773837,
+    "offset": 4836011008,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00212_212_seed=213_2022-08-05_10-08-34/checkpoint_000027/",
+    "size": 0,
+    "offset": 4880786432,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00212_212_seed=213_2022-08-05_10-08-34/checkpoint_000027/checkpoints",
+    "size": 44773837,
+    "offset": 4880787968,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00212_212_seed=213_2022-08-05_10-08-34/checkpoint_000050/",
+    "size": 0,
+    "offset": 4925563392,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00212_212_seed=213_2022-08-05_10-08-34/checkpoint_000050/optimizer",
+    "size": 44713643,
+    "offset": 4925564928,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00212_212_seed=213_2022-08-05_10-08-34/checkpoint_000050/checkpoints",
+    "size": 44773837,
+    "offset": 4970280448,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00212_212_seed=213_2022-08-05_10-08-34/checkpoint_000020/",
+    "size": 0,
+    "offset": 5015055872,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00212_212_seed=213_2022-08-05_10-08-34/checkpoint_000020/checkpoints",
+    "size": 44773837,
+    "offset": 5015057408,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00212_212_seed=213_2022-08-05_10-08-34/checkpoint_000012/",
+    "size": 0,
+    "offset": 5059832832,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00212_212_seed=213_2022-08-05_10-08-34/checkpoint_000012/checkpoints",
+    "size": 44773837,
+    "offset": 5059834368,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00212_212_seed=213_2022-08-05_10-08-34/checkpoint_000018/",
+    "size": 0,
+    "offset": 5104609792,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00212_212_seed=213_2022-08-05_10-08-34/checkpoint_000018/checkpoints",
+    "size": 44773837,
+    "offset": 5104611328,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00212_212_seed=213_2022-08-05_10-08-34/checkpoint_000039/",
+    "size": 0,
+    "offset": 5149386752,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00212_212_seed=213_2022-08-05_10-08-34/checkpoint_000039/checkpoints",
+    "size": 44773837,
+    "offset": 5149388288,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00212_212_seed=213_2022-08-05_10-08-34/checkpoint_000044/",
+    "size": 0,
+    "offset": 5194163712,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00212_212_seed=213_2022-08-05_10-08-34/checkpoint_000044/checkpoints",
+    "size": 44773837,
+    "offset": 5194165248,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00212_212_seed=213_2022-08-05_10-08-34/checkpoint_000033/",
+    "size": 0,
+    "offset": 5238940672,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00212_212_seed=213_2022-08-05_10-08-34/checkpoint_000033/checkpoints",
+    "size": 44773837,
+    "offset": 5238942208,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00212_212_seed=213_2022-08-05_10-08-34/checkpoint_000001/",
+    "size": 0,
+    "offset": 5283717632,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00212_212_seed=213_2022-08-05_10-08-34/checkpoint_000001/checkpoints",
+    "size": 44773837,
+    "offset": 5283719168,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00212_212_seed=213_2022-08-05_10-08-34/checkpoint_000005/",
+    "size": 0,
+    "offset": 5328494592,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00212_212_seed=213_2022-08-05_10-08-34/checkpoint_000005/checkpoints",
+    "size": 44773837,
+    "offset": 5328496128,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00212_212_seed=213_2022-08-05_10-08-34/checkpoint_000040/",
+    "size": 0,
+    "offset": 5373271552,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00212_212_seed=213_2022-08-05_10-08-34/checkpoint_000040/checkpoints",
+    "size": 44773837,
+    "offset": 5373273088,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00212_212_seed=213_2022-08-05_10-08-34/checkpoint_000037/",
+    "size": 0,
+    "offset": 5418048512,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00212_212_seed=213_2022-08-05_10-08-34/checkpoint_000037/checkpoints",
+    "size": 44773837,
+    "offset": 5418050048,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00212_212_seed=213_2022-08-05_10-08-34/checkpoint_000016/",
+    "size": 0,
+    "offset": 5462825472,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00212_212_seed=213_2022-08-05_10-08-34/checkpoint_000016/checkpoints",
+    "size": 44773837,
+    "offset": 5462827008,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00212_212_seed=213_2022-08-05_10-08-34/checkpoint_000024/",
+    "size": 0,
+    "offset": 5507602432,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00212_212_seed=213_2022-08-05_10-08-34/checkpoint_000024/checkpoints",
+    "size": 44773837,
+    "offset": 5507603968,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00212_212_seed=213_2022-08-05_10-08-34/result.json",
+    "size": 83424,
+    "offset": 5552379392,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00212_212_seed=213_2022-08-05_10-08-34/checkpoint_000029/",
+    "size": 0,
+    "offset": 5552464384,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00212_212_seed=213_2022-08-05_10-08-34/checkpoint_000029/checkpoints",
+    "size": 44773837,
+    "offset": 5552465920,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00212_212_seed=213_2022-08-05_10-08-34/checkpoint_000023/",
+    "size": 0,
+    "offset": 5597241344,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00212_212_seed=213_2022-08-05_10-08-34/checkpoint_000023/checkpoints",
+    "size": 44773837,
+    "offset": 5597242880,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00212_212_seed=213_2022-08-05_10-08-34/checkpoint_000011/",
+    "size": 0,
+    "offset": 5642018304,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00212_212_seed=213_2022-08-05_10-08-34/checkpoint_000011/checkpoints",
+    "size": 44773837,
+    "offset": 5642019840,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00212_212_seed=213_2022-08-05_10-08-34/checkpoint_000030/",
+    "size": 0,
+    "offset": 5686795264,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00212_212_seed=213_2022-08-05_10-08-34/checkpoint_000030/checkpoints",
+    "size": 44773837,
+    "offset": 5686796800,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00212_212_seed=213_2022-08-05_10-08-34/checkpoint_000047/",
+    "size": 0,
+    "offset": 5731572224,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00212_212_seed=213_2022-08-05_10-08-34/checkpoint_000047/checkpoints",
+    "size": 44773837,
+    "offset": 5731573760,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00212_212_seed=213_2022-08-05_10-08-34/checkpoint_000002/",
+    "size": 0,
+    "offset": 5776349184,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00212_212_seed=213_2022-08-05_10-08-34/checkpoint_000002/checkpoints",
+    "size": 44773837,
+    "offset": 5776350720,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00212_212_seed=213_2022-08-05_10-08-34/checkpoint_000008/",
+    "size": 0,
+    "offset": 5821126144,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00212_212_seed=213_2022-08-05_10-08-34/checkpoint_000008/checkpoints",
+    "size": 44773837,
+    "offset": 5821127680,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00212_212_seed=213_2022-08-05_10-08-34/checkpoint_000032/",
+    "size": 0,
+    "offset": 5865903104,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00212_212_seed=213_2022-08-05_10-08-34/checkpoint_000032/checkpoints",
+    "size": 44773837,
+    "offset": 5865904640,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00212_212_seed=213_2022-08-05_10-08-34/checkpoint_000045/",
+    "size": 0,
+    "offset": 5910680064,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00212_212_seed=213_2022-08-05_10-08-34/checkpoint_000045/checkpoints",
+    "size": 44773837,
+    "offset": 5910681600,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00212_212_seed=213_2022-08-05_10-08-34/checkpoint_000038/",
+    "size": 0,
+    "offset": 5955457024,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00212_212_seed=213_2022-08-05_10-08-34/checkpoint_000038/checkpoints",
+    "size": 44773837,
+    "offset": 5955458560,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00212_212_seed=213_2022-08-05_10-08-34/checkpoint_000000/",
+    "size": 0,
+    "offset": 6000233984,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00212_212_seed=213_2022-08-05_10-08-34/checkpoint_000000/checkpoints",
+    "size": 44773837,
+    "offset": 6000235520,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00212_212_seed=213_2022-08-05_10-08-34/checkpoint_000021/",
+    "size": 0,
+    "offset": 6045010944,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00212_212_seed=213_2022-08-05_10-08-34/checkpoint_000021/checkpoints",
+    "size": 44773837,
+    "offset": 6045012480,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00212_212_seed=213_2022-08-05_10-08-34/checkpoint_000019/",
+    "size": 0,
+    "offset": 6089787904,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00212_212_seed=213_2022-08-05_10-08-34/checkpoint_000019/checkpoints",
+    "size": 44773837,
+    "offset": 6089789440,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00212_212_seed=213_2022-08-05_10-08-34/checkpoint_000013/",
+    "size": 0,
+    "offset": 6134564864,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00212_212_seed=213_2022-08-05_10-08-34/checkpoint_000013/checkpoints",
+    "size": 44773837,
+    "offset": 6134566400,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00212_212_seed=213_2022-08-05_10-08-34/checkpoint_000014/",
+    "size": 0,
+    "offset": 6179341824,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00212_212_seed=213_2022-08-05_10-08-34/checkpoint_000014/checkpoints",
+    "size": 44773837,
+    "offset": 6179343360,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00212_212_seed=213_2022-08-05_10-08-34/checkpoint_000026/",
+    "size": 0,
+    "offset": 6224118784,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00212_212_seed=213_2022-08-05_10-08-34/checkpoint_000026/checkpoints",
+    "size": 44773837,
+    "offset": 6224120320,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00212_212_seed=213_2022-08-05_10-08-34/checkpoint_000007/",
+    "size": 0,
+    "offset": 6268895744,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00212_212_seed=213_2022-08-05_10-08-34/checkpoint_000007/checkpoints",
+    "size": 44773837,
+    "offset": 6268897280,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00212_212_seed=213_2022-08-05_10-08-34/checkpoint_000042/",
+    "size": 0,
+    "offset": 6313672704,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00212_212_seed=213_2022-08-05_10-08-34/checkpoint_000042/checkpoints",
+    "size": 44773837,
+    "offset": 6313674240,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00212_212_seed=213_2022-08-05_10-08-34/checkpoint_000035/",
+    "size": 0,
+    "offset": 6358449664,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00212_212_seed=213_2022-08-05_10-08-34/checkpoint_000035/checkpoints",
+    "size": 44773837,
+    "offset": 6358451200,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00212_212_seed=213_2022-08-05_10-08-34/params.json",
+    "size": 990,
+    "offset": 6403226624,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00212_212_seed=213_2022-08-05_10-08-34/checkpoint_000048/",
+    "size": 0,
+    "offset": 6403229184,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00212_212_seed=213_2022-08-05_10-08-34/checkpoint_000048/checkpoints",
+    "size": 44773837,
+    "offset": 6403230720,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00212_212_seed=213_2022-08-05_10-08-34/checkpoint_000046/",
+    "size": 0,
+    "offset": 6448006144,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00212_212_seed=213_2022-08-05_10-08-34/checkpoint_000046/checkpoints",
+    "size": 44773837,
+    "offset": 6448007680,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00212_212_seed=213_2022-08-05_10-08-34/checkpoint_000031/",
+    "size": 0,
+    "offset": 6492783104,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00212_212_seed=213_2022-08-05_10-08-34/checkpoint_000031/checkpoints",
+    "size": 44773837,
+    "offset": 6492784640,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00212_212_seed=213_2022-08-05_10-08-34/checkpoint_000009/",
+    "size": 0,
+    "offset": 6537560064,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00212_212_seed=213_2022-08-05_10-08-34/checkpoint_000009/checkpoints",
+    "size": 44773837,
+    "offset": 6537561600,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00212_212_seed=213_2022-08-05_10-08-34/checkpoint_000003/",
+    "size": 0,
+    "offset": 6582337024,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00212_212_seed=213_2022-08-05_10-08-34/checkpoint_000003/checkpoints",
+    "size": 44773837,
+    "offset": 6582338560,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00212_212_seed=213_2022-08-05_10-08-34/checkpoint_000022/",
+    "size": 0,
+    "offset": 6627113984,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00212_212_seed=213_2022-08-05_10-08-34/checkpoint_000022/checkpoints",
+    "size": 44773837,
+    "offset": 6627115520,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00212_212_seed=213_2022-08-05_10-08-34/checkpoint_000028/",
+    "size": 0,
+    "offset": 6671890944,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00212_212_seed=213_2022-08-05_10-08-34/checkpoint_000028/checkpoints",
+    "size": 44773837,
+    "offset": 6671892480,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00212_212_seed=213_2022-08-05_10-08-34/params.pkl",
+    "size": 909,
+    "offset": 6716667904,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00212_212_seed=213_2022-08-05_10-08-34/checkpoint_000010/",
+    "size": 0,
+    "offset": 6716670464,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00212_212_seed=213_2022-08-05_10-08-34/checkpoint_000010/checkpoints",
+    "size": 44773837,
+    "offset": 6716672000,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00212_212_seed=213_2022-08-05_10-08-34/checkpoint_000017/",
+    "size": 0,
+    "offset": 6761447424,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00212_212_seed=213_2022-08-05_10-08-34/checkpoint_000017/checkpoints",
+    "size": 44773837,
+    "offset": 6761448960,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00212_212_seed=213_2022-08-05_10-08-34/checkpoint_000025/",
+    "size": 0,
+    "offset": 6806224384,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00212_212_seed=213_2022-08-05_10-08-34/checkpoint_000025/checkpoints",
+    "size": 44773837,
+    "offset": 6806225920,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00212_212_seed=213_2022-08-05_10-08-34/checkpoint_000004/",
+    "size": 0,
+    "offset": 6851001344,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00212_212_seed=213_2022-08-05_10-08-34/checkpoint_000004/checkpoints",
+    "size": 44773837,
+    "offset": 6851002880,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00212_212_seed=213_2022-08-05_10-08-34/progress.csv",
+    "size": 14448,
+    "offset": 6895778304,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00212_212_seed=213_2022-08-05_10-08-34/checkpoint_000036/",
+    "size": 0,
+    "offset": 6895794688,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00212_212_seed=213_2022-08-05_10-08-34/checkpoint_000036/checkpoints",
+    "size": 44773837,
+    "offset": 6895796224,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00212_212_seed=213_2022-08-05_10-08-34/checkpoint_000041/",
+    "size": 0,
+    "offset": 6940571648,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00212_212_seed=213_2022-08-05_10-08-34/checkpoint_000041/checkpoints",
+    "size": 44773837,
+    "offset": 6940573184,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00618_618_seed=619_2022-08-06_20-57-32/",
+    "size": 0,
+    "offset": 6985348608,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00618_618_seed=619_2022-08-06_20-57-32/checkpoint_000029/",
+    "size": 0,
+    "offset": 6985350144,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00618_618_seed=619_2022-08-06_20-57-32/checkpoint_000029/checkpoints",
+    "size": 44773837,
+    "offset": 6985351680,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00618_618_seed=619_2022-08-06_20-57-32/checkpoint_000023/",
+    "size": 0,
+    "offset": 7030127104,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00618_618_seed=619_2022-08-06_20-57-32/checkpoint_000023/checkpoints",
+    "size": 44773837,
+    "offset": 7030128640,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00618_618_seed=619_2022-08-06_20-57-32/checkpoint_000011/",
+    "size": 0,
+    "offset": 7074904064,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00618_618_seed=619_2022-08-06_20-57-32/checkpoint_000011/checkpoints",
+    "size": 44773837,
+    "offset": 7074905600,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00618_618_seed=619_2022-08-06_20-57-32/checkpoint_000030/",
+    "size": 0,
+    "offset": 7119681024,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00618_618_seed=619_2022-08-06_20-57-32/checkpoint_000030/checkpoints",
+    "size": 44773837,
+    "offset": 7119682560,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00618_618_seed=619_2022-08-06_20-57-32/checkpoint_000047/",
+    "size": 0,
+    "offset": 7164457984,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00618_618_seed=619_2022-08-06_20-57-32/checkpoint_000047/checkpoints",
+    "size": 44773837,
+    "offset": 7164459520,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00618_618_seed=619_2022-08-06_20-57-32/checkpoint_000002/",
+    "size": 0,
+    "offset": 7209234944,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00618_618_seed=619_2022-08-06_20-57-32/checkpoint_000002/checkpoints",
+    "size": 44773837,
+    "offset": 7209236480,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00618_618_seed=619_2022-08-06_20-57-32/checkpoint_000008/",
+    "size": 0,
+    "offset": 7254011904,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00618_618_seed=619_2022-08-06_20-57-32/checkpoint_000008/checkpoints",
+    "size": 44773837,
+    "offset": 7254013440,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00618_618_seed=619_2022-08-06_20-57-32/checkpoint_000005/",
+    "size": 0,
+    "offset": 7298788864,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00618_618_seed=619_2022-08-06_20-57-32/checkpoint_000005/checkpoints",
+    "size": 44773837,
+    "offset": 7298790400,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00618_618_seed=619_2022-08-06_20-57-32/checkpoint_000040/",
+    "size": 0,
+    "offset": 7343565824,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00618_618_seed=619_2022-08-06_20-57-32/checkpoint_000040/checkpoints",
+    "size": 44773837,
+    "offset": 7343567360,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00618_618_seed=619_2022-08-06_20-57-32/checkpoint_000037/",
+    "size": 0,
+    "offset": 7388342784,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00618_618_seed=619_2022-08-06_20-57-32/checkpoint_000037/checkpoints",
+    "size": 44773837,
+    "offset": 7388344320,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00618_618_seed=619_2022-08-06_20-57-32/checkpoint_000016/",
+    "size": 0,
+    "offset": 7433119744,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00618_618_seed=619_2022-08-06_20-57-32/checkpoint_000016/checkpoints",
+    "size": 44773837,
+    "offset": 7433121280,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00618_618_seed=619_2022-08-06_20-57-32/params.pkl",
+    "size": 910,
+    "offset": 7477896704,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00618_618_seed=619_2022-08-06_20-57-32/result.json",
+    "size": 83464,
+    "offset": 7477899264,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00618_618_seed=619_2022-08-06_20-57-32/checkpoint_000024/",
+    "size": 0,
+    "offset": 7477984768,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00618_618_seed=619_2022-08-06_20-57-32/checkpoint_000024/checkpoints",
+    "size": 44773837,
+    "offset": 7477986304,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00618_618_seed=619_2022-08-06_20-57-32/checkpoint_000020/",
+    "size": 0,
+    "offset": 7522761728,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00618_618_seed=619_2022-08-06_20-57-32/checkpoint_000020/checkpoints",
+    "size": 44773837,
+    "offset": 7522763264,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00618_618_seed=619_2022-08-06_20-57-32/checkpoint_000012/",
+    "size": 0,
+    "offset": 7567538688,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00618_618_seed=619_2022-08-06_20-57-32/checkpoint_000012/checkpoints",
+    "size": 44773837,
+    "offset": 7567540224,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00618_618_seed=619_2022-08-06_20-57-32/checkpoint_000018/",
+    "size": 0,
+    "offset": 7612315648,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00618_618_seed=619_2022-08-06_20-57-32/checkpoint_000018/checkpoints",
+    "size": 44773837,
+    "offset": 7612317184,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00618_618_seed=619_2022-08-06_20-57-32/checkpoint_000039/",
+    "size": 0,
+    "offset": 7657092608,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00618_618_seed=619_2022-08-06_20-57-32/checkpoint_000039/checkpoints",
+    "size": 44773837,
+    "offset": 7657094144,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00618_618_seed=619_2022-08-06_20-57-32/checkpoint_000044/",
+    "size": 0,
+    "offset": 7701869568,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00618_618_seed=619_2022-08-06_20-57-32/checkpoint_000044/checkpoints",
+    "size": 44773837,
+    "offset": 7701871104,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00618_618_seed=619_2022-08-06_20-57-32/checkpoint_000033/",
+    "size": 0,
+    "offset": 7746646528,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00618_618_seed=619_2022-08-06_20-57-32/checkpoint_000033/checkpoints",
+    "size": 44773837,
+    "offset": 7746648064,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00618_618_seed=619_2022-08-06_20-57-32/checkpoint_000001/",
+    "size": 0,
+    "offset": 7791423488,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00618_618_seed=619_2022-08-06_20-57-32/checkpoint_000001/checkpoints",
+    "size": 44773837,
+    "offset": 7791425024,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00618_618_seed=619_2022-08-06_20-57-32/checkpoint_000006/",
+    "size": 0,
+    "offset": 7836200448,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00618_618_seed=619_2022-08-06_20-57-32/checkpoint_000006/checkpoints",
+    "size": 44773837,
+    "offset": 7836201984,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00618_618_seed=619_2022-08-06_20-57-32/checkpoint_000049/",
+    "size": 0,
+    "offset": 7880977408,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00618_618_seed=619_2022-08-06_20-57-32/checkpoint_000049/checkpoints",
+    "size": 44773837,
+    "offset": 7880978944,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00618_618_seed=619_2022-08-06_20-57-32/checkpoint_000034/",
+    "size": 0,
+    "offset": 7925754368,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00618_618_seed=619_2022-08-06_20-57-32/checkpoint_000034/checkpoints",
+    "size": 44773837,
+    "offset": 7925755904,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00618_618_seed=619_2022-08-06_20-57-32/checkpoint_000043/",
+    "size": 0,
+    "offset": 7970531328,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00618_618_seed=619_2022-08-06_20-57-32/checkpoint_000043/checkpoints",
+    "size": 44773837,
+    "offset": 7970532864,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00618_618_seed=619_2022-08-06_20-57-32/checkpoint_000015/",
+    "size": 0,
+    "offset": 8015308288,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00618_618_seed=619_2022-08-06_20-57-32/checkpoint_000015/checkpoints",
+    "size": 44773837,
+    "offset": 8015309824,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00618_618_seed=619_2022-08-06_20-57-32/progress.csv",
+    "size": 14488,
+    "offset": 8060085248,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00618_618_seed=619_2022-08-06_20-57-32/checkpoint_000027/",
+    "size": 0,
+    "offset": 8060101632,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00618_618_seed=619_2022-08-06_20-57-32/checkpoint_000027/checkpoints",
+    "size": 44773837,
+    "offset": 8060103168,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00618_618_seed=619_2022-08-06_20-57-32/checkpoint_000050/",
+    "size": 0,
+    "offset": 8104878592,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00618_618_seed=619_2022-08-06_20-57-32/checkpoint_000050/checkpoints",
+    "size": 44773837,
+    "offset": 8104880128,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00618_618_seed=619_2022-08-06_20-57-32/checkpoint_000050/optimizer",
+    "size": 44713643,
+    "offset": 8149655552,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00618_618_seed=619_2022-08-06_20-57-32/checkpoint_000017/",
+    "size": 0,
+    "offset": 8194371072,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00618_618_seed=619_2022-08-06_20-57-32/checkpoint_000017/checkpoints",
+    "size": 44773837,
+    "offset": 8194372608,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00618_618_seed=619_2022-08-06_20-57-32/checkpoint_000025/",
+    "size": 0,
+    "offset": 8239148032,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00618_618_seed=619_2022-08-06_20-57-32/checkpoint_000025/checkpoints",
+    "size": 44773837,
+    "offset": 8239149568,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00618_618_seed=619_2022-08-06_20-57-32/checkpoint_000004/",
+    "size": 0,
+    "offset": 8283924992,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00618_618_seed=619_2022-08-06_20-57-32/checkpoint_000004/checkpoints",
+    "size": 44773837,
+    "offset": 8283926528,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00618_618_seed=619_2022-08-06_20-57-32/checkpoint_000036/",
+    "size": 0,
+    "offset": 8328701952,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00618_618_seed=619_2022-08-06_20-57-32/checkpoint_000036/checkpoints",
+    "size": 44773837,
+    "offset": 8328703488,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00618_618_seed=619_2022-08-06_20-57-32/checkpoint_000041/",
+    "size": 0,
+    "offset": 8373478912,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00618_618_seed=619_2022-08-06_20-57-32/checkpoint_000041/checkpoints",
+    "size": 44773837,
+    "offset": 8373480448,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00618_618_seed=619_2022-08-06_20-57-32/checkpoint_000046/",
+    "size": 0,
+    "offset": 8418255872,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00618_618_seed=619_2022-08-06_20-57-32/checkpoint_000046/checkpoints",
+    "size": 44773837,
+    "offset": 8418257408,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00618_618_seed=619_2022-08-06_20-57-32/checkpoint_000031/",
+    "size": 0,
+    "offset": 8463032832,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00618_618_seed=619_2022-08-06_20-57-32/checkpoint_000031/checkpoints",
+    "size": 44773837,
+    "offset": 8463034368,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00618_618_seed=619_2022-08-06_20-57-32/checkpoint_000009/",
+    "size": 0,
+    "offset": 8507809792,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00618_618_seed=619_2022-08-06_20-57-32/checkpoint_000009/checkpoints",
+    "size": 44773837,
+    "offset": 8507811328,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00618_618_seed=619_2022-08-06_20-57-32/checkpoint_000003/",
+    "size": 0,
+    "offset": 8552586752,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00618_618_seed=619_2022-08-06_20-57-32/checkpoint_000003/checkpoints",
+    "size": 44773837,
+    "offset": 8552588288,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00618_618_seed=619_2022-08-06_20-57-32/checkpoint_000022/",
+    "size": 0,
+    "offset": 8597363712,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00618_618_seed=619_2022-08-06_20-57-32/checkpoint_000022/checkpoints",
+    "size": 44773837,
+    "offset": 8597365248,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00618_618_seed=619_2022-08-06_20-57-32/checkpoint_000028/",
+    "size": 0,
+    "offset": 8642140672,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00618_618_seed=619_2022-08-06_20-57-32/checkpoint_000028/checkpoints",
+    "size": 44773837,
+    "offset": 8642142208,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00618_618_seed=619_2022-08-06_20-57-32/checkpoint_000010/",
+    "size": 0,
+    "offset": 8686917632,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00618_618_seed=619_2022-08-06_20-57-32/checkpoint_000010/checkpoints",
+    "size": 44773837,
+    "offset": 8686919168,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00618_618_seed=619_2022-08-06_20-57-32/checkpoint_000014/",
+    "size": 0,
+    "offset": 8731694592,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00618_618_seed=619_2022-08-06_20-57-32/checkpoint_000014/checkpoints",
+    "size": 44773837,
+    "offset": 8731696128,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00618_618_seed=619_2022-08-06_20-57-32/checkpoint_000026/",
+    "size": 0,
+    "offset": 8776471552,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00618_618_seed=619_2022-08-06_20-57-32/checkpoint_000026/checkpoints",
+    "size": 44773837,
+    "offset": 8776473088,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00618_618_seed=619_2022-08-06_20-57-32/checkpoint_000007/",
+    "size": 0,
+    "offset": 8821248512,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00618_618_seed=619_2022-08-06_20-57-32/checkpoint_000007/checkpoints",
+    "size": 44773837,
+    "offset": 8821250048,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00618_618_seed=619_2022-08-06_20-57-32/checkpoint_000042/",
+    "size": 0,
+    "offset": 8866025472,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00618_618_seed=619_2022-08-06_20-57-32/checkpoint_000042/checkpoints",
+    "size": 44773837,
+    "offset": 8866027008,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00618_618_seed=619_2022-08-06_20-57-32/checkpoint_000035/",
+    "size": 0,
+    "offset": 8910802432,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00618_618_seed=619_2022-08-06_20-57-32/checkpoint_000035/checkpoints",
+    "size": 44773837,
+    "offset": 8910803968,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00618_618_seed=619_2022-08-06_20-57-32/checkpoint_000048/",
+    "size": 0,
+    "offset": 8955579392,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00618_618_seed=619_2022-08-06_20-57-32/checkpoint_000048/checkpoints",
+    "size": 44773837,
+    "offset": 8955580928,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00618_618_seed=619_2022-08-06_20-57-32/checkpoint_000032/",
+    "size": 0,
+    "offset": 9000356352,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00618_618_seed=619_2022-08-06_20-57-32/checkpoint_000032/checkpoints",
+    "size": 44773837,
+    "offset": 9000357888,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00618_618_seed=619_2022-08-06_20-57-32/checkpoint_000045/",
+    "size": 0,
+    "offset": 9045133312,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00618_618_seed=619_2022-08-06_20-57-32/checkpoint_000045/checkpoints",
+    "size": 44773837,
+    "offset": 9045134848,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00618_618_seed=619_2022-08-06_20-57-32/checkpoint_000038/",
+    "size": 0,
+    "offset": 9089910272,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00618_618_seed=619_2022-08-06_20-57-32/checkpoint_000038/checkpoints",
+    "size": 44773837,
+    "offset": 9089911808,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00618_618_seed=619_2022-08-06_20-57-32/checkpoint_000000/",
+    "size": 0,
+    "offset": 9134687232,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00618_618_seed=619_2022-08-06_20-57-32/checkpoint_000000/checkpoints",
+    "size": 44773837,
+    "offset": 9134688768,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00618_618_seed=619_2022-08-06_20-57-32/params.json",
+    "size": 990,
+    "offset": 9179464192,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00618_618_seed=619_2022-08-06_20-57-32/checkpoint_000021/",
+    "size": 0,
+    "offset": 9179466752,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00618_618_seed=619_2022-08-06_20-57-32/checkpoint_000021/checkpoints",
+    "size": 44773837,
+    "offset": 9179468288,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00618_618_seed=619_2022-08-06_20-57-32/checkpoint_000019/",
+    "size": 0,
+    "offset": 9224243712,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00618_618_seed=619_2022-08-06_20-57-32/checkpoint_000019/checkpoints",
+    "size": 44773837,
+    "offset": 9224245248,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00618_618_seed=619_2022-08-06_20-57-32/checkpoint_000013/",
+    "size": 0,
+    "offset": 9269020672,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00618_618_seed=619_2022-08-06_20-57-32/checkpoint_000013/checkpoints",
+    "size": 44773837,
+    "offset": 9269022208,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00718_718_seed=719_2022-08-07_05-06-54/",
+    "size": 0,
+    "offset": 9313797632,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00718_718_seed=719_2022-08-07_05-06-54/checkpoint_000004/",
+    "size": 0,
+    "offset": 9313799168,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00718_718_seed=719_2022-08-07_05-06-54/checkpoint_000004/checkpoints",
+    "size": 44773837,
+    "offset": 9313800704,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00718_718_seed=719_2022-08-07_05-06-54/checkpoint_000036/",
+    "size": 0,
+    "offset": 9358576128,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00718_718_seed=719_2022-08-07_05-06-54/checkpoint_000036/checkpoints",
+    "size": 44773837,
+    "offset": 9358577664,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00718_718_seed=719_2022-08-07_05-06-54/checkpoint_000041/",
+    "size": 0,
+    "offset": 9403353088,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00718_718_seed=719_2022-08-07_05-06-54/checkpoint_000041/checkpoints",
+    "size": 44773837,
+    "offset": 9403354624,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00718_718_seed=719_2022-08-07_05-06-54/params.pkl",
+    "size": 910,
+    "offset": 9448130048,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00718_718_seed=719_2022-08-07_05-06-54/checkpoint_000017/",
+    "size": 0,
+    "offset": 9448132608,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00718_718_seed=719_2022-08-07_05-06-54/checkpoint_000017/checkpoints",
+    "size": 44773837,
+    "offset": 9448134144,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00718_718_seed=719_2022-08-07_05-06-54/checkpoint_000025/",
+    "size": 0,
+    "offset": 9492909568,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00718_718_seed=719_2022-08-07_05-06-54/checkpoint_000025/checkpoints",
+    "size": 44773837,
+    "offset": 9492911104,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00718_718_seed=719_2022-08-07_05-06-54/checkpoint_000028/",
+    "size": 0,
+    "offset": 9537686528,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00718_718_seed=719_2022-08-07_05-06-54/checkpoint_000028/checkpoints",
+    "size": 44773837,
+    "offset": 9537688064,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00718_718_seed=719_2022-08-07_05-06-54/checkpoint_000022/",
+    "size": 0,
+    "offset": 9582463488,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00718_718_seed=719_2022-08-07_05-06-54/checkpoint_000022/checkpoints",
+    "size": 44773837,
+    "offset": 9582465024,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00718_718_seed=719_2022-08-07_05-06-54/progress.csv",
+    "size": 14375,
+    "offset": 9627240448,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00718_718_seed=719_2022-08-07_05-06-54/checkpoint_000010/",
+    "size": 0,
+    "offset": 9627256832,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00718_718_seed=719_2022-08-07_05-06-54/checkpoint_000010/checkpoints",
+    "size": 44773837,
+    "offset": 9627258368,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00718_718_seed=719_2022-08-07_05-06-54/checkpoint_000046/",
+    "size": 0,
+    "offset": 9672033792,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00718_718_seed=719_2022-08-07_05-06-54/checkpoint_000046/checkpoints",
+    "size": 44773837,
+    "offset": 9672035328,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00718_718_seed=719_2022-08-07_05-06-54/checkpoint_000031/",
+    "size": 0,
+    "offset": 9716810752,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00718_718_seed=719_2022-08-07_05-06-54/checkpoint_000031/checkpoints",
+    "size": 44773837,
+    "offset": 9716812288,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00718_718_seed=719_2022-08-07_05-06-54/checkpoint_000003/",
+    "size": 0,
+    "offset": 9761587712,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00718_718_seed=719_2022-08-07_05-06-54/checkpoint_000003/checkpoints",
+    "size": 44773837,
+    "offset": 9761589248,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00718_718_seed=719_2022-08-07_05-06-54/checkpoint_000009/",
+    "size": 0,
+    "offset": 9806364672,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00718_718_seed=719_2022-08-07_05-06-54/checkpoint_000009/checkpoints",
+    "size": 44773837,
+    "offset": 9806366208,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00718_718_seed=719_2022-08-07_05-06-54/checkpoint_000007/",
+    "size": 0,
+    "offset": 9851141632,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00718_718_seed=719_2022-08-07_05-06-54/checkpoint_000007/checkpoints",
+    "size": 44773837,
+    "offset": 9851143168,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00718_718_seed=719_2022-08-07_05-06-54/checkpoint_000048/",
+    "size": 0,
+    "offset": 9895918592,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00718_718_seed=719_2022-08-07_05-06-54/checkpoint_000048/checkpoints",
+    "size": 44773837,
+    "offset": 9895920128,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00718_718_seed=719_2022-08-07_05-06-54/checkpoint_000042/",
+    "size": 0,
+    "offset": 9940695552,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00718_718_seed=719_2022-08-07_05-06-54/checkpoint_000042/checkpoints",
+    "size": 44773837,
+    "offset": 9940697088,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00718_718_seed=719_2022-08-07_05-06-54/checkpoint_000035/",
+    "size": 0,
+    "offset": 9985472512,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00718_718_seed=719_2022-08-07_05-06-54/checkpoint_000035/checkpoints",
+    "size": 44773837,
+    "offset": 9985474048,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00718_718_seed=719_2022-08-07_05-06-54/checkpoint_000014/",
+    "size": 0,
+    "offset": 10030249472,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00718_718_seed=719_2022-08-07_05-06-54/checkpoint_000014/checkpoints",
+    "size": 44773837,
+    "offset": 10030251008,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00718_718_seed=719_2022-08-07_05-06-54/checkpoint_000026/",
+    "size": 0,
+    "offset": 10075026432,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00718_718_seed=719_2022-08-07_05-06-54/checkpoint_000026/checkpoints",
+    "size": 44773837,
+    "offset": 10075027968,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00718_718_seed=719_2022-08-07_05-06-54/checkpoint_000021/",
+    "size": 0,
+    "offset": 10119803392,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00718_718_seed=719_2022-08-07_05-06-54/checkpoint_000021/checkpoints",
+    "size": 44773837,
+    "offset": 10119804928,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00718_718_seed=719_2022-08-07_05-06-54/result.json",
+    "size": 83351,
+    "offset": 10164580352,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00718_718_seed=719_2022-08-07_05-06-54/checkpoint_000013/",
+    "size": 0,
+    "offset": 10164665344,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00718_718_seed=719_2022-08-07_05-06-54/checkpoint_000013/checkpoints",
+    "size": 44773837,
+    "offset": 10164666880,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00718_718_seed=719_2022-08-07_05-06-54/checkpoint_000019/",
+    "size": 0,
+    "offset": 10209442304,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00718_718_seed=719_2022-08-07_05-06-54/checkpoint_000019/checkpoints",
+    "size": 44773837,
+    "offset": 10209443840,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00718_718_seed=719_2022-08-07_05-06-54/checkpoint_000038/",
+    "size": 0,
+    "offset": 10254219264,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00718_718_seed=719_2022-08-07_05-06-54/checkpoint_000038/checkpoints",
+    "size": 44773837,
+    "offset": 10254220800,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00718_718_seed=719_2022-08-07_05-06-54/checkpoint_000032/",
+    "size": 0,
+    "offset": 10298996224,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00718_718_seed=719_2022-08-07_05-06-54/checkpoint_000032/checkpoints",
+    "size": 44773837,
+    "offset": 10298997760,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00718_718_seed=719_2022-08-07_05-06-54/checkpoint_000045/",
+    "size": 0,
+    "offset": 10343773184,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00718_718_seed=719_2022-08-07_05-06-54/checkpoint_000045/checkpoints",
+    "size": 44773837,
+    "offset": 10343774720,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00718_718_seed=719_2022-08-07_05-06-54/checkpoint_000000/",
+    "size": 0,
+    "offset": 10388550144,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00718_718_seed=719_2022-08-07_05-06-54/checkpoint_000000/checkpoints",
+    "size": 44773837,
+    "offset": 10388551680,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00718_718_seed=719_2022-08-07_05-06-54/checkpoint_000030/",
+    "size": 0,
+    "offset": 10433327104,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00718_718_seed=719_2022-08-07_05-06-54/checkpoint_000030/checkpoints",
+    "size": 44773837,
+    "offset": 10433328640,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00718_718_seed=719_2022-08-07_05-06-54/checkpoint_000047/",
+    "size": 0,
+    "offset": 10478104064,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00718_718_seed=719_2022-08-07_05-06-54/checkpoint_000047/checkpoints",
+    "size": 44773837,
+    "offset": 10478105600,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00718_718_seed=719_2022-08-07_05-06-54/checkpoint_000008/",
+    "size": 0,
+    "offset": 10522881024,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00718_718_seed=719_2022-08-07_05-06-54/checkpoint_000008/checkpoints",
+    "size": 44773837,
+    "offset": 10522882560,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00718_718_seed=719_2022-08-07_05-06-54/checkpoint_000002/",
+    "size": 0,
+    "offset": 10567657984,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00718_718_seed=719_2022-08-07_05-06-54/checkpoint_000002/checkpoints",
+    "size": 44773837,
+    "offset": 10567659520,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00718_718_seed=719_2022-08-07_05-06-54/checkpoint_000023/",
+    "size": 0,
+    "offset": 10612434944,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00718_718_seed=719_2022-08-07_05-06-54/checkpoint_000023/checkpoints",
+    "size": 44773837,
+    "offset": 10612436480,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00718_718_seed=719_2022-08-07_05-06-54/checkpoint_000029/",
+    "size": 0,
+    "offset": 10657211904,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00718_718_seed=719_2022-08-07_05-06-54/checkpoint_000029/checkpoints",
+    "size": 44773837,
+    "offset": 10657213440,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00718_718_seed=719_2022-08-07_05-06-54/checkpoint_000011/",
+    "size": 0,
+    "offset": 10701988864,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00718_718_seed=719_2022-08-07_05-06-54/checkpoint_000011/checkpoints",
+    "size": 44773837,
+    "offset": 10701990400,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00718_718_seed=719_2022-08-07_05-06-54/checkpoint_000016/",
+    "size": 0,
+    "offset": 10746765824,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00718_718_seed=719_2022-08-07_05-06-54/checkpoint_000016/checkpoints",
+    "size": 44773837,
+    "offset": 10746767360,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00718_718_seed=719_2022-08-07_05-06-54/checkpoint_000024/",
+    "size": 0,
+    "offset": 10791542784,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00718_718_seed=719_2022-08-07_05-06-54/checkpoint_000024/checkpoints",
+    "size": 44773837,
+    "offset": 10791544320,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00718_718_seed=719_2022-08-07_05-06-54/checkpoint_000005/",
+    "size": 0,
+    "offset": 10836319744,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00718_718_seed=719_2022-08-07_05-06-54/checkpoint_000005/checkpoints",
+    "size": 44773837,
+    "offset": 10836321280,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00718_718_seed=719_2022-08-07_05-06-54/params.json",
+    "size": 990,
+    "offset": 10881096704,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00718_718_seed=719_2022-08-07_05-06-54/checkpoint_000040/",
+    "size": 0,
+    "offset": 10881099264,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00718_718_seed=719_2022-08-07_05-06-54/checkpoint_000040/checkpoints",
+    "size": 44773837,
+    "offset": 10881100800,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00718_718_seed=719_2022-08-07_05-06-54/checkpoint_000037/",
+    "size": 0,
+    "offset": 10925876224,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00718_718_seed=719_2022-08-07_05-06-54/checkpoint_000037/checkpoints",
+    "size": 44773837,
+    "offset": 10925877760,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00718_718_seed=719_2022-08-07_05-06-54/checkpoint_000044/",
+    "size": 0,
+    "offset": 10970653184,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00718_718_seed=719_2022-08-07_05-06-54/checkpoint_000044/checkpoints",
+    "size": 44773837,
+    "offset": 10970654720,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00718_718_seed=719_2022-08-07_05-06-54/checkpoint_000033/",
+    "size": 0,
+    "offset": 11015430144,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00718_718_seed=719_2022-08-07_05-06-54/checkpoint_000033/checkpoints",
+    "size": 44773837,
+    "offset": 11015431680,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00718_718_seed=719_2022-08-07_05-06-54/checkpoint_000039/",
+    "size": 0,
+    "offset": 11060207104,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00718_718_seed=719_2022-08-07_05-06-54/checkpoint_000039/checkpoints",
+    "size": 44773837,
+    "offset": 11060208640,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00718_718_seed=719_2022-08-07_05-06-54/checkpoint_000001/",
+    "size": 0,
+    "offset": 11104984064,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00718_718_seed=719_2022-08-07_05-06-54/checkpoint_000001/checkpoints",
+    "size": 44773837,
+    "offset": 11104985600,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00718_718_seed=719_2022-08-07_05-06-54/checkpoint_000020/",
+    "size": 0,
+    "offset": 11149761024,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00718_718_seed=719_2022-08-07_05-06-54/checkpoint_000020/checkpoints",
+    "size": 44773837,
+    "offset": 11149762560,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00718_718_seed=719_2022-08-07_05-06-54/checkpoint_000018/",
+    "size": 0,
+    "offset": 11194537984,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00718_718_seed=719_2022-08-07_05-06-54/checkpoint_000018/checkpoints",
+    "size": 44773837,
+    "offset": 11194539520,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00718_718_seed=719_2022-08-07_05-06-54/checkpoint_000012/",
+    "size": 0,
+    "offset": 11239314944,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00718_718_seed=719_2022-08-07_05-06-54/checkpoint_000012/checkpoints",
+    "size": 44773837,
+    "offset": 11239316480,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00718_718_seed=719_2022-08-07_05-06-54/checkpoint_000015/",
+    "size": 0,
+    "offset": 11284091904,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00718_718_seed=719_2022-08-07_05-06-54/checkpoint_000015/checkpoints",
+    "size": 44773837,
+    "offset": 11284093440,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00718_718_seed=719_2022-08-07_05-06-54/checkpoint_000027/",
+    "size": 0,
+    "offset": 11328868864,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00718_718_seed=719_2022-08-07_05-06-54/checkpoint_000027/checkpoints",
+    "size": 44773837,
+    "offset": 11328870400,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00718_718_seed=719_2022-08-07_05-06-54/checkpoint_000050/",
+    "size": 0,
+    "offset": 11373645824,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00718_718_seed=719_2022-08-07_05-06-54/checkpoint_000050/optimizer",
+    "size": 44713643,
+    "offset": 11373647360,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00718_718_seed=719_2022-08-07_05-06-54/checkpoint_000050/checkpoints",
+    "size": 44773837,
+    "offset": 11418362880,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00718_718_seed=719_2022-08-07_05-06-54/checkpoint_000006/",
+    "size": 0,
+    "offset": 11463138304,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00718_718_seed=719_2022-08-07_05-06-54/checkpoint_000006/checkpoints",
+    "size": 44773837,
+    "offset": 11463139840,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00718_718_seed=719_2022-08-07_05-06-54/checkpoint_000034/",
+    "size": 0,
+    "offset": 11507915264,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00718_718_seed=719_2022-08-07_05-06-54/checkpoint_000034/checkpoints",
+    "size": 44773837,
+    "offset": 11507916800,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00718_718_seed=719_2022-08-07_05-06-54/checkpoint_000043/",
+    "size": 0,
+    "offset": 11552692224,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00718_718_seed=719_2022-08-07_05-06-54/checkpoint_000043/checkpoints",
+    "size": 44773837,
+    "offset": 11552693760,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00718_718_seed=719_2022-08-07_05-06-54/checkpoint_000049/",
+    "size": 0,
+    "offset": 11597469184,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00718_718_seed=719_2022-08-07_05-06-54/checkpoint_000049/checkpoints",
+    "size": 44773837,
+    "offset": 11597470720,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00905_905_seed=906_2022-08-07_20-00-56/",
+    "size": 0,
+    "offset": 11642246144,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00905_905_seed=906_2022-08-07_20-00-56/checkpoint_000021/",
+    "size": 0,
+    "offset": 11642247680,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00905_905_seed=906_2022-08-07_20-00-56/checkpoint_000021/checkpoints",
+    "size": 44773837,
+    "offset": 11642249216,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00905_905_seed=906_2022-08-07_20-00-56/checkpoint_000013/",
+    "size": 0,
+    "offset": 11687024640,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00905_905_seed=906_2022-08-07_20-00-56/checkpoint_000013/checkpoints",
+    "size": 44773837,
+    "offset": 11687026176,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00905_905_seed=906_2022-08-07_20-00-56/checkpoint_000019/",
+    "size": 0,
+    "offset": 11731801600,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00905_905_seed=906_2022-08-07_20-00-56/checkpoint_000019/checkpoints",
+    "size": 44773837,
+    "offset": 11731803136,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00905_905_seed=906_2022-08-07_20-00-56/checkpoint_000038/",
+    "size": 0,
+    "offset": 11776578560,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00905_905_seed=906_2022-08-07_20-00-56/checkpoint_000038/checkpoints",
+    "size": 44773837,
+    "offset": 11776580096,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00905_905_seed=906_2022-08-07_20-00-56/checkpoint_000045/",
+    "size": 0,
+    "offset": 11821355520,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00905_905_seed=906_2022-08-07_20-00-56/checkpoint_000045/checkpoints",
+    "size": 44773837,
+    "offset": 11821357056,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00905_905_seed=906_2022-08-07_20-00-56/checkpoint_000032/",
+    "size": 0,
+    "offset": 11866132480,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00905_905_seed=906_2022-08-07_20-00-56/checkpoint_000032/checkpoints",
+    "size": 44773837,
+    "offset": 11866134016,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00905_905_seed=906_2022-08-07_20-00-56/checkpoint_000000/",
+    "size": 0,
+    "offset": 11910909440,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00905_905_seed=906_2022-08-07_20-00-56/checkpoint_000000/checkpoints",
+    "size": 44773837,
+    "offset": 11910910976,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00905_905_seed=906_2022-08-07_20-00-56/checkpoint_000007/",
+    "size": 0,
+    "offset": 11955686400,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00905_905_seed=906_2022-08-07_20-00-56/checkpoint_000007/checkpoints",
+    "size": 44773837,
+    "offset": 11955687936,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00905_905_seed=906_2022-08-07_20-00-56/checkpoint_000048/",
+    "size": 0,
+    "offset": 12000463360,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00905_905_seed=906_2022-08-07_20-00-56/checkpoint_000048/checkpoints",
+    "size": 44773837,
+    "offset": 12000464896,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00905_905_seed=906_2022-08-07_20-00-56/checkpoint_000035/",
+    "size": 0,
+    "offset": 12045240320,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00905_905_seed=906_2022-08-07_20-00-56/checkpoint_000035/checkpoints",
+    "size": 44773837,
+    "offset": 12045241856,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00905_905_seed=906_2022-08-07_20-00-56/checkpoint_000042/",
+    "size": 0,
+    "offset": 12090017280,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00905_905_seed=906_2022-08-07_20-00-56/checkpoint_000042/checkpoints",
+    "size": 44773837,
+    "offset": 12090018816,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00905_905_seed=906_2022-08-07_20-00-56/checkpoint_000014/",
+    "size": 0,
+    "offset": 12134794240,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00905_905_seed=906_2022-08-07_20-00-56/checkpoint_000014/checkpoints",
+    "size": 44773837,
+    "offset": 12134795776,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00905_905_seed=906_2022-08-07_20-00-56/checkpoint_000026/",
+    "size": 0,
+    "offset": 12179571200,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00905_905_seed=906_2022-08-07_20-00-56/checkpoint_000026/checkpoints",
+    "size": 44773837,
+    "offset": 12179572736,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00905_905_seed=906_2022-08-07_20-00-56/checkpoint_000028/",
+    "size": 0,
+    "offset": 12224348160,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00905_905_seed=906_2022-08-07_20-00-56/checkpoint_000028/checkpoints",
+    "size": 44773837,
+    "offset": 12224349696,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00905_905_seed=906_2022-08-07_20-00-56/checkpoint_000022/",
+    "size": 0,
+    "offset": 12269125120,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00905_905_seed=906_2022-08-07_20-00-56/checkpoint_000022/checkpoints",
+    "size": 44773837,
+    "offset": 12269126656,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00905_905_seed=906_2022-08-07_20-00-56/checkpoint_000010/",
+    "size": 0,
+    "offset": 12313902080,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00905_905_seed=906_2022-08-07_20-00-56/checkpoint_000010/checkpoints",
+    "size": 44773837,
+    "offset": 12313903616,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00905_905_seed=906_2022-08-07_20-00-56/checkpoint_000031/",
+    "size": 0,
+    "offset": 12358679040,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00905_905_seed=906_2022-08-07_20-00-56/checkpoint_000031/checkpoints",
+    "size": 44773837,
+    "offset": 12358680576,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00905_905_seed=906_2022-08-07_20-00-56/checkpoint_000046/",
+    "size": 0,
+    "offset": 12403456000,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00905_905_seed=906_2022-08-07_20-00-56/checkpoint_000046/checkpoints",
+    "size": 44773837,
+    "offset": 12403457536,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00905_905_seed=906_2022-08-07_20-00-56/params.pkl",
+    "size": 910,
+    "offset": 12448232960,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00905_905_seed=906_2022-08-07_20-00-56/checkpoint_000003/",
+    "size": 0,
+    "offset": 12448235520,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00905_905_seed=906_2022-08-07_20-00-56/checkpoint_000003/checkpoints",
+    "size": 44773837,
+    "offset": 12448237056,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00905_905_seed=906_2022-08-07_20-00-56/checkpoint_000009/",
+    "size": 0,
+    "offset": 12493012480,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00905_905_seed=906_2022-08-07_20-00-56/checkpoint_000009/checkpoints",
+    "size": 44773837,
+    "offset": 12493014016,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00905_905_seed=906_2022-08-07_20-00-56/checkpoint_000004/",
+    "size": 0,
+    "offset": 12537789440,
+    "type": "5"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00905_905_seed=906_2022-08-07_20-00-56/checkpoint_000004/checkpoints",
+    "size": 44773837,
+    "offset": 12537790976,
+    "type": "0"
+  },
+  {
+    "name": "tune_zoo_cifar10_resnet18_kaiming_uniform/NN_tune_trainable_0ecbc_00905_905_seed=906_2022-08-07_20-00-56/params.json",
+    "size": 990,
+    "offset": 12582566400,
+    "type": "0"
+  }
+]

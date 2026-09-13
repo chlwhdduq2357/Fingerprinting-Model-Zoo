@@ -1,0 +1,44 @@
+[
+  {
+    "source_id": "osmr",
+    "repository": "https://github.com/osmr/imgclsmob",
+    "checkpoint_repository_revision": "c1a844dde061f6d72f25011dc1af9a2e35b1bdfc",
+    "definition_repository": "https://github.com/osmr/pytorchcv",
+    "definition_revision": "80726b972e36b6569889f890f139227c27a5acba",
+    "package": "pytorchcv==0.0.74",
+    "license": "MIT",
+    "strategy": "Individual release ZIP per checkpoint",
+    "vendored_revision_check": "metadata/evidence/vendor_revision_check.json"
+  },
+  {
+    "source_id": "chenyaofo",
+    "repository": "https://github.com/chenyaofo/pytorch-cifar-models",
+    "revision": "786c16252c0fc58ee9adac063f8337cc4a7a497a",
+    "license": "MIT and retained BSD notices",
+    "strategy": "Individual release state_dict"
+  },
+  {
+    "source_id": "modelzoos",
+    "repository": "https://github.com/ModelZoos/ModelZooDataset",
+    "revision": "efccaf3fc2e15dc55788f132d2341861be13312e",
+    "adapter_reference_repository": "https://github.com/HSG-AIML/SANE",
+    "adapter_reference_revision": "888543c3edccd97c3e113907f4988abe6efb1a83",
+    "sample_doi": "10.5281/zenodo.13144018",
+    "strategy": "HTTP Range ZIP members and TAR members only; HTTP 200 rejected",
+    "full_tar_size_bytes": 2328714690560,
+    "license": "Consult source dataset licensing; no license inferred from code",
+    "original_model_definition": "metadata/evidence/zoo_def_net.py",
+    "checkpoint_saving_definition": "metadata/evidence/zoo_def_NN_experiment.py"
+  },
+  {
+    "source_id": "sharpness_cifar10",
+    "repository": "https://github.com/tml-epfl/sharpness-vs-generalization",
+    "revision": "6d73be94eb88dae6d3096647bb24b92244fae18f",
+    "paper": "A Modern Look at the Relationship between Sharpness and Generalization (ICML 2023)",
+    "paper_url": "https://proceedings.mlr.press/v202/andriushchenko23a.html",
+    "checkpoint_folder": "https://drive.google.com/drive/folders/1dwfb2Iqw6BTMi57SeG44aDebuu-TBzo5",
+    "strategy": "Thirty individually addressable Google Drive files; no folder/archive bulk download",
+    "license": "Checkpoint license not stated; repository has no detected license file",
+    "selected_bytes_expected": 5375908160
+  }
+]

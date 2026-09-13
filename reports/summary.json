@@ -1,0 +1,40 @@
+{
+  "A": 30,
+  "B": 30,
+  "B2": 30,
+  "total": 90,
+  "checkpoint_bytes": 7217273212,
+  "zoo_directory_bytes": 7232173859,
+  "auxiliary_work_bytes": 1124145701,
+  "zoo_plus_work_bytes": 8356319560,
+  "checkpoint_GiB": 6.721609469503164,
+  "architecture_families": 18,
+  "family_distribution": {
+    "NIN": 1,
+    "ResNet": 63,
+    "PreResNet": 2,
+    "SE-ResNet": 2,
+    "SE-PreResNet": 1,
+    "PyramidNet": 2,
+    "DenseNet": 2,
+    "XDenseNet": 1,
+    "WideResNet": 2,
+    "RoR": 2,
+    "RiR": 1,
+    "Shake-Shake": 2,
+    "DIA-ResNet": 1,
+    "DIA-PreResNet": 1,
+    "VGG": 2,
+    "MobileNetV2": 2,
+    "ShuffleNetV2": 2,
+    "RepVGG": 1
+  },
+  "hard_negative_pairs": 870,
+  "full_accuracy_verified": 18,
+  "source_checkpoint_bytes": {
+    "osmr": 347453498,
+    "chenyaofo": 150696444,
+    "modelzoos": 1343215110,
+    "sharpness_cifar10": 5375908160
+  }
+}

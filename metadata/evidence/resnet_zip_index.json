@@ -1,0 +1,2258 @@
+[
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/",
+    "size": 0,
+    "compressed": 0,
+    "offset": 0
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00639_639_seed=640_2022-08-06_22-39-01/",
+    "size": 0,
+    "compressed": 0,
+    "offset": 90
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00639_639_seed=640_2022-08-06_22-39-01/checkpoint_000025/",
+    "size": 0,
+    "compressed": 0,
+    "offset": 243
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00639_639_seed=640_2022-08-06_22-39-01/checkpoint_000025/checkpoints",
+    "size": 44773837,
+    "compressed": 41171021,
+    "offset": 414
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00639_639_seed=640_2022-08-06_22-39-01/checkpoint_000022/",
+    "size": 0,
+    "compressed": 0,
+    "offset": 41171617
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00639_639_seed=640_2022-08-06_22-39-01/checkpoint_000022/checkpoints",
+    "size": 44773837,
+    "compressed": 41143813,
+    "offset": 41171788
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00639_639_seed=640_2022-08-06_22-39-01/result.json",
+    "size": 83456,
+    "compressed": 5967,
+    "offset": 82315783
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00639_639_seed=640_2022-08-06_22-39-01/checkpoint_000021/",
+    "size": 0,
+    "compressed": 0,
+    "offset": 82321914
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00639_639_seed=640_2022-08-06_22-39-01/checkpoint_000021/checkpoints",
+    "size": 44773837,
+    "compressed": 41135450,
+    "offset": 82322085
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00639_639_seed=640_2022-08-06_22-39-01/checkpoint_000023/",
+    "size": 0,
+    "compressed": 0,
+    "offset": 123457717
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00639_639_seed=640_2022-08-06_22-39-01/checkpoint_000023/checkpoints",
+    "size": 44773837,
+    "compressed": 41151851,
+    "offset": 123457888
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00639_639_seed=640_2022-08-06_22-39-01/params.json",
+    "size": 990,
+    "compressed": 448,
+    "offset": 164609921
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00639_639_seed=640_2022-08-06_22-39-01/checkpoint_000024/",
+    "size": 0,
+    "compressed": 0,
+    "offset": 164610533
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00639_639_seed=640_2022-08-06_22-39-01/checkpoint_000024/checkpoints",
+    "size": 44773837,
+    "compressed": 41161979,
+    "offset": 164610704
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00639_639_seed=640_2022-08-06_22-39-01/params.pkl",
+    "size": 910,
+    "compressed": 552,
+    "offset": 205772865
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00639_639_seed=640_2022-08-06_22-39-01/progress.csv",
+    "size": 14480,
+    "compressed": 4349,
+    "offset": 205773580
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00374_374_seed=375_2022-08-06_00-36-09/",
+    "size": 0,
+    "compressed": 0,
+    "offset": 205778094
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00374_374_seed=375_2022-08-06_00-36-09/progress.csv",
+    "size": 14511,
+    "compressed": 4364,
+    "offset": 205778247
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00374_374_seed=375_2022-08-06_00-36-09/result.json",
+    "size": 83487,
+    "compressed": 6003,
+    "offset": 205782776
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00374_374_seed=375_2022-08-06_00-36-09/params.pkl",
+    "size": 910,
+    "compressed": 551,
+    "offset": 205788943
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00374_374_seed=375_2022-08-06_00-36-09/checkpoint_000024/",
+    "size": 0,
+    "compressed": 0,
+    "offset": 205789657
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00374_374_seed=375_2022-08-06_00-36-09/checkpoint_000024/checkpoints",
+    "size": 44773837,
+    "compressed": 41160800,
+    "offset": 205789828
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00374_374_seed=375_2022-08-06_00-36-09/checkpoint_000023/",
+    "size": 0,
+    "compressed": 0,
+    "offset": 246950810
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00374_374_seed=375_2022-08-06_00-36-09/checkpoint_000023/checkpoints",
+    "size": 44773837,
+    "compressed": 41151810,
+    "offset": 246950981
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00374_374_seed=375_2022-08-06_00-36-09/checkpoint_000021/",
+    "size": 0,
+    "compressed": 0,
+    "offset": 288102973
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00374_374_seed=375_2022-08-06_00-36-09/checkpoint_000021/checkpoints",
+    "size": 44773837,
+    "compressed": 41134634,
+    "offset": 288103144
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00374_374_seed=375_2022-08-06_00-36-09/checkpoint_000022/",
+    "size": 0,
+    "compressed": 0,
+    "offset": 329237960
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00374_374_seed=375_2022-08-06_00-36-09/checkpoint_000022/checkpoints",
+    "size": 44773837,
+    "compressed": 41142162,
+    "offset": 329238131
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00374_374_seed=375_2022-08-06_00-36-09/checkpoint_000025/",
+    "size": 0,
+    "compressed": 0,
+    "offset": 370380475
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00374_374_seed=375_2022-08-06_00-36-09/checkpoint_000025/checkpoints",
+    "size": 44773837,
+    "compressed": 41169874,
+    "offset": 370380646
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00374_374_seed=375_2022-08-06_00-36-09/params.json",
+    "size": 990,
+    "compressed": 448,
+    "offset": 411550702
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00094_94_seed=95_2022-08-04_23-44-13/",
+    "size": 0,
+    "compressed": 0,
+    "offset": 411551314
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00094_94_seed=95_2022-08-04_23-44-13/params.json",
+    "size": 989,
+    "compressed": 446,
+    "offset": 411551465
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00094_94_seed=95_2022-08-04_23-44-13/checkpoint_000021/",
+    "size": 0,
+    "compressed": 0,
+    "offset": 411552073
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00094_94_seed=95_2022-08-04_23-44-13/checkpoint_000021/checkpoints",
+    "size": 44773837,
+    "compressed": 41136170,
+    "offset": 411552242
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00094_94_seed=95_2022-08-04_23-44-13/checkpoint_000025/",
+    "size": 0,
+    "compressed": 0,
+    "offset": 452688592
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00094_94_seed=95_2022-08-04_23-44-13/checkpoint_000025/checkpoints",
+    "size": 44773837,
+    "compressed": 41171818,
+    "offset": 452688761
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00094_94_seed=95_2022-08-04_23-44-13/checkpoint_000022/",
+    "size": 0,
+    "compressed": 0,
+    "offset": 493860759
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00094_94_seed=95_2022-08-04_23-44-13/checkpoint_000022/checkpoints",
+    "size": 44773837,
+    "compressed": 41144175,
+    "offset": 493860928
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00094_94_seed=95_2022-08-04_23-44-13/params.pkl",
+    "size": 909,
+    "compressed": 550,
+    "offset": 535005283
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00094_94_seed=95_2022-08-04_23-44-13/result.json",
+    "size": 83370,
+    "compressed": 5974,
+    "offset": 535005994
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00094_94_seed=95_2022-08-04_23-44-13/progress.csv",
+    "size": 14445,
+    "compressed": 4375,
+    "offset": 535012130
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00094_94_seed=95_2022-08-04_23-44-13/checkpoint_000023/",
+    "size": 0,
+    "compressed": 0,
+    "offset": 535016668
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00094_94_seed=95_2022-08-04_23-44-13/checkpoint_000023/checkpoints",
+    "size": 44773837,
+    "compressed": 41152902,
+    "offset": 535016837
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00094_94_seed=95_2022-08-04_23-44-13/checkpoint_000024/",
+    "size": 0,
+    "compressed": 0,
+    "offset": 576169919
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00094_94_seed=95_2022-08-04_23-44-13/checkpoint_000024/checkpoints",
+    "size": 44773837,
+    "compressed": 41162293,
+    "offset": 576170088
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00961_961_seed=962_2022-08-08_00-32-15/",
+    "size": 0,
+    "compressed": 0,
+    "offset": 617332561
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00961_961_seed=962_2022-08-08_00-32-15/checkpoint_000022/",
+    "size": 0,
+    "compressed": 0,
+    "offset": 617332714
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00961_961_seed=962_2022-08-08_00-32-15/checkpoint_000022/checkpoints",
+    "size": 44773837,
+    "compressed": 41144300,
+    "offset": 617332885
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00961_961_seed=962_2022-08-08_00-32-15/params.json",
+    "size": 990,
+    "compressed": 448,
+    "offset": 658477367
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00961_961_seed=962_2022-08-08_00-32-15/params.pkl",
+    "size": 910,
+    "compressed": 553,
+    "offset": 658477979
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00961_961_seed=962_2022-08-08_00-32-15/progress.csv",
+    "size": 14484,
+    "compressed": 4354,
+    "offset": 658478695
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00961_961_seed=962_2022-08-08_00-32-15/checkpoint_000025/",
+    "size": 0,
+    "compressed": 0,
+    "offset": 658483214
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00961_961_seed=962_2022-08-08_00-32-15/checkpoint_000025/checkpoints",
+    "size": 44773837,
+    "compressed": 41171553,
+    "offset": 658483385
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00961_961_seed=962_2022-08-08_00-32-15/checkpoint_000021/",
+    "size": 0,
+    "compressed": 0,
+    "offset": 699655120
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00961_961_seed=962_2022-08-08_00-32-15/checkpoint_000021/checkpoints",
+    "size": 44773837,
+    "compressed": 41136014,
+    "offset": 699655291
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00961_961_seed=962_2022-08-08_00-32-15/checkpoint_000024/",
+    "size": 0,
+    "compressed": 0,
+    "offset": 740791487
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00961_961_seed=962_2022-08-08_00-32-15/checkpoint_000024/checkpoints",
+    "size": 44773837,
+    "compressed": 41164230,
+    "offset": 740791658
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00961_961_seed=962_2022-08-08_00-32-15/checkpoint_000023/",
+    "size": 0,
+    "compressed": 0,
+    "offset": 781956070
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00961_961_seed=962_2022-08-08_00-32-15/checkpoint_000023/checkpoints",
+    "size": 44773837,
+    "compressed": 41153125,
+    "offset": 781956241
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00961_961_seed=962_2022-08-08_00-32-15/result.json",
+    "size": 83460,
+    "compressed": 5994,
+    "offset": 823109548
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00091_91_seed=92_2022-08-04_23-24-50/",
+    "size": 0,
+    "compressed": 0,
+    "offset": 823115706
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00091_91_seed=92_2022-08-04_23-24-50/checkpoint_000023/",
+    "size": 0,
+    "compressed": 0,
+    "offset": 823115857
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00091_91_seed=92_2022-08-04_23-24-50/checkpoint_000023/checkpoints",
+    "size": 44773837,
+    "compressed": 41152869,
+    "offset": 823116026
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00091_91_seed=92_2022-08-04_23-24-50/params.pkl",
+    "size": 909,
+    "compressed": 551,
+    "offset": 864269075
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00091_91_seed=92_2022-08-04_23-24-50/params.json",
+    "size": 989,
+    "compressed": 447,
+    "offset": 864269787
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00091_91_seed=92_2022-08-04_23-24-50/checkpoint_000024/",
+    "size": 0,
+    "compressed": 0,
+    "offset": 864270396
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00091_91_seed=92_2022-08-04_23-24-50/checkpoint_000024/checkpoints",
+    "size": 44773837,
+    "compressed": 41162471,
+    "offset": 864270565
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00091_91_seed=92_2022-08-04_23-24-50/progress.csv",
+    "size": 14501,
+    "compressed": 4352,
+    "offset": 905433216
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00091_91_seed=92_2022-08-04_23-24-50/result.json",
+    "size": 83426,
+    "compressed": 5979,
+    "offset": 905437731
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00091_91_seed=92_2022-08-04_23-24-50/checkpoint_000021/",
+    "size": 0,
+    "compressed": 0,
+    "offset": 905443872
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00091_91_seed=92_2022-08-04_23-24-50/checkpoint_000021/checkpoints",
+    "size": 44773837,
+    "compressed": 41137306,
+    "offset": 905444041
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00091_91_seed=92_2022-08-04_23-24-50/checkpoint_000025/",
+    "size": 0,
+    "compressed": 0,
+    "offset": 946581527
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00091_91_seed=92_2022-08-04_23-24-50/checkpoint_000025/checkpoints",
+    "size": 44773837,
+    "compressed": 41171723,
+    "offset": 946581696
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00091_91_seed=92_2022-08-04_23-24-50/checkpoint_000022/",
+    "size": 0,
+    "compressed": 0,
+    "offset": 987753599
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00091_91_seed=92_2022-08-04_23-24-50/checkpoint_000022/checkpoints",
+    "size": 44773837,
+    "compressed": 41144462,
+    "offset": 987753768
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00661_661_seed=662_2022-08-07_00-21-31/",
+    "size": 0,
+    "compressed": 0,
+    "offset": 1028898410
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00661_661_seed=662_2022-08-07_00-21-31/progress.csv",
+    "size": 14437,
+    "compressed": 4351,
+    "offset": 1028898563
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00661_661_seed=662_2022-08-07_00-21-31/result.json",
+    "size": 83413,
+    "compressed": 5960,
+    "offset": 1028903079
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00661_661_seed=662_2022-08-07_00-21-31/checkpoint_000024/",
+    "size": 0,
+    "compressed": 0,
+    "offset": 1028909203
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00661_661_seed=662_2022-08-07_00-21-31/checkpoint_000024/checkpoints",
+    "size": 44773837,
+    "compressed": 41160766,
+    "offset": 1028909374
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00661_661_seed=662_2022-08-07_00-21-31/checkpoint_000023/",
+    "size": 0,
+    "compressed": 0,
+    "offset": 1070070322
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00661_661_seed=662_2022-08-07_00-21-31/checkpoint_000023/checkpoints",
+    "size": 44773837,
+    "compressed": 41151082,
+    "offset": 1070070493
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00661_661_seed=662_2022-08-07_00-21-31/checkpoint_000021/",
+    "size": 0,
+    "compressed": 0,
+    "offset": 1111221757
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00661_661_seed=662_2022-08-07_00-21-31/checkpoint_000021/checkpoints",
+    "size": 44773837,
+    "compressed": 41133552,
+    "offset": 1111221928
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00661_661_seed=662_2022-08-07_00-21-31/checkpoint_000022/",
+    "size": 0,
+    "compressed": 0,
+    "offset": 1152355662
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00661_661_seed=662_2022-08-07_00-21-31/checkpoint_000022/checkpoints",
+    "size": 44773837,
+    "compressed": 41142293,
+    "offset": 1152355833
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00661_661_seed=662_2022-08-07_00-21-31/checkpoint_000025/",
+    "size": 0,
+    "compressed": 0,
+    "offset": 1193498308
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00661_661_seed=662_2022-08-07_00-21-31/checkpoint_000025/checkpoints",
+    "size": 44773837,
+    "compressed": 41170572,
+    "offset": 1193498479
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00661_661_seed=662_2022-08-07_00-21-31/params.pkl",
+    "size": 910,
+    "compressed": 552,
+    "offset": 1234669233
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00661_661_seed=662_2022-08-07_00-21-31/params.json",
+    "size": 990,
+    "compressed": 448,
+    "offset": 1234669948
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00184_184_seed=185_2022-08-05_07-41-15/",
+    "size": 0,
+    "compressed": 0,
+    "offset": 1234670560
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00184_184_seed=185_2022-08-05_07-41-15/checkpoint_000024/",
+    "size": 0,
+    "compressed": 0,
+    "offset": 1234670713
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00184_184_seed=185_2022-08-05_07-41-15/checkpoint_000024/checkpoints",
+    "size": 44773837,
+    "compressed": 41160255,
+    "offset": 1234670884
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00184_184_seed=185_2022-08-05_07-41-15/checkpoint_000023/",
+    "size": 0,
+    "compressed": 0,
+    "offset": 1275831321
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00184_184_seed=185_2022-08-05_07-41-15/checkpoint_000023/checkpoints",
+    "size": 44773837,
+    "compressed": 41151055,
+    "offset": 1275831492
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00184_184_seed=185_2022-08-05_07-41-15/result.json",
+    "size": 83480,
+    "compressed": 6011,
+    "offset": 1316982729
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00184_184_seed=185_2022-08-05_07-41-15/progress.csv",
+    "size": 14504,
+    "compressed": 4360,
+    "offset": 1316988904
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00184_184_seed=185_2022-08-05_07-41-15/checkpoint_000021/",
+    "size": 0,
+    "compressed": 0,
+    "offset": 1316993429
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00184_184_seed=185_2022-08-05_07-41-15/checkpoint_000021/checkpoints",
+    "size": 44773837,
+    "compressed": 41134243,
+    "offset": 1316993600
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00184_184_seed=185_2022-08-05_07-41-15/params.json",
+    "size": 990,
+    "compressed": 447,
+    "offset": 1358128025
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00184_184_seed=185_2022-08-05_07-41-15/checkpoint_000022/",
+    "size": 0,
+    "compressed": 0,
+    "offset": 1358128636
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00184_184_seed=185_2022-08-05_07-41-15/checkpoint_000022/checkpoints",
+    "size": 44773837,
+    "compressed": 41142258,
+    "offset": 1358128807
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00184_184_seed=185_2022-08-05_07-41-15/checkpoint_000025/",
+    "size": 0,
+    "compressed": 0,
+    "offset": 1399271247
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00184_184_seed=185_2022-08-05_07-41-15/checkpoint_000025/checkpoints",
+    "size": 44773837,
+    "compressed": 41169419,
+    "offset": 1399271418
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00184_184_seed=185_2022-08-05_07-41-15/params.pkl",
+    "size": 909,
+    "compressed": 552,
+    "offset": 1440441019
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00106_106_seed=107_2022-08-05_00-43-16/",
+    "size": 0,
+    "compressed": 0,
+    "offset": 1440441734
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00106_106_seed=107_2022-08-05_00-43-16/checkpoint_000022/",
+    "size": 0,
+    "compressed": 0,
+    "offset": 1440441887
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00106_106_seed=107_2022-08-05_00-43-16/checkpoint_000022/checkpoints",
+    "size": 44773837,
+    "compressed": 41145177,
+    "offset": 1440442058
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00106_106_seed=107_2022-08-05_00-43-16/checkpoint_000025/",
+    "size": 0,
+    "compressed": 0,
+    "offset": 1481587417
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00106_106_seed=107_2022-08-05_00-43-16/checkpoint_000025/checkpoints",
+    "size": 44773837,
+    "compressed": 41172189,
+    "offset": 1481587588
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00106_106_seed=107_2022-08-05_00-43-16/progress.csv",
+    "size": 14461,
+    "compressed": 4367,
+    "offset": 1522759959
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00106_106_seed=107_2022-08-05_00-43-16/checkpoint_000021/",
+    "size": 0,
+    "compressed": 0,
+    "offset": 1522764491
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00106_106_seed=107_2022-08-05_00-43-16/checkpoint_000021/checkpoints",
+    "size": 44773837,
+    "compressed": 41135975,
+    "offset": 1522764662
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00106_106_seed=107_2022-08-05_00-43-16/result.json",
+    "size": 83437,
+    "compressed": 6034,
+    "offset": 1563900819
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00106_106_seed=107_2022-08-05_00-43-16/checkpoint_000024/",
+    "size": 0,
+    "compressed": 0,
+    "offset": 1563907017
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00106_106_seed=107_2022-08-05_00-43-16/checkpoint_000024/checkpoints",
+    "size": 44773837,
+    "compressed": 41162635,
+    "offset": 1563907188
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00106_106_seed=107_2022-08-05_00-43-16/params.pkl",
+    "size": 909,
+    "compressed": 550,
+    "offset": 1605070005
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00106_106_seed=107_2022-08-05_00-43-16/params.json",
+    "size": 990,
+    "compressed": 447,
+    "offset": 1605070718
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00106_106_seed=107_2022-08-05_00-43-16/checkpoint_000023/",
+    "size": 0,
+    "compressed": 0,
+    "offset": 1605071329
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00106_106_seed=107_2022-08-05_00-43-16/checkpoint_000023/checkpoints",
+    "size": 44773837,
+    "compressed": 41153594,
+    "offset": 1605071500
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00893_893_seed=894_2022-08-07_19-02-34/",
+    "size": 0,
+    "compressed": 0,
+    "offset": 1646225276
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00893_893_seed=894_2022-08-07_19-02-34/checkpoint_000025/",
+    "size": 0,
+    "compressed": 0,
+    "offset": 1646225429
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00893_893_seed=894_2022-08-07_19-02-34/checkpoint_000025/checkpoints",
+    "size": 44773837,
+    "compressed": 41172262,
+    "offset": 1646225600
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00893_893_seed=894_2022-08-07_19-02-34/params.pkl",
+    "size": 910,
+    "compressed": 552,
+    "offset": 1687398044
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00893_893_seed=894_2022-08-07_19-02-34/checkpoint_000022/",
+    "size": 0,
+    "compressed": 0,
+    "offset": 1687398759
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00893_893_seed=894_2022-08-07_19-02-34/checkpoint_000022/checkpoints",
+    "size": 44773837,
+    "compressed": 41144236,
+    "offset": 1687398930
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00893_893_seed=894_2022-08-07_19-02-34/result.json",
+    "size": 83410,
+    "compressed": 6001,
+    "offset": 1728543348
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00893_893_seed=894_2022-08-07_19-02-34/checkpoint_000021/",
+    "size": 0,
+    "compressed": 0,
+    "offset": 1728549513
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00893_893_seed=894_2022-08-07_19-02-34/checkpoint_000021/checkpoints",
+    "size": 44773837,
+    "compressed": 41138050,
+    "offset": 1728549684
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00893_893_seed=894_2022-08-07_19-02-34/checkpoint_000023/",
+    "size": 0,
+    "compressed": 0,
+    "offset": 1769687916
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00893_893_seed=894_2022-08-07_19-02-34/checkpoint_000023/checkpoints",
+    "size": 44773837,
+    "compressed": 41153265,
+    "offset": 1769688087
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00893_893_seed=894_2022-08-07_19-02-34/checkpoint_000024/",
+    "size": 0,
+    "compressed": 0,
+    "offset": 1810841534
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00893_893_seed=894_2022-08-07_19-02-34/checkpoint_000024/checkpoints",
+    "size": 44773837,
+    "compressed": 41163059,
+    "offset": 1810841705
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00893_893_seed=894_2022-08-07_19-02-34/params.json",
+    "size": 990,
+    "compressed": 449,
+    "offset": 1852004946
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00893_893_seed=894_2022-08-07_19-02-34/progress.csv",
+    "size": 14434,
+    "compressed": 4341,
+    "offset": 1852005559
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00510_510_seed=511_2022-08-06_11-57-21/",
+    "size": 0,
+    "compressed": 0,
+    "offset": 1852010065
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00510_510_seed=511_2022-08-06_11-57-21/progress.csv",
+    "size": 14458,
+    "compressed": 4379,
+    "offset": 1852010218
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00510_510_seed=511_2022-08-06_11-57-21/checkpoint_000023/",
+    "size": 0,
+    "compressed": 0,
+    "offset": 1852014762
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00510_510_seed=511_2022-08-06_11-57-21/checkpoint_000023/checkpoints",
+    "size": 44773837,
+    "compressed": 41155626,
+    "offset": 1852014933
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00510_510_seed=511_2022-08-06_11-57-21/params.json",
+    "size": 990,
+    "compressed": 446,
+    "offset": 1893170741
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00510_510_seed=511_2022-08-06_11-57-21/checkpoint_000024/",
+    "size": 0,
+    "compressed": 0,
+    "offset": 1893171351
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00510_510_seed=511_2022-08-06_11-57-21/checkpoint_000024/checkpoints",
+    "size": 44773837,
+    "compressed": 41164965,
+    "offset": 1893171522
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00510_510_seed=511_2022-08-06_11-57-21/checkpoint_000025/",
+    "size": 0,
+    "compressed": 0,
+    "offset": 1934336669
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00510_510_seed=511_2022-08-06_11-57-21/checkpoint_000025/checkpoints",
+    "size": 44773837,
+    "compressed": 41174002,
+    "offset": 1934336840
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00510_510_seed=511_2022-08-06_11-57-21/checkpoint_000022/",
+    "size": 0,
+    "compressed": 0,
+    "offset": 1975511024
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00510_510_seed=511_2022-08-06_11-57-21/checkpoint_000022/checkpoints",
+    "size": 44773837,
+    "compressed": 41145571,
+    "offset": 1975511195
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00510_510_seed=511_2022-08-06_11-57-21/result.json",
+    "size": 83434,
+    "compressed": 6011,
+    "offset": 2016656948
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00510_510_seed=511_2022-08-06_11-57-21/params.pkl",
+    "size": 910,
+    "compressed": 552,
+    "offset": 2016663123
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00510_510_seed=511_2022-08-06_11-57-21/checkpoint_000021/",
+    "size": 0,
+    "compressed": 0,
+    "offset": 2016663838
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00510_510_seed=511_2022-08-06_11-57-21/checkpoint_000021/checkpoints",
+    "size": 44773837,
+    "compressed": 41138064,
+    "offset": 2016664009
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00748_748_seed=749_2022-08-07_07-25-59/",
+    "size": 0,
+    "compressed": 0,
+    "offset": 2057802255
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00748_748_seed=749_2022-08-07_07-25-59/checkpoint_000025/",
+    "size": 0,
+    "compressed": 0,
+    "offset": 2057802408
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00748_748_seed=749_2022-08-07_07-25-59/checkpoint_000025/checkpoints",
+    "size": 44773837,
+    "compressed": 41171742,
+    "offset": 2057802579
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00748_748_seed=749_2022-08-07_07-25-59/params.pkl",
+    "size": 910,
+    "compressed": 552,
+    "offset": 2098974503
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00748_748_seed=749_2022-08-07_07-25-59/params.json",
+    "size": 990,
+    "compressed": 448,
+    "offset": 2098975218
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00748_748_seed=749_2022-08-07_07-25-59/checkpoint_000022/",
+    "size": 0,
+    "compressed": 0,
+    "offset": 2098975830
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00748_748_seed=749_2022-08-07_07-25-59/checkpoint_000022/checkpoints",
+    "size": 44773837,
+    "compressed": 41143990,
+    "offset": 2098976001
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00748_748_seed=749_2022-08-07_07-25-59/progress.csv",
+    "size": 14494,
+    "compressed": 4370,
+    "offset": 2140120173
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00748_748_seed=749_2022-08-07_07-25-59/checkpoint_000021/",
+    "size": 0,
+    "compressed": 0,
+    "offset": 2140124708
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00748_748_seed=749_2022-08-07_07-25-59/checkpoint_000021/checkpoints",
+    "size": 44773837,
+    "compressed": 41136692,
+    "offset": 2140124879
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00748_748_seed=749_2022-08-07_07-25-59/checkpoint_000023/",
+    "size": 0,
+    "compressed": 0,
+    "offset": 2181261753
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00748_748_seed=749_2022-08-07_07-25-59/checkpoint_000023/checkpoints",
+    "size": 44773837,
+    "compressed": 41152765,
+    "offset": 2181261924
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00748_748_seed=749_2022-08-07_07-25-59/checkpoint_000024/",
+    "size": 0,
+    "compressed": 0,
+    "offset": 2222414871
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00748_748_seed=749_2022-08-07_07-25-59/checkpoint_000024/checkpoints",
+    "size": 44773837,
+    "compressed": 41162965,
+    "offset": 2222415042
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00748_748_seed=749_2022-08-07_07-25-59/result.json",
+    "size": 83470,
+    "compressed": 6010,
+    "offset": 2263578189
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00481_481_seed=482_2022-08-06_09-27-50/",
+    "size": 0,
+    "compressed": 0,
+    "offset": 2263584363
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00481_481_seed=482_2022-08-06_09-27-50/progress.csv",
+    "size": 14489,
+    "compressed": 4355,
+    "offset": 2263584516
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00481_481_seed=482_2022-08-06_09-27-50/checkpoint_000024/",
+    "size": 0,
+    "compressed": 0,
+    "offset": 2263589036
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00481_481_seed=482_2022-08-06_09-27-50/checkpoint_000024/checkpoints",
+    "size": 44773837,
+    "compressed": 41161515,
+    "offset": 2263589207
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00481_481_seed=482_2022-08-06_09-27-50/result.json",
+    "size": 83465,
+    "compressed": 6007,
+    "offset": 2304750904
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00481_481_seed=482_2022-08-06_09-27-50/checkpoint_000023/",
+    "size": 0,
+    "compressed": 0,
+    "offset": 2304757075
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00481_481_seed=482_2022-08-06_09-27-50/checkpoint_000023/checkpoints",
+    "size": 44773837,
+    "compressed": 41151225,
+    "offset": 2304757246
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00481_481_seed=482_2022-08-06_09-27-50/checkpoint_000021/",
+    "size": 0,
+    "compressed": 0,
+    "offset": 2345908653
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00481_481_seed=482_2022-08-06_09-27-50/checkpoint_000021/checkpoints",
+    "size": 44773837,
+    "compressed": 41134291,
+    "offset": 2345908824
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00481_481_seed=482_2022-08-06_09-27-50/params.json",
+    "size": 990,
+    "compressed": 449,
+    "offset": 2387043297
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00481_481_seed=482_2022-08-06_09-27-50/checkpoint_000022/",
+    "size": 0,
+    "compressed": 0,
+    "offset": 2387043910
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00481_481_seed=482_2022-08-06_09-27-50/checkpoint_000022/checkpoints",
+    "size": 44773837,
+    "compressed": 41143316,
+    "offset": 2387044081
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00481_481_seed=482_2022-08-06_09-27-50/params.pkl",
+    "size": 910,
+    "compressed": 553,
+    "offset": 2428187579
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00481_481_seed=482_2022-08-06_09-27-50/checkpoint_000025/",
+    "size": 0,
+    "compressed": 0,
+    "offset": 2428188295
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00481_481_seed=482_2022-08-06_09-27-50/checkpoint_000025/checkpoints",
+    "size": 44773837,
+    "compressed": 41170738,
+    "offset": 2428188466
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00384_384_seed=385_2022-08-06_01-27-48/",
+    "size": 0,
+    "compressed": 0,
+    "offset": 2469359386
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00384_384_seed=385_2022-08-06_01-27-48/result.json",
+    "size": 83424,
+    "compressed": 5969,
+    "offset": 2469359539
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00384_384_seed=385_2022-08-06_01-27-48/checkpoint_000021/",
+    "size": 0,
+    "compressed": 0,
+    "offset": 2469365672
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00384_384_seed=385_2022-08-06_01-27-48/checkpoint_000021/checkpoints",
+    "size": 44773837,
+    "compressed": 41137516,
+    "offset": 2469365843
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00384_384_seed=385_2022-08-06_01-27-48/checkpoint_000025/",
+    "size": 0,
+    "compressed": 0,
+    "offset": 2510503541
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00384_384_seed=385_2022-08-06_01-27-48/checkpoint_000025/checkpoints",
+    "size": 44773837,
+    "compressed": 41172715,
+    "offset": 2510503712
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00384_384_seed=385_2022-08-06_01-27-48/progress.csv",
+    "size": 14448,
+    "compressed": 4358,
+    "offset": 2551676609
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00384_384_seed=385_2022-08-06_01-27-48/checkpoint_000022/",
+    "size": 0,
+    "compressed": 0,
+    "offset": 2551681132
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00384_384_seed=385_2022-08-06_01-27-48/checkpoint_000022/checkpoints",
+    "size": 44773837,
+    "compressed": 41145413,
+    "offset": 2551681303
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00384_384_seed=385_2022-08-06_01-27-48/params.pkl",
+    "size": 910,
+    "compressed": 552,
+    "offset": 2592826898
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00384_384_seed=385_2022-08-06_01-27-48/checkpoint_000023/",
+    "size": 0,
+    "compressed": 0,
+    "offset": 2592827613
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00384_384_seed=385_2022-08-06_01-27-48/checkpoint_000023/checkpoints",
+    "size": 44773837,
+    "compressed": 41152732,
+    "offset": 2592827784
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00384_384_seed=385_2022-08-06_01-27-48/params.json",
+    "size": 990,
+    "compressed": 447,
+    "offset": 2633980698
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00384_384_seed=385_2022-08-06_01-27-48/checkpoint_000024/",
+    "size": 0,
+    "compressed": 0,
+    "offset": 2633981309
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00384_384_seed=385_2022-08-06_01-27-48/checkpoint_000024/checkpoints",
+    "size": 44773837,
+    "compressed": 41162047,
+    "offset": 2633981480
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00940_940_seed=941_2022-08-07_22-51-44/",
+    "size": 0,
+    "compressed": 0,
+    "offset": 2675143709
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00940_940_seed=941_2022-08-07_22-51-44/checkpoint_000024/",
+    "size": 0,
+    "compressed": 0,
+    "offset": 2675143862
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00940_940_seed=941_2022-08-07_22-51-44/checkpoint_000024/checkpoints",
+    "size": 44773837,
+    "compressed": 41162291,
+    "offset": 2675144033
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00940_940_seed=941_2022-08-07_22-51-44/checkpoint_000023/",
+    "size": 0,
+    "compressed": 0,
+    "offset": 2716306506
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00940_940_seed=941_2022-08-07_22-51-44/checkpoint_000023/checkpoints",
+    "size": 44773837,
+    "compressed": 41151605,
+    "offset": 2716306677
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00940_940_seed=941_2022-08-07_22-51-44/params.json",
+    "size": 990,
+    "compressed": 448,
+    "offset": 2757458464
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00940_940_seed=941_2022-08-07_22-51-44/checkpoint_000022/",
+    "size": 0,
+    "compressed": 0,
+    "offset": 2757459076
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00940_940_seed=941_2022-08-07_22-51-44/checkpoint_000022/checkpoints",
+    "size": 44773837,
+    "compressed": 41143354,
+    "offset": 2757459247
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00940_940_seed=941_2022-08-07_22-51-44/checkpoint_000025/",
+    "size": 0,
+    "compressed": 0,
+    "offset": 2798602783
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00940_940_seed=941_2022-08-07_22-51-44/checkpoint_000025/checkpoints",
+    "size": 44773837,
+    "compressed": 41170771,
+    "offset": 2798602954
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00940_940_seed=941_2022-08-07_22-51-44/progress.csv",
+    "size": 14487,
+    "compressed": 4344,
+    "offset": 2839773907
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00940_940_seed=941_2022-08-07_22-51-44/params.pkl",
+    "size": 910,
+    "compressed": 553,
+    "offset": 2839778416
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00940_940_seed=941_2022-08-07_22-51-44/checkpoint_000021/",
+    "size": 0,
+    "compressed": 0,
+    "offset": 2839779132
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00940_940_seed=941_2022-08-07_22-51-44/checkpoint_000021/checkpoints",
+    "size": 44773837,
+    "compressed": 41135685,
+    "offset": 2839779303
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00940_940_seed=941_2022-08-07_22-51-44/result.json",
+    "size": 83463,
+    "compressed": 6000,
+    "offset": 2880915170
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00158_158_seed=159_2022-08-05_05-16-54/",
+    "size": 0,
+    "compressed": 0,
+    "offset": 2880921334
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00158_158_seed=159_2022-08-05_05-16-54/progress.csv",
+    "size": 14489,
+    "compressed": 4353,
+    "offset": 2880921487
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00158_158_seed=159_2022-08-05_05-16-54/result.json",
+    "size": 83465,
+    "compressed": 6013,
+    "offset": 2880926005
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00158_158_seed=159_2022-08-05_05-16-54/checkpoint_000023/",
+    "size": 0,
+    "compressed": 0,
+    "offset": 2880932182
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00158_158_seed=159_2022-08-05_05-16-54/checkpoint_000023/checkpoints",
+    "size": 44773837,
+    "compressed": 41153861,
+    "offset": 2880932353
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00158_158_seed=159_2022-08-05_05-16-54/checkpoint_000024/",
+    "size": 0,
+    "compressed": 0,
+    "offset": 2922086396
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00158_158_seed=159_2022-08-05_05-16-54/checkpoint_000024/checkpoints",
+    "size": 44773837,
+    "compressed": 41163798,
+    "offset": 2922086567
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00158_158_seed=159_2022-08-05_05-16-54/checkpoint_000021/",
+    "size": 0,
+    "compressed": 0,
+    "offset": 2963250547
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00158_158_seed=159_2022-08-05_05-16-54/checkpoint_000021/checkpoints",
+    "size": 44773837,
+    "compressed": 41137630,
+    "offset": 2963250718
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00158_158_seed=159_2022-08-05_05-16-54/checkpoint_000025/",
+    "size": 0,
+    "compressed": 0,
+    "offset": 3004388530
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00158_158_seed=159_2022-08-05_05-16-54/checkpoint_000025/checkpoints",
+    "size": 44773837,
+    "compressed": 41173582,
+    "offset": 3004388701
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00158_158_seed=159_2022-08-05_05-16-54/checkpoint_000022/",
+    "size": 0,
+    "compressed": 0,
+    "offset": 3045562465
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00158_158_seed=159_2022-08-05_05-16-54/checkpoint_000022/checkpoints",
+    "size": 44773837,
+    "compressed": 41145608,
+    "offset": 3045562636
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00158_158_seed=159_2022-08-05_05-16-54/params.json",
+    "size": 990,
+    "compressed": 447,
+    "offset": 3086708426
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00158_158_seed=159_2022-08-05_05-16-54/params.pkl",
+    "size": 909,
+    "compressed": 551,
+    "offset": 3086709037
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00319_319_seed=320_2022-08-05_19-33-58/",
+    "size": 0,
+    "compressed": 0,
+    "offset": 3086709751
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00319_319_seed=320_2022-08-05_19-33-58/progress.csv",
+    "size": 14393,
+    "compressed": 4352,
+    "offset": 3086709904
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00319_319_seed=320_2022-08-05_19-33-58/checkpoint_000021/",
+    "size": 0,
+    "compressed": 0,
+    "offset": 3086714421
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00319_319_seed=320_2022-08-05_19-33-58/checkpoint_000021/checkpoints",
+    "size": 44773837,
+    "compressed": 41138191,
+    "offset": 3086714592
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00319_319_seed=320_2022-08-05_19-33-58/checkpoint_000025/",
+    "size": 0,
+    "compressed": 0,
+    "offset": 3127852965
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00319_319_seed=320_2022-08-05_19-33-58/checkpoint_000025/checkpoints",
+    "size": 44773837,
+    "compressed": 41175038,
+    "offset": 3127853136
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00319_319_seed=320_2022-08-05_19-33-58/result.json",
+    "size": 83369,
+    "compressed": 6002,
+    "offset": 3169028356
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00319_319_seed=320_2022-08-05_19-33-58/checkpoint_000022/",
+    "size": 0,
+    "compressed": 0,
+    "offset": 3169034522
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00319_319_seed=320_2022-08-05_19-33-58/checkpoint_000022/checkpoints",
+    "size": 44773837,
+    "compressed": 41145827,
+    "offset": 3169034693
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00319_319_seed=320_2022-08-05_19-33-58/params.pkl",
+    "size": 910,
+    "compressed": 552,
+    "offset": 3210180702
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00319_319_seed=320_2022-08-05_19-33-58/params.json",
+    "size": 990,
+    "compressed": 447,
+    "offset": 3210181417
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00319_319_seed=320_2022-08-05_19-33-58/checkpoint_000023/",
+    "size": 0,
+    "compressed": 0,
+    "offset": 3210182028
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00319_319_seed=320_2022-08-05_19-33-58/checkpoint_000023/checkpoints",
+    "size": 44773837,
+    "compressed": 41155037,
+    "offset": 3210182199
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00319_319_seed=320_2022-08-05_19-33-58/checkpoint_000024/",
+    "size": 0,
+    "compressed": 0,
+    "offset": 3251337418
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00319_319_seed=320_2022-08-05_19-33-58/checkpoint_000024/checkpoints",
+    "size": 44773837,
+    "compressed": 41163810,
+    "offset": 3251337589
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00005_5_seed=6_2022-08-04_16-16-22/",
+    "size": 0,
+    "compressed": 0,
+    "offset": 3292501581
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00005_5_seed=6_2022-08-04_16-16-22/params.json",
+    "size": 988,
+    "compressed": 446,
+    "offset": 3292501730
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00005_5_seed=6_2022-08-04_16-16-22/checkpoint_000021/",
+    "size": 0,
+    "compressed": 0,
+    "offset": 3292502336
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00005_5_seed=6_2022-08-04_16-16-22/checkpoint_000021/checkpoints",
+    "size": 44773837,
+    "compressed": 41134450,
+    "offset": 3292502503
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00005_5_seed=6_2022-08-04_16-16-22/progress.csv",
+    "size": 14376,
+    "compressed": 4317,
+    "offset": 3333637131
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00005_5_seed=6_2022-08-04_16-16-22/checkpoint_000025/",
+    "size": 0,
+    "compressed": 0,
+    "offset": 3333641609
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00005_5_seed=6_2022-08-04_16-16-22/checkpoint_000025/checkpoints",
+    "size": 44773837,
+    "compressed": 41168778,
+    "offset": 3333641776
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00005_5_seed=6_2022-08-04_16-16-22/checkpoint_000022/",
+    "size": 0,
+    "compressed": 0,
+    "offset": 3374810732
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00005_5_seed=6_2022-08-04_16-16-22/checkpoint_000022/checkpoints",
+    "size": 44773837,
+    "compressed": 41142044,
+    "offset": 3374810899
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00005_5_seed=6_2022-08-04_16-16-22/checkpoint_000023/",
+    "size": 0,
+    "compressed": 0,
+    "offset": 3415953121
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00005_5_seed=6_2022-08-04_16-16-22/checkpoint_000023/checkpoints",
+    "size": 44773837,
+    "compressed": 41150878,
+    "offset": 3415953288
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00005_5_seed=6_2022-08-04_16-16-22/result.json",
+    "size": 83250,
+    "compressed": 5995,
+    "offset": 3457104344
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00005_5_seed=6_2022-08-04_16-16-22/params.pkl",
+    "size": 909,
+    "compressed": 551,
+    "offset": 3457110499
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00005_5_seed=6_2022-08-04_16-16-22/checkpoint_000024/",
+    "size": 0,
+    "compressed": 0,
+    "offset": 3457111209
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00005_5_seed=6_2022-08-04_16-16-22/checkpoint_000024/checkpoints",
+    "size": 44773837,
+    "compressed": 41159822,
+    "offset": 3457111376
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00835_835_seed=836_2022-08-07_14-28-20/",
+    "size": 0,
+    "compressed": 0,
+    "offset": 3498271376
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00835_835_seed=836_2022-08-07_14-28-20/checkpoint_000024/",
+    "size": 0,
+    "compressed": 0,
+    "offset": 3498271529
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00835_835_seed=836_2022-08-07_14-28-20/checkpoint_000024/checkpoints",
+    "size": 44773837,
+    "compressed": 41162334,
+    "offset": 3498271700
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00835_835_seed=836_2022-08-07_14-28-20/params.json",
+    "size": 990,
+    "compressed": 448,
+    "offset": 3539434216
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00835_835_seed=836_2022-08-07_14-28-20/checkpoint_000023/",
+    "size": 0,
+    "compressed": 0,
+    "offset": 3539434828
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00835_835_seed=836_2022-08-07_14-28-20/checkpoint_000023/checkpoints",
+    "size": 44773837,
+    "compressed": 41152806,
+    "offset": 3539434999
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00835_835_seed=836_2022-08-07_14-28-20/progress.csv",
+    "size": 14433,
+    "compressed": 4355,
+    "offset": 3580587987
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00835_835_seed=836_2022-08-07_14-28-20/params.pkl",
+    "size": 910,
+    "compressed": 552,
+    "offset": 3580592507
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00835_835_seed=836_2022-08-07_14-28-20/checkpoint_000022/",
+    "size": 0,
+    "compressed": 0,
+    "offset": 3580593222
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00835_835_seed=836_2022-08-07_14-28-20/checkpoint_000022/checkpoints",
+    "size": 44773837,
+    "compressed": 41143571,
+    "offset": 3580593393
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00835_835_seed=836_2022-08-07_14-28-20/checkpoint_000025/",
+    "size": 0,
+    "compressed": 0,
+    "offset": 3621737146
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00835_835_seed=836_2022-08-07_14-28-20/checkpoint_000025/checkpoints",
+    "size": 44773837,
+    "compressed": 41170884,
+    "offset": 3621737317
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00835_835_seed=836_2022-08-07_14-28-20/checkpoint_000021/",
+    "size": 0,
+    "compressed": 0,
+    "offset": 3662908383
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00835_835_seed=836_2022-08-07_14-28-20/checkpoint_000021/checkpoints",
+    "size": 44773837,
+    "compressed": 41135834,
+    "offset": 3662908554
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00835_835_seed=836_2022-08-07_14-28-20/result.json",
+    "size": 83409,
+    "compressed": 5974,
+    "offset": 3704044570
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00492_492_seed=493_2022-08-06_10-27-16/",
+    "size": 0,
+    "compressed": 0,
+    "offset": 3704050708
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00492_492_seed=493_2022-08-06_10-27-16/checkpoint_000022/",
+    "size": 0,
+    "compressed": 0,
+    "offset": 3704050861
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00492_492_seed=493_2022-08-06_10-27-16/checkpoint_000022/checkpoints",
+    "size": 44773837,
+    "compressed": 41142816,
+    "offset": 3704051032
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00492_492_seed=493_2022-08-06_10-27-16/checkpoint_000025/",
+    "size": 0,
+    "compressed": 0,
+    "offset": 3745194030
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00492_492_seed=493_2022-08-06_10-27-16/checkpoint_000025/checkpoints",
+    "size": 44773837,
+    "compressed": 41170126,
+    "offset": 3745194201
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00492_492_seed=493_2022-08-06_10-27-16/result.json",
+    "size": 83415,
+    "compressed": 6003,
+    "offset": 3786364509
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00492_492_seed=493_2022-08-06_10-27-16/checkpoint_000021/",
+    "size": 0,
+    "compressed": 0,
+    "offset": 3786370676
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00492_492_seed=493_2022-08-06_10-27-16/checkpoint_000021/checkpoints",
+    "size": 44773837,
+    "compressed": 41135333,
+    "offset": 3786370847
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00492_492_seed=493_2022-08-06_10-27-16/params.pkl",
+    "size": 910,
+    "compressed": 552,
+    "offset": 3827506362
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00492_492_seed=493_2022-08-06_10-27-16/progress.csv",
+    "size": 14439,
+    "compressed": 4357,
+    "offset": 3827507077
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00492_492_seed=493_2022-08-06_10-27-16/params.json",
+    "size": 990,
+    "compressed": 448,
+    "offset": 3827511599
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00492_492_seed=493_2022-08-06_10-27-16/checkpoint_000024/",
+    "size": 0,
+    "compressed": 0,
+    "offset": 3827512211
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00492_492_seed=493_2022-08-06_10-27-16/checkpoint_000024/checkpoints",
+    "size": 44773837,
+    "compressed": 41160753,
+    "offset": 3827512382
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00492_492_seed=493_2022-08-06_10-27-16/checkpoint_000023/",
+    "size": 0,
+    "compressed": 0,
+    "offset": 3868673317
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00492_492_seed=493_2022-08-06_10-27-16/checkpoint_000023/checkpoints",
+    "size": 44773837,
+    "compressed": 41151472,
+    "offset": 3868673488
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00730_730_seed=731_2022-08-07_06-04-58/",
+    "size": 0,
+    "compressed": 0,
+    "offset": 3909825142
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00730_730_seed=731_2022-08-07_06-04-58/params.json",
+    "size": 990,
+    "compressed": 448,
+    "offset": 3909825295
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00730_730_seed=731_2022-08-07_06-04-58/checkpoint_000021/",
+    "size": 0,
+    "compressed": 0,
+    "offset": 3909825907
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00730_730_seed=731_2022-08-07_06-04-58/checkpoint_000021/checkpoints",
+    "size": 44773837,
+    "compressed": 41135921,
+    "offset": 3909826078
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00730_730_seed=731_2022-08-07_06-04-58/checkpoint_000025/",
+    "size": 0,
+    "compressed": 0,
+    "offset": 3950962181
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00730_730_seed=731_2022-08-07_06-04-58/checkpoint_000025/checkpoints",
+    "size": 44773837,
+    "compressed": 41171434,
+    "offset": 3950962352
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00730_730_seed=731_2022-08-07_06-04-58/checkpoint_000022/",
+    "size": 0,
+    "compressed": 0,
+    "offset": 3992133968
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00730_730_seed=731_2022-08-07_06-04-58/checkpoint_000022/checkpoints",
+    "size": 44773837,
+    "compressed": 41144187,
+    "offset": 3992134139
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00730_730_seed=731_2022-08-07_06-04-58/progress.csv",
+    "size": 14496,
+    "compressed": 4364,
+    "offset": 4033278508
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00730_730_seed=731_2022-08-07_06-04-58/checkpoint_000023/",
+    "size": 0,
+    "compressed": 0,
+    "offset": 4033283037
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00730_730_seed=731_2022-08-07_06-04-58/checkpoint_000023/checkpoints",
+    "size": 44773837,
+    "compressed": 41153645,
+    "offset": 4033283208
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00730_730_seed=731_2022-08-07_06-04-58/params.pkl",
+    "size": 910,
+    "compressed": 553,
+    "offset": 4074437035
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00730_730_seed=731_2022-08-07_06-04-58/result.json",
+    "size": 83472,
+    "compressed": 6029,
+    "offset": 4074437751
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00730_730_seed=731_2022-08-07_06-04-58/checkpoint_000024/",
+    "size": 0,
+    "compressed": 0,
+    "offset": 4074443944
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00730_730_seed=731_2022-08-07_06-04-58/checkpoint_000024/checkpoints",
+    "size": 44773837,
+    "compressed": 41162974,
+    "offset": 4074444115
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00411_411_seed=412_2022-08-06_03-37-54/",
+    "size": 0,
+    "compressed": 0,
+    "offset": 4115607271
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00411_411_seed=412_2022-08-06_03-37-54/checkpoint_000023/",
+    "size": 0,
+    "compressed": 0,
+    "offset": 4115607424
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00411_411_seed=412_2022-08-06_03-37-54/checkpoint_000023/checkpoints",
+    "size": 44773837,
+    "compressed": 41152822,
+    "offset": 4115607595
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00411_411_seed=412_2022-08-06_03-37-54/params.json",
+    "size": 990,
+    "compressed": 448,
+    "offset": 4156760599
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00411_411_seed=412_2022-08-06_03-37-54/checkpoint_000024/",
+    "size": 0,
+    "compressed": 0,
+    "offset": 4156761211
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00411_411_seed=412_2022-08-06_03-37-54/checkpoint_000024/checkpoints",
+    "size": 44773837,
+    "compressed": 41162173,
+    "offset": 4156761382
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00411_411_seed=412_2022-08-06_03-37-54/checkpoint_000025/",
+    "size": 0,
+    "compressed": 0,
+    "offset": 4197923737
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00411_411_seed=412_2022-08-06_03-37-54/checkpoint_000025/checkpoints",
+    "size": 44773837,
+    "compressed": 41172526,
+    "offset": 4197923908
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00411_411_seed=412_2022-08-06_03-37-54/checkpoint_000022/",
+    "size": 0,
+    "compressed": 0,
+    "offset": 4239096616
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00411_411_seed=412_2022-08-06_03-37-54/checkpoint_000022/checkpoints",
+    "size": 44773837,
+    "compressed": 41144373,
+    "offset": 4239096787
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00411_411_seed=412_2022-08-06_03-37-54/params.pkl",
+    "size": 910,
+    "compressed": 553,
+    "offset": 4280241342
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00411_411_seed=412_2022-08-06_03-37-54/result.json",
+    "size": 83455,
+    "compressed": 6024,
+    "offset": 4280242058
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00411_411_seed=412_2022-08-06_03-37-54/progress.csv",
+    "size": 14479,
+    "compressed": 4361,
+    "offset": 4280248246
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00411_411_seed=412_2022-08-06_03-37-54/checkpoint_000021/",
+    "size": 0,
+    "compressed": 0,
+    "offset": 4280252772
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00411_411_seed=412_2022-08-06_03-37-54/checkpoint_000021/checkpoints",
+    "size": 44773837,
+    "compressed": 41137111,
+    "offset": 4280252943
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00579_579_seed=580_2022-08-06_17-40-57/",
+    "size": 0,
+    "compressed": 0,
+    "offset": 4321390236
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00579_579_seed=580_2022-08-06_17-40-57/checkpoint_000025/",
+    "size": 0,
+    "compressed": 0,
+    "offset": 4321390389
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00579_579_seed=580_2022-08-06_17-40-57/checkpoint_000025/checkpoints",
+    "size": 44773837,
+    "compressed": 41170771,
+    "offset": 4321390560
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00579_579_seed=580_2022-08-06_17-40-57/progress.csv",
+    "size": 14440,
+    "compressed": 4352,
+    "offset": 4362561513
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00579_579_seed=580_2022-08-06_17-40-57/checkpoint_000022/",
+    "size": 0,
+    "compressed": 0,
+    "offset": 4362566030
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00579_579_seed=580_2022-08-06_17-40-57/checkpoint_000022/checkpoints",
+    "size": 44773837,
+    "compressed": 41143486,
+    "offset": 4362566201
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00579_579_seed=580_2022-08-06_17-40-57/params.pkl",
+    "size": 910,
+    "compressed": 552,
+    "offset": 4403709869
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00579_579_seed=580_2022-08-06_17-40-57/checkpoint_000021/",
+    "size": 0,
+    "compressed": 0,
+    "offset": 4403710584
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00579_579_seed=580_2022-08-06_17-40-57/checkpoint_000021/checkpoints",
+    "size": 44773837,
+    "compressed": 41134751,
+    "offset": 4403710755
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00579_579_seed=580_2022-08-06_17-40-57/params.json",
+    "size": 990,
+    "compressed": 447,
+    "offset": 4444845688
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00579_579_seed=580_2022-08-06_17-40-57/checkpoint_000023/",
+    "size": 0,
+    "compressed": 0,
+    "offset": 4444846299
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00579_579_seed=580_2022-08-06_17-40-57/checkpoint_000023/checkpoints",
+    "size": 44773837,
+    "compressed": 41152357,
+    "offset": 4444846470
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00579_579_seed=580_2022-08-06_17-40-57/result.json",
+    "size": 83416,
+    "compressed": 6004,
+    "offset": 4485999009
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00579_579_seed=580_2022-08-06_17-40-57/checkpoint_000024/",
+    "size": 0,
+    "compressed": 0,
+    "offset": 4486005177
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00579_579_seed=580_2022-08-06_17-40-57/checkpoint_000024/checkpoints",
+    "size": 44773837,
+    "compressed": 41161636,
+    "offset": 4486005348
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00880_880_seed=881_2022-08-07_18-00-39/",
+    "size": 0,
+    "compressed": 0,
+    "offset": 4527167166
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00880_880_seed=881_2022-08-07_18-00-39/checkpoint_000025/",
+    "size": 0,
+    "compressed": 0,
+    "offset": 4527167319
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00880_880_seed=881_2022-08-07_18-00-39/checkpoint_000025/checkpoints",
+    "size": 44773837,
+    "compressed": 41169360,
+    "offset": 4527167490
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00880_880_seed=881_2022-08-07_18-00-39/result.json",
+    "size": 83396,
+    "compressed": 5974,
+    "offset": 4568337032
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00880_880_seed=881_2022-08-07_18-00-39/progress.csv",
+    "size": 14420,
+    "compressed": 4345,
+    "offset": 4568343170
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00880_880_seed=881_2022-08-07_18-00-39/checkpoint_000022/",
+    "size": 0,
+    "compressed": 0,
+    "offset": 4568347680
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00880_880_seed=881_2022-08-07_18-00-39/checkpoint_000022/checkpoints",
+    "size": 44773837,
+    "compressed": 41141958,
+    "offset": 4568347851
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00880_880_seed=881_2022-08-07_18-00-39/params.pkl",
+    "size": 910,
+    "compressed": 552,
+    "offset": 4609489991
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00880_880_seed=881_2022-08-07_18-00-39/checkpoint_000021/",
+    "size": 0,
+    "compressed": 0,
+    "offset": 4609490706
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00880_880_seed=881_2022-08-07_18-00-39/checkpoint_000021/checkpoints",
+    "size": 44773837,
+    "compressed": 41133767,
+    "offset": 4609490877
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00880_880_seed=881_2022-08-07_18-00-39/checkpoint_000023/",
+    "size": 0,
+    "compressed": 0,
+    "offset": 4650624826
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00880_880_seed=881_2022-08-07_18-00-39/checkpoint_000023/checkpoints",
+    "size": 44773837,
+    "compressed": 41150782,
+    "offset": 4650624997
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00880_880_seed=881_2022-08-07_18-00-39/checkpoint_000024/",
+    "size": 0,
+    "compressed": 0,
+    "offset": 4691775961
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00880_880_seed=881_2022-08-07_18-00-39/checkpoint_000024/checkpoints",
+    "size": 44773837,
+    "compressed": 41159941,
+    "offset": 4691776132
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00880_880_seed=881_2022-08-07_18-00-39/params.json",
+    "size": 990,
+    "compressed": 448,
+    "offset": 4732936255
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00984_984_seed=985_2022-08-08_02-25-07/",
+    "size": 0,
+    "compressed": 0,
+    "offset": 4732936867
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00984_984_seed=985_2022-08-08_02-25-07/checkpoint_000025/",
+    "size": 0,
+    "compressed": 0,
+    "offset": 4732937020
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00984_984_seed=985_2022-08-08_02-25-07/checkpoint_000025/checkpoints",
+    "size": 44773837,
+    "compressed": 41168407,
+    "offset": 4732937191
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00984_984_seed=985_2022-08-08_02-25-07/checkpoint_000022/",
+    "size": 0,
+    "compressed": 0,
+    "offset": 4774105780
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00984_984_seed=985_2022-08-08_02-25-07/checkpoint_000022/checkpoints",
+    "size": 44773837,
+    "compressed": 41141575,
+    "offset": 4774105951
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00984_984_seed=985_2022-08-08_02-25-07/progress.csv",
+    "size": 14425,
+    "compressed": 4347,
+    "offset": 4815247708
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00984_984_seed=985_2022-08-08_02-25-07/params.pkl",
+    "size": 910,
+    "compressed": 553,
+    "offset": 4815252220
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00984_984_seed=985_2022-08-08_02-25-07/result.json",
+    "size": 83401,
+    "compressed": 6029,
+    "offset": 4815252936
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00984_984_seed=985_2022-08-08_02-25-07/checkpoint_000021/",
+    "size": 0,
+    "compressed": 0,
+    "offset": 4815259129
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00984_984_seed=985_2022-08-08_02-25-07/checkpoint_000021/checkpoints",
+    "size": 44773837,
+    "compressed": 41135328,
+    "offset": 4815259300
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00984_984_seed=985_2022-08-08_02-25-07/checkpoint_000023/",
+    "size": 0,
+    "compressed": 0,
+    "offset": 4856394810
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00984_984_seed=985_2022-08-08_02-25-07/checkpoint_000023/checkpoints",
+    "size": 44773837,
+    "compressed": 41150130,
+    "offset": 4856394981
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00984_984_seed=985_2022-08-08_02-25-07/params.json",
+    "size": 990,
+    "compressed": 447,
+    "offset": 4897545293
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00984_984_seed=985_2022-08-08_02-25-07/checkpoint_000024/",
+    "size": 0,
+    "compressed": 0,
+    "offset": 4897545904
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00984_984_seed=985_2022-08-08_02-25-07/checkpoint_000024/checkpoints",
+    "size": 44773837,
+    "compressed": 41159847,
+    "offset": 4897546075
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00811_811_seed=812_2022-08-07_12-33-02/",
+    "size": 0,
+    "compressed": 0,
+    "offset": 4938706104
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00811_811_seed=812_2022-08-07_12-33-02/progress.csv",
+    "size": 14439,
+    "compressed": 4326,
+    "offset": 4938706257
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00811_811_seed=812_2022-08-07_12-33-02/checkpoint_000021/",
+    "size": 0,
+    "compressed": 0,
+    "offset": 4938710748
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00811_811_seed=812_2022-08-07_12-33-02/checkpoint_000021/checkpoints",
+    "size": 44773837,
+    "compressed": 41134843,
+    "offset": 4938710919
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00811_811_seed=812_2022-08-07_12-33-02/params.json",
+    "size": 990,
+    "compressed": 448,
+    "offset": 4979845944
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00811_811_seed=812_2022-08-07_12-33-02/checkpoint_000025/",
+    "size": 0,
+    "compressed": 0,
+    "offset": 4979846556
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00811_811_seed=812_2022-08-07_12-33-02/checkpoint_000025/checkpoints",
+    "size": 44773837,
+    "compressed": 41170857,
+    "offset": 4979846727
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00811_811_seed=812_2022-08-07_12-33-02/checkpoint_000022/",
+    "size": 0,
+    "compressed": 0,
+    "offset": 5021017766
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00811_811_seed=812_2022-08-07_12-33-02/checkpoint_000022/checkpoints",
+    "size": 44773837,
+    "compressed": 41142720,
+    "offset": 5021017937
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00811_811_seed=812_2022-08-07_12-33-02/params.pkl",
+    "size": 910,
+    "compressed": 552,
+    "offset": 5062160839
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00811_811_seed=812_2022-08-07_12-33-02/result.json",
+    "size": 83415,
+    "compressed": 6005,
+    "offset": 5062161554
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00811_811_seed=812_2022-08-07_12-33-02/checkpoint_000023/",
+    "size": 0,
+    "compressed": 0,
+    "offset": 5062167723
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00811_811_seed=812_2022-08-07_12-33-02/checkpoint_000023/checkpoints",
+    "size": 44773837,
+    "compressed": 41152393,
+    "offset": 5062167894
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00811_811_seed=812_2022-08-07_12-33-02/checkpoint_000024/",
+    "size": 0,
+    "compressed": 0,
+    "offset": 5103320469
+  },
+  {
+    "name": "cifar10_resnet18_sample_ep21-25/NN_tune_trainable_0ecbc_00811_811_seed=812_2022-08-07_12-33-02/checkpoint_000024/checkpoints",
+    "size": 44773837,
+    "compressed": 41161025,
+    "offset": 5103320640
+  }
+]

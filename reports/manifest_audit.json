@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "models": 90,
+  "groups": {
+    "A": 30,
+    "B": 30,
+    "B2": 30
+  },
+  "unique_lineages": 90,
+  "pairs": 4005,
+  "hard_negative_pairs": 870,
+  "different_architecture_pairs": 3135,
+  "distinct_B_seeds": 30,
+  "distinct_B2_hyperparameter_signatures": 30,
+  "B2_seed_values": [
+    0
+  ]
+}
