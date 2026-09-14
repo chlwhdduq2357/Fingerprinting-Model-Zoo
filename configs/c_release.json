@@ -1,0 +1,9 @@
+{
+  "repository": "chlwhdduq2357/Fingerprinting-Model-Zoo",
+  "tag": "c-checkpoints-v1",
+  "asset_name": "Fingerprinting-Model-Zoo-C-v1.zip",
+  "download_url": "https://github.com/chlwhdduq2357/Fingerprinting-Model-Zoo/releases/download/c-checkpoints-v1/Fingerprinting-Model-Zoo-C-v1.zip",
+  "bytes": 1219770832,
+  "sha256": "c70b134211a5fe762f314cbab0fe16ec0aa9364a1d74f76461bec3f714cedc49",
+  "contents": "checkpoints/C/C001...C120 and C_SHA256SUMS.txt"
+}

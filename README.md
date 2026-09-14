@@ -20,7 +20,7 @@ Fingerprinting-Model-Zoo/
 │   ├── B/                    # seed가 다른 ResNet18 originals 30개
 │   ├── B2/                   # hyperparameter가 다른 PreActResNet18 originals 30개
 │   └── C/                    # A의 descendants 120개
-├── configs/                  # 모델 선택과 B2 source 설정
+├── configs/                  # 모델 선택, B2 source와 C Release 설정
 ├── loaders/
 │   └── unified.py            # load_model(), native preprocessing, pair_relation()
 ├── metadata/
@@ -33,6 +33,7 @@ Fingerprinting-Model-Zoo/
 ├── runs/                     # C fine-tuning 실행 log가 있을 때 저장되는 위치
 ├── scripts/
 │   ├── download_models.py    # A/B/B2 선택 다운로드
+│   ├── download_c_release.py # GitHub Release에서 C 다운로드
 │   ├── verify_hashes.py      # dataset 없이 SHA256 검사
 │   ├── verify_c_quick.py     # C의 빠른 load/inference 검사
 │   ├── verify_models.py      # CIFAR-10 sample 또는 전체 정확도 검사
@@ -130,15 +131,30 @@ python scripts/verify_hashes.py
 
 명령이 `모든 checkpoint의 SHA256이 metadata와 일치합니다.`로 끝나야 한다. 누락 또는 hash 불일치가 있으면 exit code 1을 반환한다.
 
-### 3.4 C 배치와 빠른 검증
+### 3.4 C Release 다운로드와 빠른 검증
 
-C는 공개 원본 다운로드 대상이 아니라 이 프로젝트에서 생성한 derivative이므로 별도 보관본의 `C` 폴더를 `checkpoints/C/`에 배치한다. 현재 `metadata/models.json`에는 C001–C120의 hash와 lineage가 등록되어 있다.
+C는 Git history에 넣지 않고 [`c-checkpoints-v1`](https://github.com/chlwhdduq2357/Fingerprinting-Model-Zoo/releases/tag/c-checkpoints-v1) Release의 단일 ZIP asset으로 배포한다. 소스 저장소를 clone한 뒤 다음 명령을 실행하면 약 1.136 GiB archive를 받아 `checkpoints/C/`에 배치하고 archive 및 120개 파일의 SHA256을 검사한다.
 
 ```bash
+python scripts/download_c_release.py
 python scripts/verify_c_quick.py
 ```
 
-이 검사는 CIFAR-10을 다운로드하거나 정확도를 재계산하지 않는다. C 120개의 ID·부모·변형·파일명, SHA256, strict parameter loading, 한 장의 합성 입력에 대한 finite `[1,10]` logits를 확인한다. 현재 CPU 검증 환경에서는 약 **41초**가 걸렸다. 결과는 `reports/c_quick_verification.json`에 저장된다.
+다운로드 도중에는 `.part` 파일을 사용하고, 검증을 통과한 파일만 최종 경로로 옮긴다. 기본적으로 검증 후 ZIP cache를 지우며 `--keep-archive`를 주면 `work/`에 보존한다. 이미 120개가 모두 있으면 네트워크 요청 없이 hash만 확인하고 종료한다.
+
+`verify_c_quick.py`는 CIFAR-10을 다운로드하거나 정확도를 재계산하지 않는다. C 120개의 ID·부모·변형·파일명, SHA256, strict parameter loading, 한 장의 합성 입력에 대한 finite `[1,10]` logits를 확인한다. 현재 CPU 검증 환경에서는 약 **41초**가 걸렸다. 결과는 `reports/c_quick_verification.json`에 저장된다.
+
+Colab에서는 다음처럼 같은 pipeline을 그대로 실행할 수 있다. `example.py`가 A002 원본과 C 자식을 함께 비교하므로 A002도 받는다.
+
+```python
+!git clone https://github.com/chlwhdduq2357/Fingerprinting-Model-Zoo.git
+%cd Fingerprinting-Model-Zoo
+!pip install --no-deps -e .
+!python scripts/download_models.py --model-id A002
+!python scripts/download_c_release.py
+!python scripts/verify_c_quick.py
+!python example.py
+```
 
 ## 4. 모델 선택, 호출과 비교
 
