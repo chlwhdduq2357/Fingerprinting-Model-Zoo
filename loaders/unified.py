@@ -127,7 +127,9 @@ def load_model(model_id, *, device='cpu', preprocessing='native', common_mean=No
     return Classifier(net, row, preprocessing, common_mean, common_std).to(device).eval()
 
 def pair_relation(first, second):
-    by_id = {r['model_id']: r for r in models()}
+    # 이미 metadata row를 받은 대량 export에서는 manifest를 pair마다 다시 읽지 않는다.
+    if isinstance(first, str) or isinstance(second, str):
+        by_id = {r['model_id']: r for r in models()}
     a = by_id[first] if isinstance(first, str) else first
     b = by_id[second] if isinstance(second, str) else second
     same_arch = a['topology_id'] == b['topology_id']
