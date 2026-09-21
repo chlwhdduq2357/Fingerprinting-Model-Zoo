@@ -1,7 +1,7 @@
 """Audit the actual local original population and its provenance contracts."""
 import sys
 from pathlib import Path
-sys.path.insert(0,str(Path(__file__).resolve().parents[2]))
+sys.path.insert(0,str(Path(__file__).resolve().parents[1]))
 import csv
 from collections import Counter
 from itertools import combinations

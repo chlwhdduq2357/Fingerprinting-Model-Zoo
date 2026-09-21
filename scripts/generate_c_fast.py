@@ -27,7 +27,7 @@ from torch.utils.data import DataLoader, Subset
 from torchvision.datasets import CIFAR10
 from torchvision.transforms import Compose, RandomCrop, RandomHorizontalFlip, ToTensor
 
-sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from model_zoo.core import ROOT, models, save_models, sha256, tensor_hash, write_json
 from model_zoo.loaders.unified import Classifier, build_network, load_model
 

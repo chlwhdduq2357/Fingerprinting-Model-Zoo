@@ -13,7 +13,9 @@ import binascii
 import zipfile
 import threading
 
-ROOT = Path(__file__).resolve().parent
+# Source code lives in ``<repository>/model_zoo`` while checkpoints, metadata,
+# reports and scripts live at the repository root.
+ROOT = Path(__file__).resolve().parents[1]
 MAX_FILE = 512 * 1024**2
 SOURCE_LIMIT = 19_000_000_000
 _lock = threading.Lock()

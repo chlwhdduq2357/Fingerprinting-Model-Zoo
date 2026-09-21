@@ -10,7 +10,7 @@ from pathlib import Path
 
 import torch
 
-sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
 from model_zoo import load_model, pair_relation
 from model_zoo.core import ROOT, models, sha256, write_json

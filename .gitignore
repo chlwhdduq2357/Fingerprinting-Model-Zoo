@@ -9,6 +9,7 @@ work/
 venv/
 __pycache__/
 *.py[cod]
+*.egg-info/
 .pytest_cache/
 .mypy_cache/
 .ruff_cache/
@@ -24,4 +25,3 @@ wandb/
 .vscode/
 .DS_Store
 Thumbs.db
-

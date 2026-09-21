@@ -21,8 +21,11 @@ Fingerprinting-Model-Zoo/
 │   ├── B2/                   # hyperparameter가 다른 PreActResNet18 originals 30개
 │   └── C/                    # A의 descendants 120개
 ├── configs/                  # 모델 선택, B2 source와 C Release 설정
-├── loaders/
-│   └── unified.py            # load_model(), native preprocessing, pair_relation()
+├── model_zoo/                # import model_zoo Python package
+│   ├── core.py               # manifest, hash, selective download
+│   ├── loaders/
+│   │   └── unified.py       # load_model(), preprocessing, pair_relation()
+│   └── vendor/                # 검토된 최소 architecture 정의
 ├── metadata/
 │   ├── models.json           # 전체 모델 manifest와 lineage 정보
 │   ├── models.csv            # 표 형식의 동일 metadata
@@ -40,14 +43,13 @@ Fingerprinting-Model-Zoo/
 │   ├── list_models.py        # 등록 모델 목록
 │   └── export_pairs.py       # pair label 생성
 ├── tests/                    # loader와 변환 contract 단위 테스트
-├── vendor/                   # 외부 실행 없이 재현하는 최소 architecture 정의
 ├── example.py                # 핵심 API의 짧은 실행 예제
 ├── COLAB_C_FAST.ipynb        # C 생성용 Colab notebook
 ├── pyproject.toml
 └── requirements-lock.txt
 ```
 
-Checkpoint는 용량 때문에 Git에 포함되지 않고 `.gitignore` 처리된다. `metadata/`, `vendor/`, loader와 script는 Git으로 보존한다.
+Checkpoint는 용량 때문에 Git에 포함되지 않고 `.gitignore` 처리된다. `metadata/`, `model_zoo/vendor/`, loader와 script는 Git으로 보존한다.
 
 ## 2. A/B/B2/C 모델군
 
@@ -144,16 +146,20 @@ python scripts/verify_c_quick.py
 
 `verify_c_quick.py`는 CIFAR-10을 다운로드하거나 정확도를 재계산하지 않는다. C 120개의 ID·부모·변형·파일명, SHA256, strict parameter loading, 한 장의 합성 입력에 대한 finite `[1,10]` logits를 확인한다. 현재 CPU 검증 환경에서는 약 **41초**가 걸렸다. 결과는 `reports/c_quick_verification.json`에 저장된다.
 
-Colab에서는 다음처럼 같은 pipeline을 그대로 실행할 수 있다. `example.py`가 A002 원본과 C 자식을 함께 비교하므로 A002도 받는다.
+Colab에서는 다음처럼 clone, editable install, 선택 download 후 같은 notebook kernel에서 바로 import할 수 있다. 저장소 안에 표준 `model_zoo/` package directory가 있어 editable install 경로를 kernel이 다시 읽지 않아도 repository root에서 import가 동작한다.
 
 ```python
 !git clone https://github.com/chlwhdduq2357/Fingerprinting-Model-Zoo.git
 %cd Fingerprinting-Model-Zoo
-!pip install --no-deps -e .
-!python scripts/download_models.py --model-id A002
-!python scripts/download_c_release.py
-!python scripts/verify_c_quick.py
-!python example.py
+!python -m pip install --no-deps -e .
+!python scripts/download_models.py --model-id B001
+!python scripts/download_models.py --model-id B2_001
+
+import model_zoo
+from model_zoo import load_model
+
+b = load_model("B001", device="cpu")
+b2 = load_model("B2_001", device="cpu")
 ```
 
 ## 4. 모델 선택, 호출과 비교
@@ -216,4 +222,4 @@ python scripts/verify_models.py --model-id A002 --full
 
 ### 출처와 재현성
 
-모델별 repository, revision, direct URL 또는 archive member, SHA256, native preprocessing과 독립 학습 근거는 `metadata/models.json`, `metadata/sources.json`, `metadata/evidence/`에 있다. 외부 repository의 setup script나 remote Python 코드를 실행하지 않고 `vendor/`의 검토된 최소 정의를 사용한다. A/B/B2 초기 구축 결과는 `reports/model_zoo_report.md`, 현재 C 검증 결과는 `reports/c_quick_verification.json`을 참고한다.
+모델별 repository, revision, direct URL 또는 archive member, SHA256, native preprocessing과 독립 학습 근거는 `metadata/models.json`, `metadata/sources.json`, `metadata/evidence/`에 있다. 외부 repository의 setup script나 remote Python 코드를 실행하지 않고 `model_zoo/vendor/`의 검토된 최소 정의를 사용한다. A/B/B2 초기 구축 결과는 `reports/model_zoo_report.md`, 현재 C 검증 결과는 `reports/c_quick_verification.json`을 참고한다.

@@ -1,6 +1,6 @@
 import sys
 from pathlib import Path
-sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 import argparse
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from model_zoo.core import models, save_models, download_one

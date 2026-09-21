@@ -1,7 +1,7 @@
 """Import full results from --no-update only when they match current checkpoint hashes."""
 import sys
 from pathlib import Path
-sys.path.insert(0,str(Path(__file__).resolve().parents[2]))
+sys.path.insert(0,str(Path(__file__).resolve().parents[1]))
 from model_zoo.core import ROOT, models, save_models, read_json
 
 rows=models()

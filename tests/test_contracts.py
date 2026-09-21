@@ -1,6 +1,6 @@
 import sys
 from pathlib import Path
-sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 import io
 import tempfile
 import unittest
@@ -12,6 +12,12 @@ from model_zoo.loaders.unified import Classifier, SharpnessPreActResNet18, pair_
 import model_zoo.core as core
 
 class Contracts(unittest.TestCase):
+    def test_package_root_points_to_repository_data(self):
+        package_dir = Path(core.__file__).resolve().parent
+        self.assertEqual(package_dir.name, 'model_zoo')
+        self.assertEqual(core.ROOT, package_dir.parent)
+        self.assertTrue((core.ROOT / 'metadata/models.json').is_file())
+
     def test_native_preprocessing_matches_manual(self):
         meta={'normalization_mean':[.1,.2,.3],'normalization_std':[.2,.4,.5]}
         x=torch.rand(2,3,32,32)

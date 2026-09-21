@@ -21,7 +21,7 @@ attribution 연구를 진행하고 있다. 이 repository에는 이미 다음 �
 
 1. 현재 OS, CPU, RAM, GPU의 정확한 이름과 VRAM, driver를 확인한다.
 2. `README.md`, `metadata/models.json`, `metadata/sources.json`,
-   `reports/model_zoo_report.md`, `loaders/unified.py`, downloader/verifier/tests를 읽는다.
+   `reports/model_zoo_report.md`, `model_zoo/loaders/unified.py`, downloader/verifier/tests를 읽는다.
 3. `git status`와 현재 branch를 확인한다. 기존 변경을 덮어쓰거나 삭제하지 않는다.
 4. GPU는 AMD Radeon RX 9060 XT로 예상하지만 실제 장치를 명령으로 확인한다.
 5. Windows라면 AMD가 해당 GPU에 공식 제공하는 PyTorch/ROCm 조합을 우선 사용한다.

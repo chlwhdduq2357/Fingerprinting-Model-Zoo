@@ -14,7 +14,7 @@ if hasattr(sys.stdout, "reconfigure"):
 
 # editable install 전에도 repository root에서 바로 실행할 수 있게 경로를 추가한다.
 ROOT = Path(__file__).resolve().parent
-sys.path.insert(0, str(ROOT.parent))
+sys.path.insert(0, str(ROOT))
 
 from model_zoo import load_model, pair_relation
 from model_zoo.core import models
