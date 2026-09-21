@@ -13,6 +13,8 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
 from model_zoo.core import ROOT, models, sha256
 
+EXPECTED_C_MODELS = 128
+
 
 def all_ready(rows: list[dict]) -> bool:
     return all(
@@ -47,10 +49,11 @@ def main() -> None:
         (row for row in models() if row.get("group") == "C"),
         key=lambda row: int(row["model_id"][1:]),
     )
-    if len(rows) != 120:
-        raise SystemExit("metadata에 C 120개가 등록되어 있지 않습니다.")
+    expected_ids = [f"C{number:03d}" for number in range(1, EXPECTED_C_MODELS + 1)]
+    if [row["model_id"] for row in rows] != expected_ids:
+        raise SystemExit(f"metadata에 C001-C{EXPECTED_C_MODELS:03d}가 연속적으로 등록되어 있지 않습니다.")
     if all_ready(rows):
-        print("C001-C120이 이미 존재하며 모든 SHA256이 일치합니다.")
+        print(f"C001-C{EXPECTED_C_MODELS:03d}이 이미 존재하며 모든 SHA256이 일치합니다.")
         return
 
     cache = ROOT / "work" / config["asset_name"]
@@ -80,13 +83,13 @@ def main() -> None:
                 raise SystemExit(f"압축 해제 후 SHA256 불일치: {row['model_id']}")
             part.replace(destination)
             if index % 10 == 0:
-                print(f"{index}/120 extracted", flush=True)
+                print(f"{index}/{len(rows)} extracted", flush=True)
 
     if not all_ready(rows):
         raise SystemExit("C checkpoint 최종 SHA256 검증에 실패했습니다.")
     if not args.keep_archive:
         cache.unlink(missing_ok=True)
-    print("C001-C120 다운로드, 배치와 SHA256 검증을 완료했습니다.")
+    print(f"C001-C{EXPECTED_C_MODELS:03d} 다운로드, 배치와 SHA256 검증을 완료했습니다.")
 
 
 if __name__ == "__main__":

@@ -1,19 +1,19 @@
 {
   "passed": true,
-  "models": 120,
+  "models": 128,
   "transforms": {
-    "ft5": 30,
-    "prune50": 30,
-    "ptq_int8": 30,
-    "prune20": 30
+    "ft5": 32,
+    "prune50": 32,
+    "ptq_int8": 32,
+    "prune20": 32
   },
-  "checkpoint_bytes": 1624930965,
+  "checkpoint_bytes": 1916140094,
   "checks": [
     "filename/parent/transform",
     "sha256",
     "strict load",
     "finite [1,10] logits"
   ],
-  "seconds": 41.153,
+  "seconds": 41.502,
   "torch_version": "2.14.0+cpu"
 }

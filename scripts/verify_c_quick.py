@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""C 120개를 데이터셋 없이 hash, strict load, 단일 입력으로 빠르게 검사한다."""
+"""C 128개를 데이터셋 없이 hash, strict load, 단일 입력으로 빠르게 검사한다."""
 
 import gc
 import json
@@ -25,19 +25,24 @@ def main() -> None:
         (row for row in rows if row.get("group") == "C"),
         key=lambda row: int(row["model_id"][1:]),
     )
-    expected_ids = [f"C{number:03d}" for number in range(1, 121)]
+    expected_ids = [f"C{number:03d}" for number in range(1, 129)]
     assert [row["model_id"] for row in children] == expected_ids
     assert Counter(row["transform_type"] for row in children) == {
-        "ft5": 30, "prune50": 30, "ptq_int8": 30, "prune20": 30
+        "ft5": 32, "prune50": 32, "ptq_int8": 32, "prune20": 32
     }
 
     expected_files = set()
     probe = torch.rand(1, 3, 32, 32, generator=torch.Generator().manual_seed(20260914))
     for index, row in enumerate(children, 1):
         number = int(row["model_id"][1:])
-        parent_id = f"A{((number - 1) // 4) + 1:03d}"
+        if number <= 120:
+            parent_id = f"A{((number - 1) // 4) + 1:03d}"
+            suffix = ".pt" if (number - 1) % 4 == 2 else ".pth"
+        elif number <= 124:
+            parent_id, suffix = "B001", ".pt"
+        else:
+            parent_id, suffix = "B2_001", ".pt"
         transform = ("ft5", "prune50", "ptq_int8", "prune20")[(number - 1) % 4]
-        suffix = ".pt" if transform == "ptq_int8" else ".pth"
         filename = f"{row['model_id']}_{parent_id}_{transform}{suffix}"
         assert row["parent_id"] == parent_id and row["transform_type"] == transform
         assert Path(row["local_checkpoint_path"]).name == filename
@@ -55,7 +60,7 @@ def main() -> None:
         del model, logits
         gc.collect()
         if index % 10 == 0:
-            print(f"{index:3d}/120 로딩 및 추론 통과", flush=True)
+            print(f"{index:3d}/{len(children)} 로딩 및 추론 통과", flush=True)
 
     actual_files = {path.name for path in (ROOT / "checkpoints/C").iterdir() if path.is_file()}
     assert actual_files == expected_files, "metadata에 없거나 누락된 C 파일이 있습니다."

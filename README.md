@@ -2,14 +2,14 @@
 
 여러 CIFAR-10 분류 모델의 fingerprint를 비교해 **architecture**, **독립 학습**, **동일 lineage의 변형**을 구분하기 위한 Model Zoo이다. 모든 모델은 `model_id`로 선택하고 같은 입력·출력 인터페이스로 호출할 수 있다.
 
-현재 metadata에는 총 **210개**가 등록되어 있다.
+현재 metadata에는 총 **218개**가 등록되어 있다.
 
 | 그룹 | 개수 | 역할 |
 |---|---:|---|
 | A | 30 | architecture가 다양한 독립 원본 |
 | B | 30 | 같은 ResNet18 구조 및 hyperparameter 학습 설정, 서로 다른 seed로 학습 |
 | B2 | 30 | 같은 PreActResNet18 구조 및 seed, 서로 다른 hyperparameter 설정으로 학습 |
-| C | 120 | A 30개에서 각각 만든 네 가지 변형 |
+| C | 128 | A 30개와 B/B2 대표 부모 2개에서 각각 만든 네 가지 변형 |
 
 ## 1. 프로젝트 구조
 
@@ -19,7 +19,7 @@ Fingerprinting-Model-Zoo/
 │   ├── A/                    # architecture-diverse originals 30개
 │   ├── B/                    # seed가 다른 ResNet18 originals 30개
 │   ├── B2/                   # hyperparameter가 다른 PreActResNet18 originals 30개
-│   └── C/                    # A의 descendants 120개
+│   └── C/                    # A/B/B2 부모의 descendants 128개
 ├── configs/                  # 모델 선택, B2 source와 C Release 설정
 ├── model_zoo/                # import model_zoo Python package
 │   ├── core.py               # manifest, hash, selective download
@@ -67,7 +67,7 @@ NIN, ResNet, PreResNet, SE-ResNet, PyramidNet, DenseNet, WideResNet, RoR, Shake-
 
 ### C: same-lineage descendants
 
-A001부터 A030까지 각 원본에 아래 변형을 하나씩 적용한 총 120개이다. 자식은 부모의 `lineage_id`를 그대로 상속하며 `parent_id`에 직접 부모 A 모델을 기록한다.
+A001부터 A030까지 각 원본에 아래 변형을 하나씩 적용한 120개와, B001·B2_001에 같은 네 변형을 적용한 8개를 합친 총 128개이다. 자식은 부모의 `lineage_id`를 그대로 상속하며 `parent_id`에 직접 부모 모델을 기록한다. C121–C124는 B001의 ResNet18 descendants이고 C125–C128은 B2_001의 PreActResNet18 descendants이다.
 
 | 순서 | 변형 | 설명 |
 |---:|---|---|
@@ -135,16 +135,16 @@ python scripts/verify_hashes.py
 
 ### 3.4 C Release 다운로드와 빠른 검증
 
-C는 Git history에 넣지 않고 [`c-checkpoints-v1`](https://github.com/chlwhdduq2357/Fingerprinting-Model-Zoo/releases/tag/c-checkpoints-v1) Release의 단일 ZIP asset으로 배포한다. 소스 저장소를 clone한 뒤 다음 명령을 실행하면 약 1.136 GiB archive를 받아 `checkpoints/C/`에 배치하고 archive 및 120개 파일의 SHA256을 검사한다.
+C는 Git history에 넣지 않고 [`c-checkpoints-v2`](https://github.com/chlwhdduq2357/Fingerprinting-Model-Zoo/releases/tag/c-checkpoints-v2) Release의 단일 ZIP asset(약 1.35 GiB)으로 배포한다. 소스 저장소를 clone한 뒤 다음 명령을 실행하면 archive를 받아 `checkpoints/C/`에 배치하고 archive 및 128개 파일의 SHA256을 검사한다. 이전 120개판인 v1 Release도 재현성을 위해 보존한다.
 
 ```bash
 python scripts/download_c_release.py
 python scripts/verify_c_quick.py
 ```
 
-다운로드 도중에는 `.part` 파일을 사용하고, 검증을 통과한 파일만 최종 경로로 옮긴다. 기본적으로 검증 후 ZIP cache를 지우며 `--keep-archive`를 주면 `work/`에 보존한다. 이미 120개가 모두 있으면 네트워크 요청 없이 hash만 확인하고 종료한다.
+다운로드 도중에는 `.part` 파일을 사용하고, 검증을 통과한 파일만 최종 경로로 옮긴다. 기본적으로 검증 후 ZIP cache를 지우며 `--keep-archive`를 주면 `work/`에 보존한다. 이미 128개가 모두 있으면 네트워크 요청 없이 hash만 확인하고 종료한다.
 
-`verify_c_quick.py`는 CIFAR-10을 다운로드하거나 정확도를 재계산하지 않는다. C 120개의 ID·부모·변형·파일명, SHA256, strict parameter loading, 한 장의 합성 입력에 대한 finite `[1,10]` logits를 확인한다. 현재 CPU 검증 환경에서는 약 **41초**가 걸렸다. 결과는 `reports/c_quick_verification.json`에 저장된다.
+`verify_c_quick.py`는 CIFAR-10을 다운로드하거나 정확도를 재계산하지 않는다. C 128개의 ID·부모·변형·파일명, SHA256, strict parameter loading, 한 장의 합성 입력에 대한 finite `[1,10]` logits를 확인한다. 현재 CPU 검증 환경에서는 약 **42초**가 걸렸다. 결과는 `reports/c_quick_verification.json`에 저장된다.
 
 Colab에서는 다음처럼 clone, editable install, 선택 download 후 같은 notebook kernel에서 바로 import할 수 있다. 저장소 안에 표준 `model_zoo/` package directory가 있어 editable install 경로를 kernel이 다시 읽지 않아도 repository root에서 import가 동작한다.
 
